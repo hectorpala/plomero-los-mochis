@@ -11,7 +11,7 @@
 ### **PASO 1: Ir a Google Tag Manager** (30 segundos)
 
 1. Abre: https://tagmanager.google.com
-2. Busca y abre el contenedor: **GTM-W75CRTX5**
+2. Busca y abre el contenedor: **GTM-5PR5CHM7**
 
 ---
 
@@ -59,7 +59,7 @@
 
 2. En el menú izquierdo: **Informes → Tiempo real**
 
-3. Abre en otra pestaña: https://plomeroculiacanpro.mx
+3. Abre en otra pestaña: https://plomerolosmochispro.mx
 
 4. Desplázate hasta "Más opciones de plomería"
 

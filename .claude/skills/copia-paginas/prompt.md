@@ -614,7 +614,7 @@ content_allowlist:
   - script[type="application/ld+json"] (JSON completo)
 
 tracking_allowlist:
-  - GTM-W75CRTX5
+  - GTM-5PR5CHM7
   - G-XXXXXXXX
   - ukonwm7t1p (Clarity)
 

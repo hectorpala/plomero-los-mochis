@@ -195,12 +195,12 @@ Métricas:
    - Comparar: últimos 7 días vs 7 días anteriores
 
 2. **Impresiones de Keywords Locales**
-   - Keywords: "plomero en Culiacán", "plomero cerca de mí", "plomería 24/7"
+   - Keywords: "plomero en Los Mochis", "plomero cerca de mí", "plomería 24/7"
    - Ver tendencia semanal
 
 3. **Posición Promedio**
    - Objetivo: mejorar posiciones para keywords long-tail
-   - Ejemplo: "plomero en Las Quintas Culiacán"
+   - Ejemplo: "plomero en Centenario Los Mochis"
 
 ---
 
@@ -268,8 +268,8 @@ Métricas:
 
 ## 🔗 Recursos Útiles
 
-- **GTM Container ID:** `GTM-W75CRTX5`
-- **Dominio:** `plomeroculiacanpro.mx`
+- **GTM Container ID:** `GTM-5PR5CHM7`
+- **Dominio:** `plomerolosmochispro.mx`
 - **Documentación GA4:** https://support.google.com/analytics/answer/9216061
 
 ---

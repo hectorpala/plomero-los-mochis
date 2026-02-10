@@ -1,6 +1,6 @@
 # Landing Creator
 
-Crea nuevas landing pages clonando el estilo exacto de plomeroculiacanpro.mx. Solo necesitas proporcionar contenido y fotos.
+Crea nuevas landing pages clonando el estilo exacto de plomerolosmochispro.mx. Solo necesitas proporcionar contenido y fotos.
 
 ## Qué hace este comando
 
@@ -47,7 +47,7 @@ Si necesitas resaltar contenido, usa SOLO:
   - Listas `<ul>` o `<ol>` sin estilos custom
   - Encabezados `<h2>`, `<h3>` que ya tienen estilos en index.html
 
-**Fuente de verdad:** https://plomeroculiacanpro.mx/ (index.html)
+**Fuente de verdad:** https://plomerolosmochispro.mx/ (index.html)
 **Clona ESTRICTAMENTE** - No agregues, no inventes, no mejores.
 
 **⚠️ REGLA #0.1 - ESTRUCTURA HERO (CRÍTICO):**
@@ -284,9 +284,9 @@ open "ruta/index.html"
 <nav class="breadcrumb" aria-label="breadcrumb" style="background:#f8f9fa;padding:12px 0;font-size:14px;border-bottom:1px solid #e9ecef">
     <div class="container">
         <ol style="list-style:none;display:flex;gap:0.5rem;margin:0;padding:0;flex-wrap:wrap">
-            <li><a href="https://plomeroculiacanpro.mx/" style="color:#0066cc;text-decoration:none">Inicio</a></li>
+            <li><a href="https://plomerolosmochispro.mx/" style="color:#0066cc;text-decoration:none">Inicio</a></li>
             <li style="color:#6c757d">›</li>
-            <li><a href="https://plomeroculiacanpro.mx/#servicios" style="color:#0066cc;text-decoration:none">Servicios</a></li>
+            <li><a href="https://plomerolosmochispro.mx/#servicios" style="color:#0066cc;text-decoration:none">Servicios</a></li>
             <li style="color:#6c757d">›</li>
             <li style="color:#6c757d" aria-current="page">[Nombre Servicio]</li>
         </ol>
@@ -301,7 +301,7 @@ open "ruta/index.html"
 
 **Ejemplo:**
 ```html
-<img src="../../logo-plomero-culiacan-pro.webp"
+<img src="../../logo-plomero-los-mochis-pro.webp"
      alt="Plomero Culiacán Pro"
      width="512"
      height="195">
@@ -349,7 +349,7 @@ open "ruta/index.html"
    - **Ruta según ubicación:**
      - Raíz (index.html): `/assets/images/logo-512.webp`
      - Subdirectorio (blog/, landings/): `../assets/images/logo-512.webp`
-   - NUNCA usar: logo-plomero-culiacan-pro.webp (NO EXISTE)
+   - NUNCA usar: logo-plomero-los-mochis-pro.webp (NO EXISTE)
    - NUNCA usar: logo-2048.png (muy pesado)
    - **Regla:** Usar ruta relativa (`../`) en subdirectorios para compatibilidad local
 
@@ -370,7 +370,7 @@ Cuando el usuario ejecute `/landing-creator`, sigue este proceso interactivo:
 Preguntar al usuario (uno por uno, esperar respuesta):
 
 ```
-🎨 Vamos a crear tu landing page con el estilo de plomeroculiacanpro.mx
+🎨 Vamos a crear tu landing page con el estilo de plomerolosmochispro.mx
 
 1️⃣ ¿Cuál es el slug de la página? (ejemplo: plomero-urgente)
    Se creará en: /<slug>/index.html
@@ -501,13 +501,13 @@ Generar archivo `<slug>/index.html` con:
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
 <!-- ... todos los favicons ... -->
 
-<link rel="canonical" href="https://plomeroculiacanpro.mx/<slug>/">
+<link rel="canonical" href="https://plomerolosmochispro.mx/<slug>/">
 
 <!-- Open Graph -->
 <meta property="og:title" content="<h1>">
 <meta property="og:description" content="<meta description>">
-<meta property="og:image" content="https://plomeroculiacanpro.mx/assets/images/<hero-image>">
-<meta property="og:url" content="https://plomeroculiacanpro.mx/<slug>/">
+<meta property="og:image" content="https://plomerolosmochispro.mx/assets/images/<hero-image>">
+<meta property="og:url" content="https://plomerolosmochispro.mx/<slug>/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_MX">
 
@@ -515,7 +515,7 @@ Generar archivo `<slug>/index.html` con:
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<h1>">
 <meta name="twitter:description" content="<meta description>">
-<meta name="twitter:image" content="https://plomeroculiacanpro.mx/assets/images/<hero-image>">
+<meta name="twitter:image" content="https://plomerolosmochispro.mx/assets/images/<hero-image>">
 
 <!-- Preloads -->
 <link rel="preload" as="image" href="/assets/images/<hero-image>" fetchpriority="high">
@@ -536,8 +536,8 @@ Generar archivo `<slug>/index.html` con:
     {
       "@type": "WebSite",
       "name": "Plomero Culiacán Pro",
-      "url": "https://plomeroculiacanpro.mx/",
-      "logo": "https://plomeroculiacanpro.mx/assets/images/logo-512.png"
+      "url": "https://plomerolosmochispro.mx/",
+      "logo": "https://plomerolosmochispro.mx/assets/images/logo-512.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -546,13 +546,13 @@ Generar archivo `<slug>/index.html` con:
           "@type": "ListItem",
           "position": 1,
           "name": "Inicio",
-          "item": "https://plomeroculiacanpro.mx/"
+          "item": "https://plomerolosmochispro.mx/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "<h1>",
-          "item": "https://plomeroculiacanpro.mx/<slug>/"
+          "item": "https://plomerolosmochispro.mx/<slug>/"
         }
       ]
     },
@@ -573,8 +573,8 @@ Generar archivo `<slug>/index.html` con:
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "24.7903",
-          "longitude": "-107.3878"
+          "latitude": "25.7928",
+          "longitude": "-108.9902"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -628,9 +628,9 @@ Generar archivo `<slug>/index.html` con:
 <nav class="breadcrumb" aria-label="breadcrumb" style="background:#f8f9fa;padding:12px 0;font-size:14px;border-bottom:1px solid #e9ecef">
     <div class="container">
         <ol style="list-style:none;display:flex;gap:0.5rem;margin:0;padding:0;flex-wrap:wrap">
-            <li><a href="https://plomeroculiacanpro.mx/" style="color:#0066cc;text-decoration:none">Inicio</a></li>
+            <li><a href="https://plomerolosmochispro.mx/" style="color:#0066cc;text-decoration:none">Inicio</a></li>
             <li style="color:#6c757d">›</li>
-            <li><a href="https://plomeroculiacanpro.mx/#servicios" style="color:#0066cc;text-decoration:none">Servicios</a></li>
+            <li><a href="https://plomerolosmochispro.mx/#servicios" style="color:#0066cc;text-decoration:none">Servicios</a></li>
             <li style="color:#6c757d">›</li>
             <li style="color:#6c757d" aria-current="page"><nombre-servicio></li>
         </ol>
@@ -744,7 +744,7 @@ Generar archivo `<slug>/index.html` con:
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <img src="../../logo-plomero-culiacan-pro.webp"
+        <img src="../../logo-plomero-los-mochis-pro.webp"
              alt="Plomero Culiacán Pro"
              width="512"
              height="195">
@@ -785,7 +785,7 @@ Generar archivo `<slug>/index.html` con:
 ✅ Landing page creada exitosamente
 
 📁 Ubicación: /<slug>/index.html
-🌐 URL cuando publiques: https://plomeroculiacanpro.mx/<slug>/
+🌐 URL cuando publiques: https://plomerolosmochispro.mx/<slug>/
 
 📋 Archivos que necesitas agregar:
   ❌ /assets/images/<hero-800w>.webp  (NO EXISTE)
@@ -915,7 +915,7 @@ Si algo falta o es inválido, preguntar de nuevo.
 Usuario: /landing-creator
 
 Claude:
-🎨 Vamos a crear tu landing page con el estilo de plomeroculiacanpro.mx
+🎨 Vamos a crear tu landing page con el estilo de plomerolosmochispro.mx
 
 1️⃣ ¿Cuál es el slug de la página?
 
@@ -1031,7 +1031,7 @@ Generando landing page con estilo idéntico a la homepage...
 ✅ Landing page creada exitosamente
 
 📁 Ubicación: /plomero-urgente/index.html
-🌐 URL cuando publiques: https://plomeroculiacanpro.mx/plomero-urgente/
+🌐 URL cuando publiques: https://plomerolosmochispro.mx/plomero-urgente/
 
 📋 Archivos que necesitas agregar:
   ❌ /assets/images/emergencia-nocturna-800w.webp  (NO EXISTE)

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-URL="https://plomeroculiacanpro.mx/"
+URL="https://plomerolosmochispro.mx/"
 LOGDIR="$(pwd)/site-check/logs"
 mkdir -p "$LOGDIR"
 STAMP=$(date +%F-%H%M)

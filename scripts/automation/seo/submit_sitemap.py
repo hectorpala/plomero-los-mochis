@@ -23,8 +23,8 @@ def get_service():
     return build("searchconsole", "v1", credentials=creds)
 
 def main():
-    siteUrl = "sc-domain:plomeroculiacanpro.mx"
-    feedpath = "https://plomeroculiacanpro.mx/sitemap.xml"
+    siteUrl = "sc-domain:plomerolosmochispro.mx"
+    feedpath = "https://plomerolosmochispro.mx/sitemap.xml"
     
     try:
         service = get_service()
@@ -41,10 +41,10 @@ def main():
     except Exception as e:
         if "403" in str(e):
             print("❌ Error 403: La propiedad no está verificada en Search Console")
-            print("Debes verificar https://plomeroculiacanpro.mx/ en Search Console primero")
+            print("Debes verificar https://plomerolosmochispro.mx/ en Search Console primero")
         elif "404" in str(e):
             print("❌ Error 404: El sitemap no es accesible")
-            print("Verifica que https://plomeroculiacanpro.mx/sitemap.xml esté disponible")
+            print("Verifica que https://plomerolosmochispro.mx/sitemap.xml esté disponible")
         else:
             print(f"❌ Error: {e}")
 

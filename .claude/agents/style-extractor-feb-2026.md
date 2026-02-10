@@ -85,7 +85,7 @@ Reglas tipograficas:
 - .hover-lift: efecto hover con translateY
 
 #### E. GTM / Analytics (carga optimizada)
-- GTM ID: GTM-W75CRTX5
+- GTM ID: GTM-5PR5CHM7
 - Carga: en primera interaccion (scroll/click/touchstart/keydown), fallback setTimeout 12s
 - Clarity: ID ukonwm7t1p, carga 7s despues de window load
 - GA4: G-NSV2K9N2ZD (NO cargar directo con script async, usar GTM)
@@ -124,7 +124,7 @@ Reglas tipograficas:
   - Service[] (multiple, con offers/priceSpecification)
   - FAQPage con Questions/Answers
   - OfferCatalog
-- Datos: tel +52 667 392 2273, Culiacan Sinaloa MX, lat 24.7903 lng -107.3878
+- Datos: tel +52 667 392 2273, Culiacan Sinaloa MX, lat 25.7928 lng -108.9902
 
 ### Paso 3: Generar reporte
 Presenta el Design Manifest al team lead o al agente page-rebuilder.

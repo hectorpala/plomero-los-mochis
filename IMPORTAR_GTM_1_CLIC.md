@@ -11,7 +11,7 @@
 1. Ve a: https://analytics.google.com
 2. Haz clic en **"Administrar"** (⚙️ esquina inferior izquierda)
 3. En la columna "Propiedad", haz clic en **"Flujos de datos"**
-4. Haz clic en tu flujo de datos web (plomeroculiacanpro.mx)
+4. Haz clic en tu flujo de datos web (plomerolosmochispro.mx)
 5. **Copia el "ID de medición"** (formato: `G-XXXXXXXXXX`)
 
 **✅ ANOTA TU ID AQUÍ:** `G-__G-NSV2K9N2ZD_________________`
@@ -38,7 +38,7 @@
 
 ### **2.1 Abrir GTM:**
 1. Ve a: https://tagmanager.google.com
-2. Busca el contenedor: **GTM-W75CRTX5**
+2. Busca el contenedor: **GTM-5PR5CHM7**
 3. Haz clic para abrirlo
 
 ### **2.2 Importar Archivo:**
@@ -98,7 +98,7 @@ En GTM, verifica que se crearon:
 ## 🧪 PASO 4: PROBAR (30 segundos)
 
 1. En GTM, esquina superior derecha: haz clic en **"Vista previa"**
-2. En "Your website's URL" escribe: `https://plomeroculiacanpro.mx`
+2. En "Your website's URL" escribe: `https://plomerolosmochispro.mx`
 3. Haz clic en **"Connect"**
 4. Se abrirá una nueva pestaña con tu sitio
 
@@ -131,7 +131,7 @@ En GTM, verifica que se crearon:
 
 1. Ve a: https://analytics.google.com
 2. Menú izquierdo: **"Informes" → "Tiempo real"**
-3. Abre en otra pestaña: https://plomeroculiacanpro.mx
+3. Abre en otra pestaña: https://plomerolosmochispro.mx
 4. Haz clic en una tarjeta "Más opciones"
 
 **En GA4 Tiempo real:**

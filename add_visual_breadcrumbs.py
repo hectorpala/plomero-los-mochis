@@ -221,7 +221,7 @@ def main():
 
     # 2. Páginas de colonias
     print("📍 Procesando colonias...")
-    added, skipped, errors = process_directory('servicios/plomero-colonias-culiacan/*/index.html')
+    added, skipped, errors = process_directory('servicios/plomero-colonias-los-mochis/*/index.html')
     total_added += added
     total_skipped += skipped
     total_errors += errors

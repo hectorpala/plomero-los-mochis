@@ -75,7 +75,7 @@ Inconsistencia entre meta tags y sitemap:
 ## ✅ 3. Optimización de Lang para SEO Local (es-MX)
 
 ### Problema
-El atributo `lang` era genérico (`es`), aunque todo el contenido está orientado a México (Culiacán, Sinaloa).
+El atributo `lang` era genérico (`es`), aunque todo el contenido está orientado a México (Los Mochis, Sinaloa).
 
 ### Solución
 ```html
@@ -110,10 +110,10 @@ Agregado **FAQPage Schema** con 5 preguntas estratégicas:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué tan rápido llegan a atender emergencias de plomería en Culiacán?",
+      "name": "¿Qué tan rápido llegan a atender emergencias de plomería en Los Mochis?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Como plomero en Culiacán atendemos emergencias..."
+        "text": "Como plomero en Los Mochis atendemos emergencias..."
       }
     },
     // ... 4 preguntas más
@@ -165,7 +165,7 @@ sed -n '51,275p' index.html | sed '1d;$d' | python3 -m json.tool
 
 ### Validar Rich Results
 - Rich Results Test: https://search.google.com/test/rich-results
-- Pegar URL: `https://plomeroculiacanpro.mx/`
+- Pegar URL: `https://plomerolosmochispro.mx/`
 
 ---
 

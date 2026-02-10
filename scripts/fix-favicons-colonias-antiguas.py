@@ -6,17 +6,17 @@ Script para arreglar favicons en las 37 colonias antiguas con estructura diferen
 import os
 import re
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 COLONIAS_ANTIGUAS = [
-    "21-de-marzo", "6-de-enero", "altamira", "alturas-del-sur", "antonio-toledo-corro",
-    "benito-juarez", "bosques-del-humaya", "burocrata", "campestre", "chulavista",
-    "colinas-de-la-rivera", "country-tres-rios", "cumbres-tres-rios", "emiliano-zapata",
+    "21-de-marzo", "6-de-enero", "altamira", "bicentenario", "antonio-toledo-corro",
+    "benito-juarez", "bosques-del-humaya", "burocrata", "campestre", "nuevo-los-mochis",
+    "colinas-de-la-rivera", "country-las-fuentes", "cumbres-las-fuentes", "emiliano-zapata",
     "francisco-villa", "gabriel-leyva", "hacienda-del-valle", "hacienda-los-huertos",
     "humaya", "independencia", "infonavit-humaya", "isla-del-oeste", "lazaro-cardenas",
     "lomas-de-san-isidro", "lombardo-toledano", "luis-donaldo-colosio", "miguel-hidalgo",
     "portales-del-rio", "real-del-valle", "real-san-angel", "recursos-hidraulicos",
-    "revolucion", "terranova", "tres-rios", "universitaria", "vista-hermosa", "zona-dorada"
+    "revolucion", "valle-del-ejido", "las-fuentes", "universitaria", "vista-hermosa", "zona-dorada"
 ]
 
 NEW_FAVICONS = '''<link rel="icon" href="/favicon.ico" sizes="any">

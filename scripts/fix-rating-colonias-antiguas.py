@@ -7,18 +7,18 @@ import os
 import re
 import json
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 COLONIAS_ANTIGUAS = [
-    "21-de-marzo", "6-de-enero", "altamira", "alturas-del-sur", "antonio-toledo-corro",
+    "21-de-marzo", "6-de-enero", "altamira", "bicentenario", "antonio-toledo-corro",
     "benito-juarez", "bosques-del-humaya", "burocrata", "campestre", "centro",
-    "chapultepec", "chulavista", "colinas-de-la-rivera", "country-tres-rios",
-    "cumbres-tres-rios", "emiliano-zapata", "francisco-villa", "gabriel-leyva",
+    "jiquilpan", "nuevo-los-mochis", "colinas-de-la-rivera", "country-las-fuentes",
+    "cumbres-las-fuentes", "emiliano-zapata", "francisco-villa", "gabriel-leyva",
     "hacienda-del-valle", "hacienda-los-huertos", "humaya", "independencia",
     "industrial-bravo", "infonavit-humaya", "isla-del-oeste", "lazaro-cardenas",
     "lomas-de-san-isidro", "lombardo-toledano", "luis-donaldo-colosio", "miguel-hidalgo",
     "portales-del-rio", "rafael-buelna", "real-del-valle", "real-san-angel",
-    "recursos-hidraulicos", "revolucion", "terranova", "tres-rios", "universitaria",
+    "recursos-hidraulicos", "revolucion", "valle-del-ejido", "las-fuentes", "universitaria",
     "vista-hermosa", "zona-dorada"
 ]
 
@@ -28,7 +28,7 @@ def get_colonia_info(content, slug):
     nombre = match.group(1) if match else slug.replace('-', ' ').title()
 
     match = re.search(r'<link rel="canonical" href="([^"]+)"', content)
-    url = match.group(1) if match else f"https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{slug}/"
+    url = match.group(1) if match else f"https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{slug}/"
 
     return nombre, url
 
@@ -38,14 +38,14 @@ def create_local_business_schema(nombre, url, slug):
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": f"{url}#business",
-        "name": f"Plomero Culiacán Pro - {nombre}",
-        "description": f"Servicio profesional de plomería en {nombre}, Culiacán. Reparación de fugas, destape de drenajes, instalación de tinacos y boilers.",
+        "name": f"Plomero Los Mochis Pro - {nombre}",
+        "description": f"Servicio profesional de plomería en {nombre}, Los Mochis. Reparación de fugas, destape de drenajes, instalación de tinacos y boilers.",
         "url": url,
         "telephone": "+52 667 392 2273",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Culiacán",
+            "addressLocality": "Los Mochis",
             "addressRegion": "Sinaloa",
             "addressCountry": "MX",
             "streetAddress": nombre
@@ -70,7 +70,7 @@ def create_local_business_schema(nombre, url, slug):
         },
         "areaServed": {
             "@type": "City",
-            "name": "Culiacán"
+            "name": "Los Mochis"
         }
     }
     return json.dumps(schema, ensure_ascii=False, separators=(',', ':'))

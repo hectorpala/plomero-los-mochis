@@ -7,14 +7,14 @@ Versión corregida que no corrompe el XML.
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Colonias modificadas (todas excepto las-quintas que ya tenía LocalBusiness)
+# Colonias modificadas (todas excepto centenario que ya tenía LocalBusiness)
 colonias_modificadas = [
-    "tres-rios", "centro", "montebello", "guadalupe", "chapultepec",
-    "isla-del-oeste", "country-tres-rios", "hacienda-los-huertos",
+    "las-fuentes", "centro", "insurgentes", "guadalupe", "jiquilpan",
+    "isla-del-oeste", "country-las-fuentes", "hacienda-los-huertos",
     "real-del-valle", "zona-dorada", "campestre", "santa-fe",
-    "las-palmas", "nuevo-culiacan", "infonavit-humaya", "bachigualato",
+    "las-palmas", "nuevo-los-mochis", "infonavit-humaya", "bachigualato",
     "lomas-del-boulevard", "villa-universidad", "colinas-de-san-miguel",
-    "altamira", "cumbres-tres-rios", "bosques-del-humaya",
+    "altamira", "cumbres-las-fuentes", "bosques-del-humaya",
     "hacienda-del-valle", "portales-del-rio", "colinas-de-la-rivera",
     "jardines-del-valle", "lomas-de-san-isidro", "real-san-angel",
     "villa-bonita"
@@ -43,7 +43,7 @@ for url_elem in root.findall('sm:url', ns):
 
         # Verificar si esta URL es de una colonia modificada
         for colonia_slug in colonias_modificadas:
-            if f"/servicios/plomero-colonias-culiacan/{colonia_slug}/" in loc_text:
+            if f"/servicios/plomero-colonias-los-mochis/{colonia_slug}/" in loc_text:
                 # Actualizar lastmod
                 lastmod_elem = url_elem.find('sm:lastmod', ns)
                 if lastmod_elem is not None:

@@ -8,7 +8,7 @@ Automatiza el proceso completo de publicación a producción (GitHub Pages) con 
 2. **Genera commit message inteligente** - Crea mensaje usando Conventional Commits basado en los cambios
 3. **Publica a GitHub** - Ejecuta `git add`, `git commit`, `git push`
 4. **Monitorea deployment** - Verifica que GitHub Actions complete exitosamente
-5. **Confirma producción** - Valida que los cambios estén live en plomeroculiacanpro.mx
+5. **Confirma producción** - Valida que los cambios estén live en plomerolosmochispro.mx
 
 ## Instrucciones para Claude
 
@@ -168,7 +168,7 @@ Si conclusion = success:
 
 Commit: <hash> - <mensaje>
 GitHub Actions: ✅ success (build + deploy completados)
-Producción: https://plomeroculiacanpro.mx/
+Producción: https://plomerolosmochispro.mx/
 
 Cambios publicados en ~30 segundos.
 ```
@@ -238,7 +238,7 @@ Claude:
 ✅ Deployment exitoso
    Commit: a1b2c3d - perf(html): minification + font subsetting -28KB
    GitHub Actions: ✅ success
-   Producción: https://plomeroculiacanpro.mx/
+   Producción: https://plomerolosmochispro.mx/
 ```
 
 ### Ejemplo 2: Nueva landing page
@@ -264,7 +264,7 @@ Claude:
 ✅ Deployment exitoso
    Commit: d4e5f6g - feat(landing): nueva página plomero-24-horas
    GitHub Actions: ✅ success
-   Producción: https://plomeroculiacanpro.mx/plomero-24-horas/
+   Producción: https://plomerolosmochispro.mx/plomero-24-horas/
 ```
 
 ### Ejemplo 3: Fix de bug
@@ -284,7 +284,7 @@ Claude:
 ✅ Deployment exitoso
    Commit: g7h8i9j - fix(mobile): logo no visible
    GitHub Actions: ✅ success
-   Producción: https://plomeroculiacanpro.mx/
+   Producción: https://plomerolosmochispro.mx/
 ```
 
 ## Notas importantes

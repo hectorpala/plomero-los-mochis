@@ -1,4 +1,4 @@
-# Formato obligatorio para crear nuevas URLs (Plomero Culiacán Pro)
+# Formato obligatorio para crear nuevas URLs (Plomero Los Mochis Pro)
 
 Este documento es **la norma** para publicar cualquier landing o artículo dentro del dominio. Todo punto marcado como “Obligatorio” debe cumplirse al 100 %. Si alguna sección falta o se altera la jerarquía, la URL **no se aprueba para despliegue**.
 
@@ -6,14 +6,14 @@ Este documento es **la norma** para publicar cualquier landing o artículo dentr
 
 ## 1. Objetivo y alcance
 - Aplica a **todas** las páginas de servicio, colonias, precios, artículos SEO y micrositios que vivan en `/servicios/`, `/blog/`, `/contacto/` u otras rutas internas.
-- Su propósito es preservar: identidad visual (Inter/Montserrat), promesa de llegada 30‑60 min, cobertura por colonias de Culiacán, datos de contacto visibles y performance equivalente al homepage.
+- Su propósito es preservar: identidad visual (Inter/Montserrat), promesa de llegada 30‑60 min, cobertura por colonias de Los Mochis, datos de contacto visibles y performance equivalente al homepage.
 
 ---
 
 ## 2. Principios de marca y UX
 1. **Tipografía**: solo `Inter` (texto) e `Montserrat` (encabezados) desde `assets/fonts/`. Ninguna otra familia es aceptada.
 2. **Paleta**: primario `#E36414`, secundarios `#C2410C`, `#0066cc`, fondos claros `#f8fafc`. No crear colores nuevos sin aprobación.
-3. **Voz**: urgente, profesional, centrada en Culiacán. Debe mencionar colonias específicas (Las Quintas, Tres Ríos, Chapultepec, Centro, etc.) y tiempos de llegada.
+3. **Voz**: urgente, profesional, centrada en Los Mochis. Debe mencionar colonias específicas (Centenario, Las Fuentes, Jiquilpan, Centro, etc.) y tiempos de llegada.
 4. **Confianza**: mínimo una mención a garantía de 6 meses, facturación SAT y soporte por WhatsApp. Uso moderado de emojis (máx. uno por bloque).
 
 ---
@@ -22,7 +22,7 @@ Este documento es **la norma** para publicar cualquier landing o artículo dentr
 Sigue la secuencia exacta. Cada bloque debe ir delimitado por `<section>` (o la etiqueta semántica indicada) y encabezado correcto (`h1` único, luego `h2` → `h3`).
 
 ### 3.0 Nav + Header (obligatorio)
-**TODAS las páginas deben tener el MISMO nav + header de la homepage** (`https://plomeroculiacanpro.mx/`).
+**TODAS las páginas deben tener el MISMO nav + header de la homepage** (`https://plomerolosmochispro.mx/`).
 
 **Instrucción:** Copiar COMPLETO desde `<nav class="nav">` hasta `</header>` de index.html, cambiando ÚNICAMENTE el H1 y subtítulo según el tema de la página.
 
@@ -31,11 +31,11 @@ El resto (badge 4.8/5, imagen hero, contacto, CTA, estructura completa) debe ser
 **NO crear headers minimalistas o compactos. Usar el header COMPLETO de la homepage.**
 
 ### 3.1 Head SEO (obligatorio)
-- `<title>` = `Servicio + en Culiacán | Beneficio directo`. Ej.: “Destape de drenajes en Culiacán | Llegada 30‑60 min”.
+- `<title>` = `Servicio + en Los Mochis | Beneficio directo`. Ej.: “Destape de drenajes en Los Mochis | Llegada 30‑60 min”.
 - `<meta name="description">` con urgencia + cobertura + contacto (tel/WhatsApp).
 - `lang="es-MX"` en `<html>`.
 - `<link rel="canonical">` hacia la URL final (sin parámetros).
-- OG/Twitter replican título, descripción e imagen hero (`https://plomeroculiacanpro.mx/assets/...`).
+- OG/Twitter replican título, descripción e imagen hero (`https://plomerolosmochispro.mx/assets/...`).
 - Preloads exactos:  
   ```html
   <link rel="preload" href="/assets/fonts/inter-400.woff2" ...>
@@ -48,13 +48,13 @@ Incluir un bloque `<script type="application/ld+json">` con `@graph` que conteng
 1. `WebSite`
 2. `BreadcrumbList`
 3. `HomeAndConstructionBusiness` (NAP, `aggregateRating`, `priceRange`, `areaServed`, `sameAs`)
-4. `Service` específico (nombre = servicio, `serviceType`, `areaServed` Culiacán, `provider` apuntando al negocio)
+4. `Service` específico (nombre = servicio, `serviceType`, `areaServed` Los Mochis, `provider` apuntando al negocio)
 5. `FAQPage` si la página incluye preguntas (mín. 8).  
 La ausencia de cualquiera de estos nodos se considera falla crítica.
 
 ### 3.3 Hero (obligatorio)
 - `<section id="inicio" class="hero">` con estructura:
-  - `h1` con keyword exacta + promesa (“Plomero 24/7 en Culiacán – Emergencias en 30‑60 min”).
+  - `h1` con keyword exacta + promesa (“Plomero 24/7 en Los Mochis – Emergencias en 30‑60 min”).
   - Subtítulo describiendo síntomas y colonias.
   - Bloque de contacto textual (Tel / WhatsApp) y CTA principal (`<a class="btn-primary">`).
   - **Badge visible**: `★★★★★ 4.8/5 (150+ reseñas verificadas)`.
@@ -65,7 +65,7 @@ La ausencia de cualquiera de estos nodos se considera falla crítica.
       <img src="/assets/images/...-800w.webp"
            width="1200" height="800"
            loading="eager" fetchpriority="high"
-           alt="Descripción acción + servicio + Culiacán">
+           alt="Descripción acción + servicio + Los Mochis">
     </picture>
     ```
   - Si falta cualquiera de estos elementos (imagen, badge, CTA, contacto), la página no pasa QA.
@@ -121,24 +121,24 @@ La ausencia de cualquiera de estos nodos se considera falla crítica.
 ## 4. Estándares de imágenes y assets
 | Elemento | Requisitos |
 | --- | --- |
-| Hero | WebP 1200×800, `fetchpriority="high"`, `loading="eager"`, `alt` = “Plomero … en Culiacán …” |
+| Hero | WebP 1200×800, `fetchpriority="high"`, `loading="eager"`, `alt` = “Plomero … en Los Mochis …” |
 | Cards | WebP 420/800, `width`/`height`, `loading="lazy"`, `decoding="async"` |
-| OG/Twitter | Ruta absoluta `https://plomeroculiacanpro.mx/assets/images/...-800w.webp` |
-| Renombrado | Usa nombres semánticos (`plomero-destape-drenaje-culiacan.webp`). |
-| Alt text | Formato: `Acción + servicio + ubicación`, ej. “Plomero destapando drenaje en Tres Ríos Culiacán con equipo rotativo”. |
+| OG/Twitter | Ruta absoluta `https://plomerolosmochispro.mx/assets/images/...-800w.webp` |
+| Renombrado | Usa nombres semánticos (`plomero-destape-drenaje-los-mochis.webp`). |
+| Alt text | Formato: `Acción + servicio + ubicación`, ej. “Plomero destapando drenaje en Las Fuentes Los Mochis con equipo rotativo”. |
 
 No se aprueban páginas sin imágenes ni con rutas relativas en OG/Twitter.
 
 ---
 
 ## 5. Copywriting y SEO
-1. **Keywords principales**: “plomero en Culiacán”, “servicio + Culiacán”, “plomería 24/7 Culiacán”.
+1. **Keywords principales**: “plomero en Los Mochis”, “servicio + Los Mochis”, “plomería 24/7 Los Mochis”.
 2. **Secundarias**: tiempos de llegada, diagnóstico gratis, garantía 6 meses, facturación SAT, nombres de colonias.
 3. **Encabezados**:  
    - 1× `h1`  
    - `h2` para cada bloque mayor (Beneficios, Servicios, Precios, FAQ, Contacto)  
    - `h3` para subtemas/testimonios/preguntas.
-4. **Enlaces internos**: usar anchors descriptivos (“Ver precios completos de plomería en Culiacán”) hacia otras landings/blog.
+4. **Enlaces internos**: usar anchors descriptivos (“Ver precios completos de plomería en Los Mochis”) hacia otras landings/blog.
 5. **CTA**: repetir tel/WhatsApp en hero, CTA emergencia, testimonios y footer.
 6. **Localización**: menciona colonias distintas en hero, beneficios, CTA y FAQs. No repetir siempre las mismas 3.
 
@@ -157,7 +157,7 @@ No se aprueban páginas sin imágenes ni con rutas relativas en OG/Twitter.
 2. [ ] Validé el JSON-LD completo en Rich Results (sin warnings críticos).
 3. [ ] Corrí Lighthouse (Desktop/Mobile) y obtuve LCP < 2.5 s, CLS < 0.1.
 4. [ ] Probé formulario y CTAs con y sin JS (al menos verificar apertura de WhatsApp/teléfono).
-5. [ ] Revisé ortografía y acentos (“plomería”, “Culiacán”).
+5. [ ] Revisé ortografía y acentos (“plomería”, “Los Mochis”).
 6. [ ] Añadí anotación en GA4/Search Console con la fecha de publicación.
 7. [ ] Confirmé que la página enlaza a las landings clave y desde ellas se regresa.
 

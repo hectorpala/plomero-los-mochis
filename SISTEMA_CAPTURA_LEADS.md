@@ -40,7 +40,7 @@ Este sistema implementa **4 capas de redundancia** para garantizar que **NINGÚN
   email: "juan@example.com",
   mensaje: "Necesito reparar una fuga",
   source: "homepage_form",
-  url: "https://plomeroculiacanpro.mx/"
+  url: "https://plomerolosmochispro.mx/"
 }
 ```
 
@@ -61,8 +61,8 @@ JSON.parse(localStorage.getItem('plomero_leads'))
 
 **Configuración HTML**:
 ```html
-<form name="contacto-plomeria" method="POST" netlify netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contacto-plomeria">
+<form name="contacto-plomeria-mochis" method="POST" netlify netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contacto-plomeria-mochis">
   <!-- campos del formulario -->
 </form>
 ```
@@ -83,7 +83,7 @@ JSON.parse(localStorage.getItem('plomero_leads'))
 
 **Acceso**:
 1. Login a Netlify Dashboard
-2. Site → Forms → contacto-plomeria
+2. Site → Forms → contacto-plomeria-mochis
 3. Ver submissions, exportar, configurar notificaciones
 
 ---
@@ -211,7 +211,7 @@ function doPost(e) {
 ```bash
 # Simular submit desde consola
 const formData = new FormData();
-formData.append('form-name', 'contacto-plomeria');
+formData.append('form-name', 'contacto-plomeria-mochis');
 formData.append('nombre', 'Test User');
 formData.append('telefono', '6671234567');
 formData.append('email', 'test@example.com');

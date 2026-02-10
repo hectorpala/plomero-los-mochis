@@ -105,20 +105,20 @@ cat > "servicios/${SLUG}/config.json" <<EOF
   "slug": "${SLUG}",
   "service_name": "${SERVICE_NAME}",
   "seo": {
-    "title": "${SERVICE_NAME} Culiacán | Servicio Profesional",
-    "description": "🔧 ${SERVICE_NAME} en Culiacán. Servicio profesional certificado. Cotización gratis. ¡Llama: 667 392 2273!",
-    "keywords": "${SLUG} culiacan, plomero culiacan, servicio plomeria"
+    "title": "${SERVICE_NAME} Los Mochis | Servicio Profesional",
+    "description": "🔧 ${SERVICE_NAME} en Los Mochis. Servicio profesional certificado. Cotización gratis. ¡Llama: 667 392 2273!",
+    "keywords": "${SLUG} los-mochis, plomero los-mochis, servicio plomeria"
   },
   "content": {
-    "h1": "${SERVICE_NAME} en Culiacán | Profesional Certificado",
-    "subtitle": "Servicio profesional de ${SERVICE_NAME} en Culiacán. Atención rápida, garantía por escrito.",
+    "h1": "${SERVICE_NAME} en Los Mochis | Profesional Certificado",
+    "subtitle": "Servicio profesional de ${SERVICE_NAME} en Los Mochis. Atención rápida, garantía por escrito.",
     "whatsapp_text": "${SERVICE_NAME}",
     "breadcrumb": "${SERVICE_NAME}",
     "service_type": "${SERVICE_NAME}"
   },
   "images": {
-    "hero_base": "${SLUG}-culiacan",
-    "og": "${SLUG}-culiacan-800w.webp"
+    "hero_base": "${SLUG}-los-mochis",
+    "og": "${SLUG}-los-mochis-800w.webp"
   }
 }
 EOF
@@ -215,8 +215,8 @@ if [ -f "scripts/validar-imagenes.sh" ]; then
 else
     print_warning "Script validar-imagenes.sh no encontrado"
     echo "  🖼️  Verifica manualmente las imágenes en:"
-    echo "      - ${SLUG}-culiacan-800w.webp"
-    echo "      - ${SLUG}-culiacan-1200w.webp"
+    echo "      - ${SLUG}-los-mochis-800w.webp"
+    echo "      - ${SLUG}-los-mochis-1200w.webp"
 fi
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

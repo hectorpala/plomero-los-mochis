@@ -87,7 +87,7 @@ Cuando ejecutes este comando, verás:
 
 Antes de ejecutar, asegúrate de tener:
 
-1. Template base en: `index.html` (página principal https://plomeroculiacanpro.mx/)
+1. Template base en: `index.html` (página principal https://plomerolosmochispro.mx/)
 2. Script ejecutable: `scripts/crear-landing-auto.sh`
 3. Imagen hero en: `assets/images/optimizadas/{slug}-culiacan-800w.webp`
 

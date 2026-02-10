@@ -1,7 +1,7 @@
 {
-  "name": "Plomero Culiacán Pro - Servicio 24/7",
-  "short_name": "Plomero CUL",
-  "description": "Servicio de plomería profesional en Culiacán. Emergencias 24/7, destape de drenajes, reparación de fugas, instalación de sanitarios. Llegada en 30-60 min.",
+  "name": "Plomero Los Mochis Pro - Servicio 24/7",
+  "short_name": "Plomero LMO",
+  "description": "Servicio de plomería profesional en Los Mochis. Emergencias 24/7, destape de drenajes, reparación de fugas, instalación de sanitarios. Llegada en 30-60 min.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -36,7 +36,7 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/logo-plomero-culiacan-pro.webp",
+      "src": "/logo-plomero-los-mochis-pro.webp",
       "sizes": "3360x1280",
       "type": "image/webp",
       "purpose": "any"

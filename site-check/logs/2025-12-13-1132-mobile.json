@@ -1,9 +1,9 @@
 {
   "lighthouseVersion": "12.8.2",
-  "requestedUrl": "https://plomeroculiacanpro.mx/",
-  "mainDocumentUrl": "https://plomeroculiacanpro.mx/",
-  "finalDisplayedUrl": "https://plomeroculiacanpro.mx/",
-  "finalUrl": "https://plomeroculiacanpro.mx/",
+  "requestedUrl": "https://plomerolosmochispro.mx/",
+  "mainDocumentUrl": "https://plomerolosmochispro.mx/",
+  "finalDisplayedUrl": "https://plomerolosmochispro.mx/",
+  "finalUrl": "https://plomerolosmochispro.mx/",
   "fetchTime": "2025-12-13T18:33:05.746Z",
   "gatherMode": "navigation",
   "runWarnings": [],
@@ -226,7 +226,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/",
+            "url": "https://plomerolosmochispro.mx/",
             "responseTime": 112.382
           }
         ],
@@ -292,7 +292,7 @@
         "chains": {
           "6510CC8305DF1B9E23BD4EE2B2E589B2": {
             "request": {
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "startTime": 6457.962377,
               "endTime": 6458.421763,
               "responseReceivedTime": 6458.315462,
@@ -301,7 +301,7 @@
             "children": {
               "7372.4": {
                 "request": {
-                  "url": "https://plomeroculiacanpro.mx/styles.min.css",
+                  "url": "https://plomerolosmochispro.mx/styles.min.css",
                   "startTime": 6458.427071,
                   "endTime": 6458.541308,
                   "responseReceivedTime": 6458.538812000001,
@@ -310,7 +310,7 @@
               },
               "7372.45": {
                 "request": {
-                  "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2",
+                  "url": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2",
                   "startTime": 6458.833241,
                   "endTime": 6461.916758,
                   "responseReceivedTime": 6460.246765000001,
@@ -319,7 +319,7 @@
               },
               "7372.47": {
                 "request": {
-                  "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-800.woff2",
+                  "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-800.woff2",
                   "startTime": 6458.833377,
                   "endTime": 6459.189455,
                   "responseReceivedTime": 6458.949138,
@@ -328,7 +328,7 @@
               },
               "7372.44": {
                 "request": {
-                  "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-500.woff2",
+                  "url": "https://plomerolosmochispro.mx/assets/fonts/inter-500.woff2",
                   "startTime": 6458.833659,
                   "endTime": 6460.245651,
                   "responseReceivedTime": 6459.189841,
@@ -337,7 +337,7 @@
               },
               "7372.46": {
                 "request": {
-                  "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-700.woff2",
+                  "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-700.woff2",
                   "startTime": 6458.833778,
                   "endTime": 6460.246282,
                   "responseReceivedTime": 6459.191348,
@@ -482,7 +482,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/",
+            "url": "https://plomerolosmochispro.mx/",
             "total": 2140.775999999999,
             "scripting": 12.959999999999996,
             "scriptParseCompile": 1.8800000000000001
@@ -655,7 +655,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/",
+            "url": "https://plomerolosmochispro.mx/",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 0,
@@ -669,10 +669,10 @@
             "resourceType": "Document",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/hero-plomero-visita-500w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/hero-plomero-visita-500w.webp",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 461.68699999991804,
@@ -687,10 +687,10 @@
             "priority": "High",
             "isLinkPreload": true,
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-400.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-400.woff2",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 462.0779999997467,
@@ -705,10 +705,10 @@
             "priority": "High",
             "isLinkPreload": true,
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/styles.min.css",
+            "url": "https://plomerolosmochispro.mx/styles.min.css",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 462.2160000000149,
@@ -722,10 +722,10 @@
             "resourceType": "Stylesheet",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/logo-512.webp",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 462.3509999997914,
@@ -739,10 +739,10 @@
             "resourceType": "Image",
             "priority": "Medium",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/main.js",
+            "url": "https://plomerolosmochispro.mx/main.js",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 462.5,
@@ -756,10 +756,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 847.4129999997094,
@@ -773,10 +773,10 @@
             "resourceType": "Font",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-800.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-800.woff2",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 847.5669999998063,
@@ -790,10 +790,10 @@
             "resourceType": "Font",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-500.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-500.woff2",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 847.6409999998286,
@@ -807,10 +807,10 @@
             "resourceType": "Font",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-700.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-700.woff2",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 847.7179999994114,
@@ -824,10 +824,10 @@
             "resourceType": "Font",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 1444.0379999997094,
@@ -841,10 +841,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/destapandodrenaje-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/destapandodrenaje-800w.webp",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 1444.1599999992177,
@@ -858,10 +858,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 1444.2089999997988,
@@ -875,7 +875,7 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
             "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W75CRTX5",
@@ -912,7 +912,7 @@
             "entity": "Google Tag Manager"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/manifest.json",
+            "url": "https://plomerolosmochispro.mx/manifest.json",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 3972.152999999933,
@@ -926,10 +926,10 @@
             "resourceType": "Manifest",
             "priority": "Medium",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/favicon.ico",
+            "url": "https://plomerolosmochispro.mx/favicon.ico",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 3972.3020000001416,
@@ -943,10 +943,10 @@
             "resourceType": "Other",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/icons/icon-192.png",
+            "url": "https://plomerolosmochispro.mx/assets/icons/icon-192.png",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 4311.80999999959,
@@ -960,7 +960,7 @@
             "resourceType": "Other",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "plomeroculiacanpro.mx"
+            "entity": "plomerolosmochispro.mx"
           },
           {
             "url": "https://www.clarity.ms/tag/ukonwm7t1p",
@@ -1069,73 +1069,73 @@
           "initiators": [
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 9,
               "columnNumber": 26
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 9,
               "columnNumber": 123
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 54,
               "columnNumber": 49
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 998,
               "columnNumber": 25
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1233,
               "columnNumber": 29
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             },
             {
               "type": "parser",
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "lineNumber": 1236,
               "columnNumber": 1
             }
@@ -1173,7 +1173,7 @@
             "rtt": 85.2
           },
           {
-            "origin": "https://plomeroculiacanpro.mx",
+            "origin": "https://plomerolosmochispro.mx",
             "rtt": 80.45599999999999
           },
           {
@@ -1228,7 +1228,7 @@
         ],
         "items": [
           {
-            "origin": "https://plomeroculiacanpro.mx",
+            "origin": "https://plomerolosmochispro.mx",
             "serverResponseTime": 276.338
           },
           {
@@ -1655,8 +1655,8 @@
                     "width": 412,
                     "height": 684
                   },
-                  "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Culiacán atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
-                  "nodeLabel": "Plomero profesional en Culiacán atendiendo emergencia 24 horas con herramientas…"
+                  "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
+                  "nodeLabel": "Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herramientas…"
                 }
               }
             ]
@@ -1740,8 +1740,8 @@
                 "width": 412,
                 "height": 684
               },
-              "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Culiacán atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
-              "nodeLabel": "Plomero profesional en Culiacán atendiendo emergencia 24 horas con herramientas…"
+              "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
+              "nodeLabel": "Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herramientas…"
             }
           }
         ]
@@ -1796,7 +1796,7 @@
                 "height": 97
               },
               "snippet": "<div class=\"hero-rating fade-in\">",
-              "nodeLabel": "★★★★★\n4.8/5\n·\nMás de 150 vecinos de Culiacán satisfechos"
+              "nodeLabel": "★★★★★\n4.8/5\n·\nMás de 150 vecinos de Los Mochis satisfechos"
             },
             "score": 0.040367465763973785,
             "subItems": {
@@ -1805,7 +1805,7 @@
                 {
                   "extra": {
                     "type": "url",
-                    "value": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2"
+                    "value": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2"
                   },
                   "cause": "Web font loaded"
                 }
@@ -1859,7 +1859,7 @@
             "startTime": 5136.7334999999985
           },
           {
-            "url": "https://plomeroculiacanpro.mx/main.js",
+            "url": "https://plomerolosmochispro.mx/main.js",
             "duration": 89.99999999999955,
             "startTime": 4032.5314999999996
           },
@@ -1869,7 +1869,7 @@
             "startTime": 3408.7335
           },
           {
-            "url": "https://plomeroculiacanpro.mx/",
+            "url": "https://plomerolosmochispro.mx/",
             "duration": 58,
             "startTime": 1507.9895999999999
           }
@@ -1885,9 +1885,9 @@
           "urls": [
             "https://scripts.clarity.ms/0.8.43/clarity.js",
             "https://www.googletagmanager.com/gtag/js?id=G-NSV2K9N2ZD&cx=c&gtm=4e5ca1",
-            "https://plomeroculiacanpro.mx/main.js",
+            "https://plomerolosmochispro.mx/main.js",
             "https://www.googletagmanager.com/gtm.js?id=GTM-W75CRTX5",
-            "https://plomeroculiacanpro.mx/"
+            "https://plomerolosmochispro.mx/"
           ],
           "tasks": [
             {
@@ -2010,11 +2010,11 @@
           "type": "debugdata",
           "initiatorPath": [
             {
-              "url": "https://plomeroculiacanpro.mx/assets/images/hero-plomero-visita-500w.webp",
+              "url": "https://plomerolosmochispro.mx/assets/images/hero-plomero-visita-500w.webp",
               "initiatorType": "parser"
             },
             {
-              "url": "https://plomeroculiacanpro.mx/",
+              "url": "https://plomerolosmochispro.mx/",
               "initiatorType": "other"
             }
           ],
@@ -2033,7 +2033,7 @@
         "type": "treemap-data",
         "nodes": [
           {
-            "name": "https://plomeroculiacanpro.mx/",
+            "name": "https://plomerolosmochispro.mx/",
             "resourceBytes": 1600,
             "encodedBytes": 305,
             "unusedBytes": 167,
@@ -2046,7 +2046,7 @@
             ]
           },
           {
-            "name": "https://plomeroculiacanpro.mx/main.js",
+            "name": "https://plomerolosmochispro.mx/main.js",
             "resourceBytes": 28284,
             "encodedBytes": 6544,
             "unusedBytes": 17762
@@ -2168,35 +2168,35 @@
             "totalBytes": 108037
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/destapandodrenaje-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/destapandodrenaje-800w.webp",
             "totalBytes": 52030
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp",
             "totalBytes": 46038
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-400.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-400.woff2",
             "totalBytes": 38890
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-500.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-500.woff2",
             "totalBytes": 38846
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2",
             "totalBytes": 38845
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-800.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-800.woff2",
             "totalBytes": 33629
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-700.woff2",
+            "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-700.woff2",
             "totalBytes": 33593
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/icons/icon-192.png",
+            "url": "https://plomerolosmochispro.mx/assets/icons/icon-192.png",
             "totalBytes": 31577
           }
         ],
@@ -2326,7 +2326,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/main.js",
+            "url": "https://plomerolosmochispro.mx/main.js",
             "totalBytes": 6544,
             "wastedBytes": 2870,
             "wastedPercent": 43.86225427803705
@@ -2600,10 +2600,10 @@
                 "width": 378,
                 "height": 284
               },
-              "snippet": "<img src=\"https://plomeroculiacanpro.mx/assets/images/destapandodrenaje-800w.webp\" srcset=\"assets/images/destapandodrenaje-420w.webp 420w, assets/images/destapandodr…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Plomero destapando drenaje con sonda rotativa profesional en Culiacán\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
-              "nodeLabel": "Plomero destapando drenaje con sonda rotativa profesional en Culiacán"
+              "snippet": "<img src=\"https://plomerolosmochispro.mx/assets/images/destapandodrenaje-800w.webp\" srcset=\"assets/images/destapandodrenaje-420w.webp 420w, assets/images/destapandodr…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Plomero destapando drenaje con sonda rotativa profesional en Los Mochis\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "Plomero destapando drenaje con sonda rotativa profesional en Los Mochis"
             },
-            "url": "https://plomeroculiacanpro.mx/assets/images/destapandodrenaje-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/destapandodrenaje-800w.webp",
             "totalBytes": 51902,
             "wastedBytes": 25240,
             "wastedPercent": 48.630390625
@@ -2622,10 +2622,10 @@
                 "width": 378,
                 "height": 284
               },
-              "snippet": "<img src=\"https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp\" srcset=\"assets/images/reparacion-fugas-420w.webp 420w, assets/images/reparacion-fu…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Plomero reparando fuga de agua en tubería con herramientas profesionales e…\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
+              "snippet": "<img src=\"https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp\" srcset=\"assets/images/reparacion-fugas-420w.webp 420w, assets/images/reparacion-fu…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Plomero reparando fuga de agua en tubería con herramientas profesionales e…\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
               "nodeLabel": "Plomero reparando fuga de agua en tubería con herramientas profesionales en Cul…"
             },
-            "url": "https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp",
             "totalBytes": 45896,
             "wastedBytes": 22319,
             "wastedPercent": 48.630390625
@@ -2644,10 +2644,10 @@
                 "width": 378,
                 "height": 284
               },
-              "snippet": "<img src=\"https://plomeroculiacanpro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp\" srcset=\"assets/images/taza-de-baño-420w.webp 420w, assets/images/taza-de-baño-800w…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Instalación profesional de sanitario ahorrador de agua en baño moderno Cul…\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
-              "nodeLabel": "Instalación profesional de sanitario ahorrador de agua en baño moderno Culiacán"
+              "snippet": "<img src=\"https://plomerolosmochispro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp\" srcset=\"assets/images/taza-de-baño-420w.webp 420w, assets/images/taza-de-baño-800w…\" sizes=\"(max-width:768px) 100vw, 420px\" alt=\"Instalación profesional de sanitario ahorrador de agua en baño moderno Cul…\" width=\"420\" height=\"420\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "Instalación profesional de sanitario ahorrador de agua en baño moderno Los Mochis"
             },
-            "url": "https://plomeroculiacanpro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
             "totalBytes": 31268,
             "wastedBytes": 15206,
             "wastedPercent": 48.630390625
@@ -2666,10 +2666,10 @@
                 "width": 200,
                 "height": 200
               },
-              "snippet": "<img src=\"/assets/images/logo-512.webp\" alt=\"Plomero Culiacán Pro - Servicio Profesional 24/7\" width=\"512\" height=\"195\">",
-              "nodeLabel": "Plomero Culiacán Pro - Servicio Profesional 24/7"
+              "snippet": "<img src=\"/assets/images/logo-512.webp\" alt=\"Plomero Los Mochis Pro - Servicio Profesional 24/7\" width=\"512\" height=\"195\">",
+              "nodeLabel": "Plomero Los Mochis Pro - Servicio Profesional 24/7"
             },
-            "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/logo-512.webp",
             "totalBytes": 19078,
             "wastedBytes": 10163,
             "wastedPercent": 53.26995849609375
@@ -3059,7 +3059,7 @@
                     "height": 97
                   },
                   "snippet": "<div class=\"hero-rating fade-in\">",
-                  "nodeLabel": "★★★★★\n4.8/5\n·\nMás de 150 vecinos de Culiacán satisfechos"
+                  "nodeLabel": "★★★★★\n4.8/5\n·\nMás de 150 vecinos de Los Mochis satisfechos"
                 },
                 "score": 0.040367465763973785,
                 "subItems": {
@@ -3068,7 +3068,7 @@
                     {
                       "extra": {
                         "type": "url",
-                        "value": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2"
+                        "value": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2"
                       },
                       "cause": "Web font"
                     }
@@ -3368,7 +3368,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/destapandodrenaje-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/destapandodrenaje-800w.webp",
             "totalBytes": 51902,
             "wastedBytes": 36479,
             "subItems": {
@@ -3382,7 +3382,7 @@
             }
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp",
             "totalBytes": 45896,
             "wastedBytes": 32258,
             "subItems": {
@@ -3396,7 +3396,7 @@
             }
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/taza-de-ba%C3%B1o-800w.webp",
             "totalBytes": 31268,
             "wastedBytes": 21944,
             "subItems": {
@@ -3410,7 +3410,7 @@
             }
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/logo-512.webp",
             "totalBytes": 19078,
             "wastedBytes": 18798,
             "subItems": {
@@ -3424,7 +3424,7 @@
             }
           },
           {
-            "url": "https://plomeroculiacanpro.mx/assets/images/hero-plomero-visita-500w.webp",
+            "url": "https://plomerolosmochispro.mx/assets/images/hero-plomero-visita-500w.webp",
             "totalBytes": 19526,
             "wastedBytes": 8394,
             "subItems": {
@@ -3524,8 +3524,8 @@
               "width": 412,
               "height": 684
             },
-            "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Culiacán atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
-            "nodeLabel": "Plomero profesional en Culiacán atendiendo emergencia 24 horas con herramientas…"
+            "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
+            "nodeLabel": "Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herramientas…"
           }
         ]
       },
@@ -3576,8 +3576,8 @@
               "width": 412,
               "height": 684
             },
-            "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Culiacán atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
-            "nodeLabel": "Plomero profesional en Culiacán atendiendo emergencia 24 horas con herramientas…"
+            "snippet": "<img src=\"/assets/images/hero-plomero-visita-500w.webp\" srcset=\"/assets/images/hero-plomero-visita-500w.webp 500w, /assets/images/hero-plo…\" sizes=\"(max-width:768px) 200px, 1200px\" alt=\"Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herrami…\" width=\"1200\" height=\"800\" loading=\"eager\" fetchpriority=\"high\" decoding=\"sync\">",
+            "nodeLabel": "Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herramientas…"
           }
         ]
       },
@@ -3677,38 +3677,38 @@
               "type": "network-tree",
               "chains": {
                 "6510CC8305DF1B9E23BD4EE2B2E589B2": {
-                  "url": "https://plomeroculiacanpro.mx/",
+                  "url": "https://plomerolosmochispro.mx/",
                   "navStartToEndTime": 463,
                   "transferSize": 19688,
                   "isLongest": true,
                   "children": {
                     "7372.45": {
-                      "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-600.woff2",
+                      "url": "https://plomerolosmochispro.mx/assets/fonts/inter-600.woff2",
                       "navStartToEndTime": 3957,
                       "transferSize": 38845,
                       "isLongest": true,
                       "children": {}
                     },
                     "7372.46": {
-                      "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-700.woff2",
+                      "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-700.woff2",
                       "navStartToEndTime": 2288,
                       "transferSize": 33593,
                       "children": {}
                     },
                     "7372.44": {
-                      "url": "https://plomeroculiacanpro.mx/assets/fonts/inter-500.woff2",
+                      "url": "https://plomerolosmochispro.mx/assets/fonts/inter-500.woff2",
                       "navStartToEndTime": 2287,
                       "transferSize": 38846,
                       "children": {}
                     },
                     "7372.47": {
-                      "url": "https://plomeroculiacanpro.mx/assets/fonts/montserrat-800.woff2",
+                      "url": "https://plomerolosmochispro.mx/assets/fonts/montserrat-800.woff2",
                       "navStartToEndTime": 1230,
                       "transferSize": 33629,
                       "children": {}
                     },
                     "7372.4": {
-                      "url": "https://plomeroculiacanpro.mx/styles.min.css",
+                      "url": "https://plomerolosmochispro.mx/styles.min.css",
                       "navStartToEndTime": 580,
                       "transferSize": 10903,
                       "children": {}
@@ -3844,7 +3844,7 @@
         ],
         "items": [
           {
-            "url": "https://plomeroculiacanpro.mx/styles.min.css",
+            "url": "https://plomerolosmochispro.mx/styles.min.css",
             "totalBytes": 10903
           }
         ]
@@ -4511,9 +4511,9 @@
   "stackPacks": [],
   "entities": [
     {
-      "name": "plomeroculiacanpro.mx",
+      "name": "plomerolosmochispro.mx",
       "origins": [
-        "https://plomeroculiacanpro.mx"
+        "https://plomerolosmochispro.mx"
       ],
       "isFirstParty": true,
       "isUnrecognized": true

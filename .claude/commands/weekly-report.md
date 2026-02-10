@@ -135,7 +135,7 @@ Formato del reporte:
    - Schema: Service + LocalBusiness + FAQPage
    - FAQs: 10 únicas
    - Status: ✅ Live
-   - URL: https://plomeroculiacanpro.mx/plomero-24-horas/
+   - URL: https://plomerolosmochispro.mx/plomero-24-horas/
 
 2. **/plomero-de-emergencia/**
    - Keyword: "plomero de emergencia" (1,800 búsquedas/mes)

@@ -205,7 +205,7 @@ GA4 - Event - Scroll Depth
 ## **2. Probar (IMPORTANTE):**
 
 1. En GTM, haz clic en: **Vista previa** (esquina superior derecha)
-2. En "Your website's URL" escribe: `https://plomeroculiacanpro.mx`
+2. En "Your website's URL" escribe: `https://plomerolosmochispro.mx`
 3. Haz clic en: **Connect**
 4. Se abrirá tu sitio en una nueva pestaña
 
@@ -233,7 +233,7 @@ GA4 - Event - Scroll Depth
 
 1. Ve a: https://analytics.google.com
 2. **Informes → Tiempo real**
-3. Abre: https://plomeroculiacanpro.mx
+3. Abre: https://plomerolosmochispro.mx
 4. Haz clic en una tarjeta
 5. Deberías ver: `click_seo_card` en eventos
 

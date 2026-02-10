@@ -1,4 +1,4 @@
-# robots.txt para Plomero Culiacán Pro
+# robots.txt para Plomero Los Mochis Pro
 # Última actualización: 2025-11-19
 
 # Reglas para todos los bots
@@ -40,6 +40,6 @@ User-agent: DotBot
 Disallow: /
 
 # Sitemaps
-Sitemap: https://plomeroculiacanpro.mx/sitemap.xml
-Sitemap: https://plomeroculiacanpro.mx/sitemaps/main_sitemap.xml
-Sitemap: https://plomeroculiacanpro.mx/sitemaps/images_sitemap.xml
+Sitemap: https://plomerolosmochispro.mx/sitemap.xml
+Sitemap: https://plomerolosmochispro.mx/sitemaps/main_sitemap.xml
+Sitemap: https://plomerolosmochispro.mx/sitemaps/images_sitemap.xml

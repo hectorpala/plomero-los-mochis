@@ -31,8 +31,8 @@ País: México
 ### Social Media (sameAs)
 ```json
 "sameAs": [
-  "https://www.facebook.com/plomeroculiacanpro",
-  "https://www.instagram.com/plomeroculiacanpro",
+  "https://www.facebook.com/plomerolosmochispro",
+  "https://www.instagram.com/plomerolosmochispro",
   "https://twitter.com/plomeroculiacan"
 ]
 ```
@@ -84,7 +84,7 @@ País: México
 
 #### Canonical URL
 ```html
-<link rel="canonical" href="https://plomeroculiacanpro.mx/[slug]/">
+<link rel="canonical" href="https://plomerolosmochispro.mx/[slug]/">
 ```
 
 #### Keywords (opcional, 5-8 keywords)
@@ -223,9 +223,9 @@ País: México
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://plomeroculiacanpro.mx/#website",
+      "@id": "https://plomerolosmochispro.mx/#website",
       "name": "Plomero Culiacán Pro",
-      "url": "https://plomeroculiacanpro.mx/"
+      "url": "https://plomerolosmochispro.mx/"
     },
     {
       "@type": "BreadcrumbList",
@@ -234,13 +234,13 @@ País: México
           "@type": "ListItem",
           "position": 1,
           "name": "Inicio",
-          "item": "https://plomeroculiacanpro.mx/"
+          "item": "https://plomerolosmochispro.mx/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "[Nombre Página]",
-          "item": "https://plomeroculiacanpro.mx/[slug]/"
+          "item": "https://plomerolosmochispro.mx/[slug]/"
         }
       ]
     },
@@ -266,7 +266,7 @@ País: México
       },
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://plomeroculiacanpro.mx/[slug]/",
+        "serviceUrl": "https://plomerolosmochispro.mx/[slug]/",
         "servicePhone": {
           "@type": "ContactPoint",
           "telephone": "+52 667 392 2273",
@@ -324,16 +324,16 @@ País: México
     "name": "Plomero Culiacán Pro",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.png"
+      "url": "https://plomerolosmochispro.mx/assets/images/logo-512.png"
     }
   },
   "datePublished": "[YYYY-MM-DD]",
   "dateModified": "[YYYY-MM-DD]",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://plomeroculiacanpro.mx/blog/[slug]/"
+    "@id": "https://plomerolosmochispro.mx/blog/[slug]/"
   },
-  "image": "https://plomeroculiacanpro.mx/assets/images/[imagen].webp"
+  "image": "https://plomerolosmochispro.mx/assets/images/[imagen].webp"
 }
 ```
 

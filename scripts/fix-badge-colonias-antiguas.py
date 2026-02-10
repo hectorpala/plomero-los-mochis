@@ -6,18 +6,18 @@ Script para agregar badge de rating a las colonias antiguas con estructura difer
 import os
 import re
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 COLONIAS_FALTANTES = [
     "campestre", "revolucion", "bosques-del-humaya", "vista-hermosa",
-    "lazaro-cardenas", "miguel-hidalgo", "real-del-valle", "chulavista",
+    "lazaro-cardenas", "miguel-hidalgo", "real-del-valle", "nuevo-los-mochis",
     "infonavit-humaya", "burocrata", "21-de-marzo", "independencia",
     "isla-del-oeste", "luis-donaldo-colosio", "lomas-de-san-isidro",
-    "terranova", "colinas-de-la-rivera", "recursos-hidraulicos",
-    "alturas-del-sur", "gabriel-leyva", "real-san-angel", "lombardo-toledano",
+    "valle-del-ejido", "colinas-de-la-rivera", "recursos-hidraulicos",
+    "bicentenario", "gabriel-leyva", "real-san-angel", "lombardo-toledano",
     "hacienda-del-valle", "francisco-villa", "hacienda-los-huertos",
-    "tres-rios", "antonio-toledo-corro", "country-tres-rios", "altamira",
-    "humaya", "benito-juarez", "portales-del-rio", "cumbres-tres-rios",
+    "las-fuentes", "antonio-toledo-corro", "country-las-fuentes", "altamira",
+    "humaya", "benito-juarez", "portales-del-rio", "cumbres-las-fuentes",
     "6-de-enero", "zona-dorada", "universitaria", "emiliano-zapata"
 ]
 

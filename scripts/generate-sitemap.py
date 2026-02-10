@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generador de Sitemap XML para plomeroculiacanpro.mx
+Generador de Sitemap XML para plomerolosmochispro.mx
 Incluye todas las páginas del sitio incluyendo las 643+ colonias
 """
 
@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-BASE_URL = "https://plomeroculiacanpro.mx"
+BASE_URL = "https://plomerolosmochispro.mx"
 PROJECT_ROOT = Path(__file__).parent.parent
 
 def get_lastmod(file_path):
@@ -63,7 +63,7 @@ def generate_sitemap():
         'servicios/correccion-baja-presion/',
         'servicios/emergencia-24-7/',
         'servicios/plomero-precios/',
-        'servicios/plomero-colonias-culiacan/',
+        'servicios/plomero-colonias-los-mochis/',
     ]
 
     for servicio in servicios:
@@ -78,7 +78,7 @@ def generate_sitemap():
             })
 
     # Colonias - todas las 643+
-    colonias_dir = PROJECT_ROOT / 'servicios' / 'plomero-colonias-culiacan'
+    colonias_dir = PROJECT_ROOT / 'servicios' / 'plomero-colonias-los-mochis'
     if colonias_dir.exists():
         for colonia in sorted(colonias_dir.iterdir()):
             if colonia.is_dir():
@@ -86,7 +86,7 @@ def generate_sitemap():
                 if index_file.exists():
                     colonia_name = colonia.name
                     urls.append({
-                        'loc': f"{BASE_URL}/servicios/plomero-colonias-culiacan/{colonia_name}/",
+                        'loc': f"{BASE_URL}/servicios/plomero-colonias-los-mochis/{colonia_name}/",
                         'lastmod': get_lastmod(index_file),
                         'changefreq': 'yearly',
                         'priority': '0.6'
@@ -171,7 +171,7 @@ def main():
     print(f"   Total URLs: {count}")
 
     # Count by type
-    colonias = len([u for u in urls if 'plomero-colonias-culiacan/' in u['loc'] and u['loc'].count('/') > 4])
+    colonias = len([u for u in urls if 'plomero-colonias-los-mochis/' in u['loc'] and u['loc'].count('/') > 4])
     print(f"   - Colonias: {colonias}")
     print(f"   - Otras páginas: {count - colonias}")
 

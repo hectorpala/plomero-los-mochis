@@ -59,8 +59,8 @@ echo "  🔍 Buscando imágenes referenciadas en HTML..."
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 # Buscar todas las imágenes hero en el HTML
-# Patrón: [slug]-culiacan-[800w|1200w].webp
-IMAGES=$(grep -o '[a-z0-9-]*-culiacan-[0-9]*w\.webp' "$HTML_FILE" 2>/dev/null | sort -u)
+# Patrón: [slug]-los-mochis-[800w|1200w].webp
+IMAGES=$(grep -o '[a-z0-9-]*-los-mochis-[0-9]*w\.webp' "$HTML_FILE" 2>/dev/null | sort -u)
 
 if [ -z "$IMAGES" ]; then
     print_warning "No se encontraron imágenes hero en el HTML"

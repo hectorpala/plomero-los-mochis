@@ -69,7 +69,7 @@
 - ✅ FAQPage (5 preguntas)
 - ✅ lang="es-MX" ⚡ ACTUALIZADO
 
-#### 11. plomero-colonias-culiacan/
+#### 11. plomero-colonias-los-mochis/
 - ✅ Service schema
 - ✅ FAQPage (5 preguntas)
 - ✅ lang="es-MX" ⚡ ACTUALIZADO

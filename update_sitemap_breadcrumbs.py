@@ -11,7 +11,7 @@ servicios_modificados = [
     "plomero-precios",
     "plomero-cerca-de-mi",
     "destape-de-drenajes",
-    "plomero-colonias-culiacan",
+    "plomero-colonias-los-mochis",
     "deteccion-de-fugas",
     "plomero-a-domicilio",
     "emergencia-24-7",
@@ -25,19 +25,19 @@ colonias_modificadas = [
     "campestre", "bosques-del-humaya", "villa-universidad", "lomas-del-boulevard",
     "real-del-valle", "infonavit-humaya", "isla-del-oeste", "lomas-de-san-isidro",
     "colinas-de-la-rivera", "jardines-del-valle", "bachigualato", "real-san-angel",
-    "las-palmas", "nuevo-culiacan", "hacienda-del-valle", "hacienda-los-huertos",
-    "tres-rios", "country-tres-rios", "colinas-de-san-miguel", "altamira",
-    "portales-del-rio", "cumbres-tres-rios", "montebello", "villa-bonita",
-    "guadalupe", "zona-dorada", "santa-fe", "centro", "chapultepec"
+    "las-palmas", "nuevo-los-mochis", "hacienda-del-valle", "hacienda-los-huertos",
+    "las-fuentes", "country-las-fuentes", "colinas-de-san-miguel", "altamira",
+    "portales-del-rio", "cumbres-las-fuentes", "insurgentes", "villa-bonita",
+    "guadalupe", "zona-dorada", "santa-fe", "centro", "jiquilpan"
 ]
 
 blog_modificados = [
-    "cuanto-cuesta-plomeria-bano-completo-culiacan",
-    "problemas-comunes-plomeria-culiacan",
-    "cuanto-cuesta-cambiar-taza-bano-culiacan",
-    "como-identificar-buen-plomero-culiacan",
+    "cuanto-cuesta-plomeria-bano-completo-los-mochis",
+    "problemas-comunes-plomeria-los-mochis",
+    "cuanto-cuesta-cambiar-taza-bano-los-mochis",
+    "como-identificar-buen-plomero-los-mochis",
     "instalacion-tinaco-guia-compra",
-    "cuanto-cobra-plomero-visita-culiacan",
+    "cuanto-cobra-plomero-visita-los-mochis",
     "drenaje-tapado-senales-prevencion",
     "como-detectar-fugas-agua-casa",
     "baja-presion-agua-causas-soluciones",
@@ -77,7 +77,7 @@ for url_elem in root.findall('sm:url', ns):
 
         # Verificar si es una colonia modificada
         for colonia_slug in colonias_modificadas:
-            if f"/servicios/plomero-colonias-culiacan/{colonia_slug}/" in loc_text:
+            if f"/servicios/plomero-colonias-los-mochis/{colonia_slug}/" in loc_text:
                 lastmod_elem = url_elem.find('sm:lastmod', ns)
                 if lastmod_elem is not None:
                     lastmod_elem.text = new_lastmod

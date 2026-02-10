@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-URL="https://plomeroculiacanpro.mx/"  # cámbiala a tu web real
+URL="https://plomerolosmochispro.mx/"  # cámbiala a tu web real
 DIR="$(cd "$(dirname "$0")" && pwd)"
 LOGDIR="$DIR/logs"
 mkdir -p "$LOGDIR"

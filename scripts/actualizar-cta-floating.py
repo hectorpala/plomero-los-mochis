@@ -19,7 +19,7 @@ PHONE_SVG = '<svg width="26" height="26" fill="none" stroke="currentColor" strok
 PHONE = "526673922273"
 
 def get_floating_html():
-    wa_url = f"https://wa.me/{PHONE}?text=Hola%2C%20necesito%20un%20plomero%20en%20Culiacán"
+    wa_url = f"https://wa.me/{PHONE}?text=Hola%2C%20necesito%20un%20plomero%20en%20Los Mochis"
     return f'''<!-- Floating CTA Buttons -->
 <a href="{wa_url}" target="_blank" rel="noopener" class="floating-btn floating-whatsapp" aria-label="WhatsApp">{WHATSAPP_SVG}</a>
 <a href="tel:+{PHONE}" class="floating-btn floating-call" aria-label="Llamar">{PHONE_SVG}</a>'''
@@ -79,11 +79,11 @@ def main():
     files = [
         "servicios/plomero-precios/index.html",
         "servicios/emergencia-24-7/index.html",
-        "servicios/plomero-colonias-culiacan/index.html",
-        "blog/cuanto-cuesta-plomeria-bano-completo-culiacan/index.html",
+        "servicios/plomero-colonias-los-mochis/index.html",
+        "blog/cuanto-cuesta-plomeria-bano-completo-los-mochis/index.html",
         "blog/drenaje-tapado-senales-prevencion/index.html",
-        "blog/cuanto-cuesta-cambiar-taza-bano-culiacan/index.html",
-        "blog/cuanto-cobra-plomero-visita-culiacan/index.html",
+        "blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/index.html",
+        "blog/cuanto-cobra-plomero-visita-los-mochis/index.html",
     ]
 
     # También buscar otros blogs

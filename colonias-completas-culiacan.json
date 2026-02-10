@@ -1,24 +1,24 @@
 {
-  "colonias_culiacan": [
+  "colonias_los-mochis": [
     {
-      "slug": "las-quintas",
-      "nombre": "Las Quintas",
+      "slug": "centenario",
+      "nombre": "Centenario",
       "gps": {
         "lat": 24.8207,
         "lng": -107.4209
       },
-      "calle_principal": "Blvd. Las Quintas",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/las-quintas/"
+      "calle_principal": "Blvd. Centenario",
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/centenario/"
     },
     {
-      "slug": "tres-rios",
-      "nombre": "Tres Ríos",
+      "slug": "las-fuentes",
+      "nombre": "Las Fuentes",
       "gps": {
         "lat": 24.8039,
         "lng": -107.4394
       },
-      "calle_principal": "Blvd. Tres Ríos",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/tres-rios/"
+      "calle_principal": "Blvd. Las Fuentes",
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/las-fuentes/"
     },
     {
       "slug": "centro",
@@ -28,17 +28,17 @@
         "lng": -107.394
       },
       "calle_principal": "Av. Álvaro Obregón",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/centro/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/centro/"
     },
     {
-      "slug": "montebello",
-      "nombre": "Montebello",
+      "slug": "insurgentes",
+      "nombre": "Insurgentes",
       "gps": {
         "lat": 24.789,
         "lng": -107.41
       },
       "calle_principal": "Blvd. Enrique Sánchez Alonso",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/montebello/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/insurgentes/"
     },
     {
       "slug": "guadalupe",
@@ -48,17 +48,17 @@
         "lng": -107.42
       },
       "calle_principal": "Av. Insurgentes",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/guadalupe/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/guadalupe/"
     },
     {
-      "slug": "chapultepec",
-      "nombre": "Chapultepec",
+      "slug": "jiquilpan",
+      "nombre": "Jiquilpan",
       "gps": {
         "lat": 24.795,
         "lng": -107.385
       },
       "calle_principal": "Blvd. Francisco I. Madero",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/chapultepec/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/jiquilpan/"
     },
     {
       "slug": "isla-del-oeste",
@@ -68,17 +68,17 @@
         "lng": -107.445
       },
       "calle_principal": "Av. Isla del Oeste",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/isla-del-oeste/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/isla-del-oeste/"
     },
     {
-      "slug": "country-tres-rios",
-      "nombre": "Country Tres Ríos",
+      "slug": "country-las-fuentes",
+      "nombre": "Country Las Fuentes",
       "gps": {
         "lat": 24.81,
         "lng": -107.45
       },
       "calle_principal": "Blvd. Country Club",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/country-tres-rios/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/country-las-fuentes/"
     },
     {
       "slug": "hacienda-los-huertos",
@@ -88,7 +88,7 @@
         "lng": -107.37
       },
       "calle_principal": "Blvd. Hacienda Los Huertos",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/hacienda-los-huertos/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/hacienda-los-huertos/"
     },
     {
       "slug": "real-del-valle",
@@ -98,7 +98,7 @@
         "lng": -107.36
       },
       "calle_principal": "Av. Real del Valle",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/real-del-valle/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/real-del-valle/"
     },
     {
       "slug": "zona-dorada",
@@ -108,7 +108,7 @@
         "lng": -107.375
       },
       "calle_principal": "Av. Gabriel Leyva",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/zona-dorada/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/zona-dorada/"
     },
     {
       "slug": "campestre",
@@ -118,7 +118,7 @@
         "lng": -107.395
       },
       "calle_principal": "Blvd. Campestre",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/campestre/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/campestre/"
     },
     {
       "slug": "santa-fe",
@@ -128,7 +128,7 @@
         "lng": -107.43
       },
       "calle_principal": "Av. Santa Fe",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/santa-fe/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/santa-fe/"
     },
     {
       "slug": "las-palmas",
@@ -138,17 +138,17 @@
         "lng": -107.415
       },
       "calle_principal": "Av. Las Palmas",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/las-palmas/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/las-palmas/"
     },
     {
-      "slug": "nuevo-culiacan",
-      "nombre": "Nuevo Culiacán",
+      "slug": "nuevo-los-mochis",
+      "nombre": "Nuevo Los Mochis",
       "gps": {
         "lat": 24.79,
         "lng": -107.425
       },
-      "calle_principal": "Av. Nuevo Culiacán",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/nuevo-culiacan/"
+      "calle_principal": "Av. Nuevo Los Mochis",
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/nuevo-los-mochis/"
     },
     {
       "slug": "infonavit-humaya",
@@ -158,7 +158,7 @@
         "lng": -107.41
       },
       "calle_principal": "Blvd. Emiliano Zapata",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/infonavit-humaya/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/infonavit-humaya/"
     },
     {
       "slug": "bachigualato",
@@ -168,7 +168,7 @@
         "lng": -107.43
       },
       "calle_principal": "Carretera a Bachigualato",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/bachigualato/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/bachigualato/"
     },
     {
       "slug": "lomas-del-boulevard",
@@ -178,7 +178,7 @@
         "lng": -107.435
       },
       "calle_principal": "Blvd. Las Torres",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/lomas-del-boulevard/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/lomas-del-boulevard/"
     },
     {
       "slug": "villa-universidad",
@@ -188,7 +188,7 @@
         "lng": -107.415
       },
       "calle_principal": "Blvd. Universitarios",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/villa-universidad/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/villa-universidad/"
     },
     {
       "slug": "colinas-de-san-miguel",
@@ -198,7 +198,7 @@
         "lng": -107.39
       },
       "calle_principal": "Av. Colinas de San Miguel",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/colinas-de-san-miguel/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/colinas-de-san-miguel/"
     },
     {
       "slug": "altamira",
@@ -208,17 +208,17 @@
         "lng": -107.4
       },
       "calle_principal": "Av. Altamira",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/altamira/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/altamira/"
     },
     {
-      "slug": "cumbres-tres-rios",
-      "nombre": "Cumbres Tres Ríos",
+      "slug": "cumbres-las-fuentes",
+      "nombre": "Cumbres Las Fuentes",
       "gps": {
         "lat": 24.805,
         "lng": -107.455
       },
       "calle_principal": "Blvd. Cumbres",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/cumbres-tres-rios/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/cumbres-las-fuentes/"
     },
     {
       "slug": "bosques-del-humaya",
@@ -228,7 +228,7 @@
         "lng": -107.46
       },
       "calle_principal": "Av. Bosques del Humaya",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/bosques-del-humaya/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/bosques-del-humaya/"
     },
     {
       "slug": "hacienda-del-valle",
@@ -238,7 +238,7 @@
         "lng": -107.355
       },
       "calle_principal": "Blvd. Hacienda del Valle",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/hacienda-del-valle/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/hacienda-del-valle/"
     },
     {
       "slug": "portales-del-rio",
@@ -248,7 +248,7 @@
         "lng": -107.435
       },
       "calle_principal": "Av. Portales del Río",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/portales-del-rio/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/portales-del-rio/"
     },
     {
       "slug": "colinas-de-la-rivera",
@@ -258,7 +258,7 @@
         "lng": -107.38
       },
       "calle_principal": "Av. Colinas de la Rivera",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/colinas-de-la-rivera/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/colinas-de-la-rivera/"
     },
     {
       "slug": "jardines-del-valle",
@@ -268,7 +268,7 @@
         "lng": -107.365
       },
       "calle_principal": "Av. Jardines del Valle",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/jardines-del-valle/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/jardines-del-valle/"
     },
     {
       "slug": "lomas-de-san-isidro",
@@ -278,7 +278,7 @@
         "lng": -107.395
       },
       "calle_principal": "Av. Lomas de San Isidro",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/lomas-de-san-isidro/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/lomas-de-san-isidro/"
     },
     {
       "slug": "real-san-angel",
@@ -288,7 +288,7 @@
         "lng": -107.375
       },
       "calle_principal": "Blvd. Real San Ángel",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/real-san-angel/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/real-san-angel/"
     },
     {
       "slug": "villa-bonita",
@@ -298,16 +298,16 @@
         "lng": -107.385
       },
       "calle_principal": "Av. Villa Bonita",
-      "url": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/villa-bonita/"
+      "url": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/villa-bonita/"
     }
   ],
   "metadata": {
     "total_colonias": 30,
-    "ciudad": "Culiacán",
+    "ciudad": "Los Mochis",
     "estado": "Sinaloa",
     "pais": "México",
-    "sitio_web": "https://plomeroculiacanpro.mx",
+    "sitio_web": "https://plomerolosmochispro.mx",
     "fecha_creacion": "2025-11-26",
-    "descripcion": "Base de datos completa de colonias de Culiacán con coordenadas GPS para SEO local y schema markup LocalBusiness"
+    "descripcion": "Base de datos completa de colonias de Los Mochis con coordenadas GPS para SEO local y schema markup LocalBusiness"
   }
 }

@@ -33,11 +33,11 @@ cat > sitemap.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://plomeroculiacanpro.mx/sitemaps/main_sitemap.xml</loc>
+    <loc>https://plomerolosmochispro.mx/sitemaps/main_sitemap.xml</loc>
     <lastmod>$CURRENT_DATE</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://plomeroculiacanpro.mx/sitemaps/images_sitemap.xml</loc>
+    <loc>https://plomerolosmochispro.mx/sitemaps/images_sitemap.xml</loc>
     <lastmod>$CURRENT_DATE</lastmod>
   </sitemap>
 </sitemapindex>
@@ -50,43 +50,43 @@ cat > sitemaps/main_sitemap.xml << 'EOF'
 <?xml version='1.0' encoding='UTF-8'?>
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/</ns0:loc>
     <ns0:lastmod>INDEX_DATE_PLACEHOLDER</ns0:lastmod>
     <ns0:changefreq>weekly</ns0:changefreq>
     <ns0:priority>1.0</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/servicios/emergencia-24-7/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/servicios/emergencia-24-7/</ns0:loc>
     <ns0:lastmod>EMERGENCIA_DATE_PLACEHOLDER</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/servicios/reparacion-de-fugas/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/servicios/reparacion-de-fugas/</ns0:loc>
     <ns0:lastmod>REPARACION_FUGAS_DATE_PLACEHOLDER</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/servicios/destape-de-drenajes/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/servicios/destape-de-drenajes/</ns0:loc>
     <ns0:lastmod>2025-11-20T21:29:43+00:00</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/servicios/instalacion-de-sanitarios/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/servicios/instalacion-de-sanitarios/</ns0:loc>
     <ns0:lastmod>2025-11-20T21:29:43+00:00</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/servicios/mantenimiento-de-boiler/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/servicios/mantenimiento-de-boiler/</ns0:loc>
     <ns0:lastmod>2025-11-20T21:29:43+00:00</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://plomeroculiacanpro.mx/blog/</ns0:loc>
+    <ns0:loc>https://plomerolosmochispro.mx/blog/</ns0:loc>
     <ns0:lastmod>BLOG_INDEX_DATE_PLACEHOLDER</ns0:lastmod>
     <ns0:changefreq>weekly</ns0:changefreq>
     <ns0:priority>0.7</ns0:priority>

@@ -16,11 +16,11 @@ get_file_date() {
     local file_path=""
 
     # Convertir URL a ruta de archivo
-    if [ "$url" = "https://plomeroculiacanpro.mx/" ]; then
+    if [ "$url" = "https://plomerolosmochispro.mx/" ]; then
         file_path="index.html"
     elif echo "$url" | grep -q "/blog/"; then
         # Extraer el path después de /blog/
-        local blog_path="${url#https://plomeroculiacanpro.mx/blog/}"
+        local blog_path="${url#https://plomerolosmochispro.mx/blog/}"
         blog_path="${blog_path%/}"
         if [ -z "$blog_path" ]; then
             file_path="blog/index.html"
@@ -29,7 +29,7 @@ get_file_date() {
         fi
     else
         # Para servicios y otras páginas
-        local page_path="${url#https://plomeroculiacanpro.mx/}"
+        local page_path="${url#https://plomerolosmochispro.mx/}"
         page_path="${page_path%/}"
         file_path="$page_path/index.html"
     fi
@@ -47,11 +47,11 @@ get_file_date() {
 get_changefreq() {
     local url="$1"
 
-    if [ "$url" = "https://plomeroculiacanpro.mx/" ]; then
+    if [ "$url" = "https://plomerolosmochispro.mx/" ]; then
         echo "weekly"  # Homepage se actualiza frecuentemente
-    elif echo "$url" | grep -q "/blog/" && [ "$url" != "https://plomeroculiacanpro.mx/blog/" ]; then
+    elif echo "$url" | grep -q "/blog/" && [ "$url" != "https://plomerolosmochispro.mx/blog/" ]; then
         echo "monthly"  # Artículos de blog son contenido estático
-    elif [ "$url" = "https://plomeroculiacanpro.mx/blog/" ]; then
+    elif [ "$url" = "https://plomerolosmochispro.mx/blog/" ]; then
         echo "weekly"  # El índice del blog se actualiza con nuevos artículos
     elif echo "$url" | grep -q "/contacto/"; then
         echo "yearly"  # Página de contacto rara vez cambia
@@ -84,29 +84,29 @@ URLEOF
 }
 
 # Procesar todas las URLs
-process_url "https://plomeroculiacanpro.mx/" "1.0"
-process_url "https://plomeroculiacanpro.mx/servicios/emergencia-24-7/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/plomero-cerca-de-mi/" "0.8"
-process_url "https://plomeroculiacanpro.mx/servicios/plomero-a-domicilio/" "0.8"
-process_url "https://plomeroculiacanpro.mx/servicios/plomero-precios/" "0.8"
-process_url "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/" "0.8"
-process_url "https://plomeroculiacanpro.mx/servicios/reparacion-de-fugas/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/destape-de-drenajes/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/instalacion-de-sanitarios/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/mantenimiento-de-boiler/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/correccion-baja-presion/" "0.9"
-process_url "https://plomeroculiacanpro.mx/servicios/deteccion-de-fugas/" "0.9"
-process_url "https://plomeroculiacanpro.mx/contacto/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/" "0.8"
-process_url "https://plomeroculiacanpro.mx/blog/marcha-paz-culiacan-2025/" "0.6"
-process_url "https://plomeroculiacanpro.mx/blog/mantenimiento-boiler-noritz-checklist/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/baja-presion-agua-causas-soluciones/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/como-detectar-fugas-agua-casa/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/desatascar-wc-metodos-profesionales/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/problemas-comunes-plomeria-culiacan/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/instalacion-tinaco-guia-compra/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/cuando-llamar-plomero-profesional/" "0.7"
-process_url "https://plomeroculiacanpro.mx/blog/drenaje-tapado-senales-prevencion/" "0.7"
+process_url "https://plomerolosmochispro.mx/" "1.0"
+process_url "https://plomerolosmochispro.mx/servicios/emergencia-24-7/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/plomero-cerca-de-mi/" "0.8"
+process_url "https://plomerolosmochispro.mx/servicios/plomero-a-domicilio/" "0.8"
+process_url "https://plomerolosmochispro.mx/servicios/plomero-precios/" "0.8"
+process_url "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/" "0.8"
+process_url "https://plomerolosmochispro.mx/servicios/reparacion-de-fugas/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/destape-de-drenajes/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/instalacion-de-sanitarios/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/mantenimiento-de-boiler/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/correccion-baja-presion/" "0.9"
+process_url "https://plomerolosmochispro.mx/servicios/deteccion-de-fugas/" "0.9"
+process_url "https://plomerolosmochispro.mx/contacto/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/" "0.8"
+process_url "https://plomerolosmochispro.mx/blog/marcha-paz-los-mochis-2025/" "0.6"
+process_url "https://plomerolosmochispro.mx/blog/mantenimiento-boiler-noritz-checklist/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/baja-presion-agua-causas-soluciones/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/como-detectar-fugas-agua-casa/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/desatascar-wc-metodos-profesionales/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/problemas-comunes-plomeria-los-mochis/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/instalacion-tinaco-guia-compra/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/cuando-llamar-plomero-profesional/" "0.7"
+process_url "https://plomerolosmochispro.mx/blog/drenaje-tapado-senales-prevencion/" "0.7"
 
 # Cerrar el XML
 echo "</urlset>" >> "$TEMP_FILE"

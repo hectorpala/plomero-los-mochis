@@ -2,7 +2,7 @@
 # Actualizar lastmod en sitemap basado en archivos modificados
 # Uso: ./scripts/update-sitemap.sh
 
-HOST="plomeroculiacanpro.mx"
+HOST="plomerolosmochispro.mx"
 SITEMAP="sitemaps/main_sitemap.xml"
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 

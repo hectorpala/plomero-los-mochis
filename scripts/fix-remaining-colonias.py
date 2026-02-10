@@ -6,12 +6,12 @@ Script para arreglar las colonias restantes que no fueron actualizadas.
 import os
 import re
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 # Lista de colonias con problemas
 COLONIAS_SIN_CTA = [
     "altamira", "bosques-del-humaya", "campestre", "colinas-de-la-rivera",
-    "country-tres-rios", "cumbres-tres-rios", "hacienda-del-valle",
+    "country-las-fuentes", "cumbres-las-fuentes", "hacienda-del-valle",
     "hacienda-los-huertos", "infonavit-humaya", "isla-del-oeste",
     "lomas-de-san-isidro", "portales-del-rio", "real-del-valle",
     "real-san-angel", "zona-dorada"

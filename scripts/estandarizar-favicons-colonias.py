@@ -7,7 +7,7 @@ import os
 import glob
 import re
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 # Favicons actuales (básicos)
 OLD_FAVICONS = '''<link rel="icon" href="/favicon.ico" sizes="any">

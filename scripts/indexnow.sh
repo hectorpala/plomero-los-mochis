@@ -3,7 +3,7 @@
 # Uso: ./scripts/indexnow.sh [URL o "sitemap"]
 
 KEY="013f798d7b51dcbc05f3926fb27c9d65"
-HOST="plomeroculiacanpro.mx"
+HOST="plomerolosmochispro.mx"
 KEY_LOCATION="https://${HOST}/${KEY}.txt"
 
 GREEN='\033[0;32m'
@@ -52,7 +52,7 @@ fi
 
 if [ "$1" = "sitemap" ]; then
     echo -e "${YELLOW}Extrayendo URLs del sitemap...${NC}"
-    urls=($(curl -s "https://${HOST}/sitemaps/main_sitemap.xml" | sed -n 's/.*<loc>\([^<]*\)<\/loc>.*/\1/p'))
+    urls=($(curl -s "https://${HOST}/sitemap.xml" | sed -n 's/.*<loc>\([^<]*\)<\/loc>.*/\1/p'))
     echo "Encontradas ${#urls[@]} URLs"
     notify_batch "${urls[@]}"
 else

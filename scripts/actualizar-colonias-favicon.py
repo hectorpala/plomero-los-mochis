@@ -7,7 +7,7 @@ Agrega favicon-32x32.png y apple-touch-icon a las colonias que solo tienen favic
 import os
 import glob
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 # Líneas a buscar y reemplazar
 OLD_FAVICON = '<link rel="icon" href="/favicon.ico" sizes="any">\n<link rel="stylesheet"'

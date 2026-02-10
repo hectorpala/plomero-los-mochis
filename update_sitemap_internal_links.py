@@ -11,28 +11,28 @@ blog_modificados = [
     "drenaje-tapado-senales-prevencion",
     "como-detectar-fugas-agua-casa",
     "baja-presion-agua-causas-soluciones",
-    "cuanto-cuesta-cambiar-taza-bano-culiacan",
-    "cuanto-cobra-plomero-visita-culiacan",
-    "como-identificar-buen-plomero-culiacan",
+    "cuanto-cuesta-cambiar-taza-bano-los-mochis",
+    "cuanto-cobra-plomero-visita-los-mochis",
+    "como-identificar-buen-plomero-los-mochis",
     "instalacion-tinaco-guia-compra",
-    "problemas-comunes-plomeria-culiacan",
+    "problemas-comunes-plomeria-los-mochis",
     "cuando-llamar-plomero-profesional",
-    "cuanto-cuesta-plomeria-bano-completo-culiacan",
+    "cuanto-cuesta-plomeria-bano-completo-los-mochis",
     "desatascar-wc-metodos-profesionales",
     "mantenimiento-boiler-noritz-checklist"
 ]
 
 # Colonias modificadas (30)
 colonias_modificadas = [
-    "tres-rios", "centro", "montebello", "guadalupe", "chapultepec",
-    "isla-del-oeste", "country-tres-rios", "hacienda-los-huertos",
+    "las-fuentes", "centro", "insurgentes", "guadalupe", "jiquilpan",
+    "isla-del-oeste", "country-las-fuentes", "hacienda-los-huertos",
     "real-del-valle", "zona-dorada", "campestre", "santa-fe",
-    "las-palmas", "nuevo-culiacan", "infonavit-humaya", "bachigualato",
+    "las-palmas", "nuevo-los-mochis", "infonavit-humaya", "bachigualato",
     "lomas-del-boulevard", "villa-universidad", "colinas-de-san-miguel",
-    "altamira", "cumbres-tres-rios", "bosques-del-humaya",
+    "altamira", "cumbres-las-fuentes", "bosques-del-humaya",
     "hacienda-del-valle", "portales-del-rio", "colinas-de-la-rivera",
     "jardines-del-valle", "lomas-de-san-isidro", "real-san-angel",
-    "villa-bonita", "las-quintas"
+    "villa-bonita", "centenario"
 ]
 
 # Fecha actual para lastmod
@@ -68,7 +68,7 @@ for url_elem in root.findall('sm:url', ns):
 
         # Verificar si es una colonia modificada
         for colonia_slug in colonias_modificadas:
-            if f"/servicios/plomero-colonias-culiacan/{colonia_slug}/" in loc_text:
+            if f"/servicios/plomero-colonias-los-mochis/{colonia_slug}/" in loc_text:
                 lastmod_elem = url_elem.find('sm:lastmod', ns)
                 if lastmod_elem is not None:
                     lastmod_elem.text = new_lastmod

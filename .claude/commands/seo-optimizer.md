@@ -141,7 +141,7 @@ Verificar presencia y formato de:
     "Plomero 24 Horas Culiacán | Emergencias | Plomero Pro"
   • Description: 142 caracteres ✓
     "Plomero 24 horas en Culiacán. Llegamos en 15-30 min. WhatsApp 667-392-2273"
-  • Canonical: ✓ https://plomeroculiacanpro.mx/plomero-24-horas/
+  • Canonical: ✓ https://plomerolosmochispro.mx/plomero-24-horas/
 
   Open Graph:
   • og:title: ✓
@@ -307,7 +307,7 @@ Para cada imagen verificar:
 ```
 ✅ Imágenes (5 imágenes analizadas)
 
-  1. logo-plomero-culiacan-pro.webp ✓
+  1. logo-plomero-los-mochis-pro.webp ✓
      • Alt: "Plomero Culiacán Pro - Logo empresa plomería" ✓
      • Formato: WebP ✓
      • Lazy: No (es LCP) ✓

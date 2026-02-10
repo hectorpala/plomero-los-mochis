@@ -1,6 +1,6 @@
 # Guía Completa para Crear una Página Web de Plomería de Alto Rendimiento
 
-**Basado en el análisis de Plomero Culiacán Pro**
+**Basado en el análisis de Plomero Los Mochis Pro**
 **Versión 1.0 - Noviembre 2024**
 
 ---
@@ -126,9 +126,9 @@ Una página web de plomería exitosa debe balancear:
 <!-- Geolocalización -->
 <meta http-equiv="content-language" content="es-MX">
 <meta name="geo.region" content="MX-SIN">
-<meta name="geo.placename" content="Culiacán">
-<meta name="geo.position" content="24.7903;-107.3878">
-<meta name="ICBM" content="24.7903, -107.3878">
+<meta name="geo.placename" content="Los Mochis">
+<meta name="geo.position" content="25.7928;-108.9902">
+<meta name="ICBM" content="25.7928, -108.9902">
 
 <!-- Open Graph (Facebook/WhatsApp) -->
 <meta property="og:type" content="website">
@@ -834,7 +834,7 @@ Una página web de plomería exitosa debe balancear:
                 </p>
                 <div class="testimonial-author">
                     <strong>Roberto M.</strong>
-                    <span>Las Quintas · Hace 2 semanas</span>
+                    <span>Centenario · Hace 2 semanas</span>
                 </div>
             </div>
 
@@ -1244,14 +1244,14 @@ Una página web de plomería exitosa debe balancear:
         </p>
 
         <form id="contact-form"
-              name="contacto-plomeria"
+              name="contacto-plomeria-mochis"
               method="POST"
               netlify
               netlify-honeypot="bot-field"
               action="/gracias">
 
             <!-- Honeypot anti-spam -->
-            <input type="hidden" name="form-name" value="contacto-plomeria">
+            <input type="hidden" name="form-name" value="contacto-plomeria-mochis">
             <div style="display:none;">
                 <label>No llenar: <input name="bot-field"></label>
             </div>
@@ -1645,18 +1645,18 @@ button[type="submit"]:disabled {
 
 ```html
 <!-- Title tag (50-60 caracteres) -->
-<title>Plomero en Culiacán 24/7 | Llegada en 30-60 min + Garantía</title>
+<title>Plomero en Los Mochis 24/7 | Llegada en 30-60 min + Garantía</title>
 
 <!-- Meta description (150-160 caracteres) -->
-<meta name="description" content="Plomero certificado en Culiacán · Emergencia 24/7 con llegada en 30-60 min · Cobertura Las Quintas, Tres Ríos, Centro · WhatsApp inmediato · Factura disponible">
+<meta name="description" content="Plomero certificado en Los Mochis · Emergencia 24/7 con llegada en 30-60 min · Cobertura Centenario, Las Fuentes, Centro · WhatsApp inmediato · Factura disponible">
 
 <!-- H1 (único por página) -->
-<h1>Plomero en Culiacán – Emergencias 24/7</h1>
+<h1>Plomero en Los Mochis – Emergencias 24/7</h1>
 
 <!-- H2 con variaciones -->
-<h2>Servicios de Plomería en Culiacán</h2>
+<h2>Servicios de Plomería en Los Mochis</h2>
 <h2>¿Por qué elegirnos como tu plomero de confianza?</h2>
-<h2>Atendemos todas las colonias de Culiacán</h2>
+<h2>Atendemos todas las colonias de Los Mochis</h2>
 
 <!-- H3 para servicios específicos -->
 <h3>Reparación de fugas de agua en muros y techos</h3>
@@ -1688,14 +1688,14 @@ https://tudominio.com/blog/como-detectar-fugas-agua-casa/
 **Ejemplos:**
 ```html
 <!-- Hero -->
-<img src="hero.webp" alt="Plomero profesional en Culiacán atendiendo emergencia 24 horas con herramientas especializadas">
+<img src="hero.webp" alt="Plomero profesional en Los Mochis atendiendo emergencia 24 horas con herramientas especializadas">
 
 <!-- Servicios -->
-<img src="reparacion-fugas.webp" alt="Plomero reparando fuga de agua en tubería con herramientas profesionales en Culiacán">
+<img src="reparacion-fugas.webp" alt="Plomero reparando fuga de agua en tubería con herramientas profesionales en Los Mochis">
 
-<img src="destape-drenajes.webp" alt="Plomero destapando drenaje con sonda rotativa profesional en Culiacán">
+<img src="destape-drenajes.webp" alt="Plomero destapando drenaje con sonda rotativa profesional en Los Mochis">
 
-<img src="instalacion-sanitarios.webp" alt="Instalación profesional de sanitario ahorrador de agua en baño moderno Culiacán">
+<img src="instalacion-sanitarios.webp" alt="Instalación profesional de sanitario ahorrador de agua en baño moderno Los Mochis">
 ```
 
 ### 5. Canonical Tags
@@ -1736,7 +1736,7 @@ https://tudominio.com/blog/como-detectar-fugas-agua-casa/
     <img src="/assets/images/hero-1200w.jpg"
          srcset="/assets/images/hero-800w.jpg 800w,
                  /assets/images/hero-1200w.jpg 1200w"
-         alt="Plomero profesional en Culiacán"
+         alt="Plomero profesional en Los Mochis"
          width="1200"
          height="800"
          loading="lazy"
@@ -2336,7 +2336,7 @@ h3 {
     <span class="rating-stars">★★★★★</span>
     <span class="rating-score">4.8/5</span>
     <span class="rating-divider">·</span>
-    <span class="rating-count">Más de 150 vecinos de Culiacán satisfechos</span>
+    <span class="rating-count">Más de 150 vecinos de Los Mochis satisfechos</span>
 </div>
 ```
 
@@ -2345,7 +2345,7 @@ h3 {
 ```html
 <div class="testimonial-author">
     <strong>Roberto M.</strong>
-    <span>Las Quintas · Hace 2 semanas</span>
+    <span>Centenario · Hace 2 semanas</span>
 </div>
 ```
 
@@ -2600,5 +2600,5 @@ Esta guía proporciona un framework completo para crear una página web de plome
 ---
 
 **Documento creado el**: 21 de noviembre de 2024
-**Basado en**: Análisis de Plomero Culiacán Pro (https://plomeroculiacanpro.mx/)
+**Basado en**: Análisis de Plomero Los Mochis Pro (https://plomerolosmochispro.mx/)
 **Versión**: 1.0

@@ -115,7 +115,7 @@ Clasifica los errores en estas categorías:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  AUDITORÍA SEO: plomeroculiacanpro.mx
+  AUDITORÍA SEO: plomerolosmochispro.mx
   Herramienta: [Ahrefs/Semrush]
   Fecha: [fecha]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -432,7 +432,7 @@ Datos complementarios:
 
 ```markdown
 # Reporte Auditoría SEO
-**Sitio:** plomeroculiacanpro.mx
+**Sitio:** plomerolosmochispro.mx
 **Fecha:** [fecha]
 **Herramienta:** Ahrefs Site Audit
 

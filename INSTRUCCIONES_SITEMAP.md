@@ -48,7 +48,7 @@ Si agregas nuevas páginas al sitio:
 2. Agrega una nueva línea en la sección "Procesar todas las URLs":
 
 ```bash
-process_url "https://plomeroculiacanpro.mx/nueva-pagina/" "0.X"
+process_url "https://plomerolosmochispro.mx/nueva-pagina/" "0.X"
 ```
 
 3. Ajusta la prioridad (0.1 a 1.0) según la importancia de la página

@@ -1,6 +1,6 @@
-# Documentación Técnica - Plomero Culiacán Pro
+# Documentación Técnica - Plomero Los Mochis Pro
 
-**Sitio Web**: plomeroculiacanpro.mx
+**Sitio Web**: plomerolosmochispro.mx
 **Fecha de creación**: Noviembre 2024
 **Última actualización**: 12 de Noviembre, 2024
 **Versión**: 2.1
@@ -77,11 +77,11 @@ plomero website/
 │   ├── index.html
 │   ├── como-detectar-fugas-agua-casa/
 │   │   └── index.html
-│   ├── problemas-comunes-plomeria-culiacan/
+│   ├── problemas-comunes-plomeria-los-mochis/
 │   │   └── index.html
 │   ├── cuando-llamar-plomero-profesional/
 │   │   └── index.html
-│   └── marcha-paz-culiacan-2025/
+│   └── marcha-paz-los-mochis-2025/
 │       └── index.html
 │
 ├── sitemaps/
@@ -288,7 +288,7 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
 <nav class="nav">
     <div class="container">
         <div class="nav-wrapper">
-            <a href="/" class="logo">Plomero Culiacán Pro</a>
+            <a href="/" class="logo">Plomero Los Mochis Pro</a>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <span></span>
                 <span></span>
@@ -318,7 +318,7 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
 <header id="inicio" class="hero">
     <div class="container">
         <div class="hero-content">
-            <h1 class="fade-in">Plomero Profesional en Culiacán, Sinaloa</h1>
+            <h1 class="fade-in">Plomero Profesional en Los Mochis, Sinaloa</h1>
             <p class="hero-subtitle fade-in">Soluciones rápidas y confiables...</p>
             <p class="hero-contact">WhatsApp: 52 667 392 2273 · Llamadas: 667 392 2273</p>
             <a href="#contacto" class="btn-primary hover-lift">Solicitar Cotización</a>
@@ -370,7 +370,7 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
 <div class="testimonial-card">
     <div class="stars">★★★★★</div>
     <p>"Excelente servicio. Repararon una fuga en mi baño en menos de 2 horas..."</p>
-    <cite>— María G., Tres Ríos</cite>
+    <cite>— María G., Las Fuentes</cite>
     <small style="color: #888; display: block; margin-top: 0.5rem;">Reseña de Google</small>
 </div>
 ```
@@ -480,33 +480,33 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
 ### 1. Meta Tags Básicos
 
 ```html
-<title>Plomero en Culiacán a domicilio 24/7 | Plomero Culiacán Pro</title>
-<meta name="description" content="Plomero en Culiacán 24/7: a domicilio, fugas de gas/agua, destapes y emergencias. Atención rápida y precios claros. WhatsApp y teléfono.">
-<link rel="canonical" href="https://plomeroculiacanpro.mx/" />
+<title>Plomero en Los Mochis a domicilio 24/7 | Plomero Los Mochis Pro</title>
+<meta name="description" content="Plomero en Los Mochis 24/7: a domicilio, fugas de gas/agua, destapes y emergencias. Atención rápida y precios claros. WhatsApp y teléfono.">
+<link rel="canonical" href="https://plomerolosmochispro.mx/" />
 ```
 
 ### 2. Open Graph (Facebook/LinkedIn)
 
 ```html
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://plomeroculiacanpro.mx/" />
-<meta property="og:title" content="Plomero en Culiacán a domicilio 24/7 | Plomero Culiacán Pro" />
-<meta property="og:description" content="Plomero en Culiacán 24/7: a domicilio, fugas..." />
-<meta property="og:image" content="https://plomeroculiacanpro.mx/img/reparacion-fugas-800w.webp" />
+<meta property="og:url" content="https://plomerolosmochispro.mx/" />
+<meta property="og:title" content="Plomero en Los Mochis a domicilio 24/7 | Plomero Los Mochis Pro" />
+<meta property="og:description" content="Plomero en Los Mochis 24/7: a domicilio, fugas..." />
+<meta property="og:image" content="https://plomerolosmochispro.mx/img/reparacion-fugas-800w.webp" />
 <meta property="og:image:width" content="800" />
 <meta property="og:image:height" content="800" />
 <meta property="og:locale" content="es_MX" />
-<meta property="og:site_name" content="Plomero Culiacán Pro" />
+<meta property="og:site_name" content="Plomero Los Mochis Pro" />
 ```
 
 ### 3. Twitter Card
 
 ```html
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content="https://plomeroculiacanpro.mx/" />
-<meta name="twitter:title" content="Plomero en Culiacán a domicilio 24/7 | Plomero Culiacán Pro" />
-<meta name="twitter:description" content="Plomero en Culiacán 24/7..." />
-<meta name="twitter:image" content="https://plomeroculiacanpro.mx/img/reparacion-fugas-800w.webp" />
+<meta name="twitter:url" content="https://plomerolosmochispro.mx/" />
+<meta name="twitter:title" content="Plomero en Los Mochis a domicilio 24/7 | Plomero Los Mochis Pro" />
+<meta name="twitter:description" content="Plomero en Los Mochis 24/7..." />
+<meta name="twitter:image" content="https://plomerolosmochispro.mx/img/reparacion-fugas-800w.webp" />
 ```
 
 ### 4. JSON-LD Structured Data
@@ -516,12 +516,12 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
 {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
-  "name": "Plomero Culiacán Pro",
-  "url": "https://plomeroculiacanpro.mx/",
+  "name": "Plomero Los Mochis Pro",
+  "url": "https://plomerolosmochispro.mx/",
   "telephone": "+52 667 392 2273",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Culiacán",
+    "addressLocality": "Los Mochis",
     "addressRegion": "Sinaloa",
     "addressCountry": "MX"
   },
@@ -631,8 +631,8 @@ Todos los pares de colores cumplen con **WCAG 2.1 AA**:
    - Tiempo de lectura: 5 min
    - Temas: Prueba del medidor, dye test, inspección visual
 
-2. **5 Problemas de Plomería Más Comunes en Culiacán**
-   - URL: `/blog/problemas-comunes-plomeria-culiacan/`
+2. **5 Problemas de Plomería Más Comunes en Los Mochis**
+   - URL: `/blog/problemas-comunes-plomeria-los-mochis/`
    - Fecha: 10 de noviembre, 2024
    - Tiempo de lectura: 6 min
    - Temas: Agua dura, WC tapado, baja presión, boiler
@@ -726,7 +726,7 @@ Antes de publicar cambios a producción:
 - [ ] Sitemap actualizado con nuevas páginas
 - [ ] JSON-LD validado sin errores
 - [ ] Open Graph tags completos en todas las páginas
-- [ ] Branding consistente ("Plomero Culiacán Pro")
+- [ ] Branding consistente ("Plomero Los Mochis Pro")
 - [ ] Formularios de contacto funcionando
 - [ ] Enlaces de WhatsApp con formato correcto
 - [ ] Probado en Chrome, Firefox, Safari
@@ -752,27 +752,27 @@ Todos los artículos del blog **DEBEN** seguir esta estructura exacta. NO usar J
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título del Artículo SEO Optimizado</title>
     <meta name="description" content="Descripción del artículo entre 150-160 caracteres.">
-    <link rel="canonical" href="https://plomeroculiacanpro.mx/blog/url-articulo/">
+    <link rel="canonical" href="https://plomerolosmochispro.mx/blog/url-articulo/">
     <link rel="stylesheet" href="../../styles.css">
 
     <!-- Open Graph (versión simplificada para artículos) -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://plomeroculiacanpro.mx/blog/url-articulo/" />
+    <meta property="og:url" content="https://plomerolosmochispro.mx/blog/url-articulo/" />
     <meta property="og:title" content="Título del Artículo" />
     <meta property="og:description" content="Descripción del artículo." />
-    <meta property="og:image" content="https://plomeroculiacanpro.mx/img/imagen-800w.webp" />
+    <meta property="og:image" content="https://plomerolosmochispro.mx/img/imagen-800w.webp" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Título del Artículo" />
     <meta name="twitter:description" content="Descripción del artículo." />
-    <meta name="twitter:image" content="https://plomeroculiacanpro.mx/img/imagen-800w.webp" />
+    <meta name="twitter:image" content="https://plomerolosmochispro.mx/img/imagen-800w.webp" />
 </head>
 <body>
     <nav class="nav">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="../../" class="logo">Plomero Culiacán Pro</a>
+                <a href="../../" class="logo">Plomero Los Mochis Pro</a>
                 <button class="mobile-menu-btn" aria-label="Menu">
                     <span></span>
                     <span></span>
@@ -828,7 +828,7 @@ Todos los artículos del blog **DEBEN** seguir esta estructura exacta. NO usar J
 
                 <div class="article-cta">
                     <h3>¿Necesitas ayuda profesional?</h3>
-                    <p>Descripción breve del servicio y valor agregado. Más de 15 años de experiencia en Culiacán.</p>
+                    <p>Descripción breve del servicio y valor agregado. Más de 15 años de experiencia en Los Mochis.</p>
                     <a href="https://wa.me/526673922273?text=Hola,%20necesito%20ayuda%20con..." class="btn-primary" target="_blank" rel="noopener">Contactar por WhatsApp</a>
                 </div>
             </div>
@@ -843,7 +843,7 @@ Todos los artículos del blog **DEBEN** seguir esta estructura exacta. NO usar J
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Plomero Culiacán Pro. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Plomero Los Mochis Pro. Todos los derechos reservados.</p>
         </div>
     </footer>
 
@@ -908,7 +908,7 @@ Todos los artículos del blog **DEBEN** seguir esta estructura exacta. NO usar J
 <meta property="og:image:width" content="800" />
 <meta property="og:image:height" content="800" />
 <meta property="og:locale" content="es_MX" />
-<meta property="og:site_name" content="Plomero Culiacán Pro" />
+<meta property="og:site_name" content="Plomero Los Mochis Pro" />
 ```
 
 **Artículos de Blog (versión simplificada)**:
@@ -947,7 +947,7 @@ Todos los artículos del blog **DEBEN** seguir esta estructura exacta. NO usar J
 <img src="../../img/nombre-420w.webp" alt="...">
 
 <!-- Logo -->
-<a href="../../" class="logo">Plomero Culiacán Pro</a>
+<a href="../../" class="logo">Plomero Los Mochis Pro</a>
 ```
 
 **Desde página de blog (`/blog/index.html`)**:
@@ -1124,7 +1124,7 @@ python3 scripts/automation/seo/submit_sitemap.py
 **Características**:
 - Autenticación OAuth2 con Google
 - Guarda token en `token.json` (reutilizable)
-- Envía sitemap principal: `https://plomeroculiacanpro.mx/sitemap.xml`
+- Envía sitemap principal: `https://plomerolosmochispro.mx/sitemap.xml`
 - Maneja refresh automático de credenciales
 
 **Dependencias**:
@@ -1168,7 +1168,7 @@ node scripts/automation/media-audit/audit-media.mjs
 
 **Output**:
 ```
-📊 AUDITORÍA DE IMÁGENES - Plomero Culiacán Pro
+📊 AUDITORÍA DE IMÁGENES - Plomero Los Mochis Pro
 
 Página: /
 ├── ✅ img/reparacion-fugas-800w.webp

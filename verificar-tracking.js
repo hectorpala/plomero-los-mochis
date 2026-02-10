@@ -5,7 +5,7 @@
  * que todos los eventos de tracking están funcionando correctamente.
  *
  * CÓMO USAR:
- * 1. Abre https://plomeroculiacanpro.mx
+ * 1. Abre https://plomerolosmochispro.mx
  * 2. Abre la consola del navegador (F12 o clic derecho → Inspeccionar)
  * 3. Pega este script completo y presiona Enter
  * 4. Sigue las instrucciones en la consola

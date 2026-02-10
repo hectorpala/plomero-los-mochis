@@ -1,8 +1,8 @@
-// Service Worker para Plomero Culiacán Pro
+// Service Worker para Plomero Los Mochis Pro
 // Última actualización: 2025-11-21
 // Estrategia: Cache-First para assets, Network-First para HTML
 
-const CACHE_NAME = 'plomero-culiacan-v19';
+const CACHE_NAME = 'plomero-los-mochis-v19';
 const RUNTIME_CACHE = 'plomero-runtime-v19';
 
 // Assets críticos para cachear en instalación

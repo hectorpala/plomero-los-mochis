@@ -70,7 +70,7 @@
 
 ### **Problema: No sé si está funcionando**
 **Solución:**
-1. Abre https://plomeroculiacanpro.mx
+1. Abre https://plomerolosmochispro.mx
 2. Presiona F12 (consola del navegador)
 3. Pega el contenido de `verificar-tracking.js`
 4. Presiona Enter

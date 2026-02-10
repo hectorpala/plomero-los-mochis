@@ -1,4 +1,4 @@
-# Changelog - Plomero Culiacán Pro
+# Changelog - Plomero Los Mochis Pro
 
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 

@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 # Base directory
-base_dir = Path("servicios/plomero-colonias-culiacan")
+base_dir = Path("servicios/plomero-colonias-los-mochis")
 
 # Get all colonia subdirectories
 colonias = [d for d in base_dir.iterdir() if d.is_dir()]
@@ -18,7 +18,7 @@ for colonia_dir in colonias:
     # Extract colonia name from directory
     colonia_slug = colonia_dir.name
 
-    # Convert slug to title (e.g., "las-quintas" -> "Las Quintas")
+    # Convert slug to title (e.g., "centenario" -> "Centenario")
     colonia_name = colonia_slug.replace('-', ' ').title()
 
     # Read file
@@ -34,31 +34,31 @@ for colonia_dir in colonias:
     breadcrumb_schema = f'''        ,
         {{
             "@type": "BreadcrumbList",
-            "@id": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{colonia_slug}/#breadcrumb",
+            "@id": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{colonia_slug}/#breadcrumb",
             "itemListElement": [
                 {{
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Inicio",
-                    "item": "https://plomeroculiacanpro.mx/"
+                    "item": "https://plomerolosmochispro.mx/"
                 }},
                 {{
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Servicios",
-                    "item": "https://plomeroculiacanpro.mx/#servicios"
+                    "item": "https://plomerolosmochispro.mx/#servicios"
                 }},
                 {{
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Colonias Culiacán",
-                    "item": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/"
+                    "name": "Colonias Los Mochis",
+                    "item": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/"
                 }},
                 {{
                     "@type": "ListItem",
                     "position": 4,
                     "name": "Plomero en {colonia_name}",
-                    "item": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{colonia_slug}/"
+                    "item": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{colonia_slug}/"
                 }}
             ]
         }}'''

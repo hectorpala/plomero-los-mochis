@@ -1,6 +1,6 @@
 # Configuración de Claude Code - Plomero Culiacán Pro
 
-**Proyecto**: plomeroculiacanpro.mx
+**Proyecto**: plomerolosmochispro.mx
 **Última actualización**: 12 de Noviembre, 2024
 **Versión**: 1.0
 
@@ -76,7 +76,7 @@ STATUS
 **Output esperado**:
 ```
 - SHORT_SHA: a1b2c3d
-- PROD_URL: https://plomeroculiacanpro.mx/?v=a1b2c3d
+- PROD_URL: https://plomerolosmochispro.mx/?v=a1b2c3d
 - PAGES_STATUS: deployed
 ```
 
@@ -410,7 +410,7 @@ ls -la /opt/homebrew/bin/cwebp
    - Hace merge a main
    - Push a GitHub
    - Verifica deployment
-   - Entrega URL: https://plomeroculiacanpro.mx/?v=abc123d
+   - Entrega URL: https://plomerolosmochispro.mx/?v=abc123d
 4. Listo
 ```
 

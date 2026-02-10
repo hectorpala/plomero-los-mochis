@@ -9,7 +9,7 @@ import glob
 import re
 import json
 
-COLONIAS_DIR = "servicios/plomero-colonias-culiacan"
+COLONIAS_DIR = "servicios/plomero-colonias-los-mochis"
 
 def get_colonia_info(content, slug):
     """Extrae información de la colonia del contenido"""
@@ -19,7 +19,7 @@ def get_colonia_info(content, slug):
 
     # URL canónica
     match = re.search(r'<link rel="canonical" href="([^"]+)"', content)
-    url = match.group(1) if match else f"https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{slug}/"
+    url = match.group(1) if match else f"https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{slug}/"
 
     return nombre, url
 
@@ -29,14 +29,14 @@ def create_local_business_schema(nombre, url, slug):
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": f"{url}#business",
-        "name": f"Plomero Culiacán Pro - {nombre}",
-        "description": f"Servicio profesional de plomería en {nombre}, Culiacán. Reparación de fugas, destape de drenajes, instalación de tinacos y boilers.",
+        "name": f"Plomero Los Mochis Pro - {nombre}",
+        "description": f"Servicio profesional de plomería en {nombre}, Los Mochis. Reparación de fugas, destape de drenajes, instalación de tinacos y boilers.",
         "url": url,
         "telephone": "+52 667 392 2273",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Culiacán",
+            "addressLocality": "Los Mochis",
             "addressRegion": "Sinaloa",
             "addressCountry": "MX",
             "streetAddress": nombre
@@ -61,7 +61,7 @@ def create_local_business_schema(nombre, url, slug):
         },
         "areaServed": {
             "@type": "City",
-            "name": "Culiacán"
+            "name": "Los Mochis"
         }
     }
     return json.dumps(schema, ensure_ascii=False, separators=(',', ':'))

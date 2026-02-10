@@ -1,4 +1,4 @@
-// Main JavaScript - Plomero Culiacán Pro
+// Main JavaScript - Plomero Los Mochis Pro
 // Loaded with defer for optimal performance
 // Last updated: 2025-11-21
 
@@ -797,8 +797,8 @@ if ('serviceWorker' in navigator) {
                         });
               } catch(e) {}
       }
-      if (pathname.includes('/plomero-colonias-culiacan/')) {
-              var colonyMatch = pathname.match(/plomero-colonias-culiacan\/([^\/]+)/);
+      if (pathname.includes('/plomero-colonias-los-mochis/')) {
+              var colonyMatch = pathname.match(/plomero-colonias-los-mochis\/([^\/]+)/);
               var colonyName = colonyMatch ? colonyMatch[1].replace(/-/g, ' ') : 'unknown';
               try {
                         window.dataLayer = window.dataLayer || [];

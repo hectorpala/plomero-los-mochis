@@ -1,7 +1,7 @@
 # 📸 Prompts para Generar Imágenes de Social Proof
 
 **Fecha:** 20 de Noviembre, 2025
-**Proyecto:** Plomero Culiacán Pro - Social Proof Visual
+**Proyecto:** Plomero Los Mochis Pro - Social Proof Visual
 **Total de imágenes:** 10
 
 ---
@@ -27,7 +27,7 @@
 
 **Prompt:**
 ```
-Clean screenshot mockup of Google My Business review interface, 5 gold stars prominently displayed, Spanish language, review text reads "Excelente servicio de emergencia. Llegaron en 30 minutos a media noche por una fuga urgente. Muy profesionales y honestos con el precio. 100% recomendado en Culiacán", profile photo shows generic circular avatar icon, reviewer name "María G.", date "hace 2 semanas", white background, modern Google UI design, sharp text, professional typography, 16:9 aspect ratio, clean interface design, realistic Google review layout
+Clean screenshot mockup of Google My Business review interface, 5 gold stars prominently displayed, Spanish language, review text reads "Excelente servicio de emergencia. Llegaron en 30 minutos a media noche por una fuga urgente. Muy profesionales y honestos con el precio. 100% recomendado en Los Mochis", profile photo shows generic circular avatar icon, reviewer name "María G.", date "hace 2 semanas", white background, modern Google UI design, sharp text, professional typography, 16:9 aspect ratio, clean interface design, realistic Google review layout
 ```
 
 **Generador:** DALL·E 3
@@ -53,7 +53,7 @@ Professional Google My Business review screenshot mockup, 5 yellow stars rating,
 
 **Prompt:**
 ```
-Google review interface screenshot, 5 golden stars prominently shown, Spanish language review text "Instalaron mi tinaco nuevo y arreglaron toda la tubería del baño. Llegaron puntuales, trabajaron rápido y dejaron todo impecable. 15 años de experiencia se nota. Gracias Culiacán Pro", simple circular profile picture placeholder, reviewer name "Laura S.", date "hace 3 días", clean white background, modern Google My Business design, sharp focus, professional web interface, 16:9 aspect ratio, realistic digital mockup
+Google review interface screenshot, 5 golden stars prominently shown, Spanish language review text "Instalaron mi tinaco nuevo y arreglaron toda la tubería del baño. Llegaron puntuales, trabajaron rápido y dejaron todo impecable. 15 años de experiencia se nota. Gracias Los Mochis Pro", simple circular profile picture placeholder, reviewer name "Laura S.", date "hace 3 días", clean white background, modern Google My Business design, sharp focus, professional web interface, 16:9 aspect ratio, realistic digital mockup
 ```
 
 **Generador:** DALL·E 3
@@ -64,11 +64,11 @@ Google review interface screenshot, 5 golden stars prominently shown, Spanish la
 
 ## 👷 CATEGORÍA 2: Fotos del Equipo Técnico (3 imágenes)
 
-### #4: team-plumbers-group-culiacan-1200w.webp
+### #4: team-plumbers-group-los-mochis-1200w.webp
 
 **Prompt:**
 ```
-Three professional Mexican plumbers standing together in front of white service van with tools, Culiacán residential neighborhood background, wearing clean navy blue work uniforms with company logo, holding professional plumbing tools (wrench, pipe cutter, toolbox), friendly confident smiles, natural daylight, photorealistic professional photography, approachable and trustworthy expressions, ages 30-45, well-groomed appearance, van slightly visible behind them, clean professional look, 16:9 aspect ratio, sharp focus, warm Mexican sunlight, authentic team portrait
+Three professional Mexican plumbers standing together in front of white service van with tools, Los Mochis residential neighborhood background, wearing clean navy blue work uniforms with company logo, holding professional plumbing tools (wrench, pipe cutter, toolbox), friendly confident smiles, natural daylight, photorealistic professional photography, approachable and trustworthy expressions, ages 30-45, well-groomed appearance, van slightly visible behind them, clean professional look, 16:9 aspect ratio, sharp focus, warm Mexican sunlight, authentic team portrait
 ```
 
 **Generador:** Midjourney v6 (con `--ar 16:9 --style raw --v 6`)
@@ -81,7 +81,7 @@ Three professional Mexican plumbers standing together in front of white service 
 
 **Prompt:**
 ```
-Professional senior Mexican plumber, age 45-50, standing beside white service van with open side door showing organized tools, Culiacán street context, wearing clean blue work uniform and cap, holding professional toolbox, confident friendly expression, natural afternoon lighting, photorealistic photography style, trustworthy demeanor, 15+ years experience visible in professional posture, modern residential neighborhood background, sharp focus on subject, warm welcoming atmosphere, 16:9 horizontal format, high resolution professional portrait
+Professional senior Mexican plumber, age 45-50, standing beside white service van with open side door showing organized tools, Los Mochis street context, wearing clean blue work uniform and cap, holding professional toolbox, confident friendly expression, natural afternoon lighting, photorealistic photography style, trustworthy demeanor, 15+ years experience visible in professional posture, modern residential neighborhood background, sharp focus on subject, warm welcoming atmosphere, 16:9 horizontal format, high resolution professional portrait
 ```
 
 **Generador:** Midjourney v6 / Leonardo.ai
@@ -94,7 +94,7 @@ Professional senior Mexican plumber, age 45-50, standing beside white service va
 
 **Prompt:**
 ```
-Professional Mexican plumber in clean work shop, organizing tools on pegboard wall, well-lit garage workshop setting, wearing navy blue uniform, variety of professional plumbing tools visible (wrenches, pipe cutters, torch, threading tools), natural workshop lighting from windows, photorealistic style, organized and clean workspace, professional demeanor, focused on tools, Culiacán small business atmosphere, warm industrial lighting, 16:9 aspect ratio, sharp detail, authentic Mexican workshop environment, trustworthy professional image
+Professional Mexican plumber in clean work shop, organizing tools on pegboard wall, well-lit garage workshop setting, wearing navy blue uniform, variety of professional plumbing tools visible (wrenches, pipe cutters, torch, threading tools), natural workshop lighting from windows, photorealistic style, organized and clean workspace, professional demeanor, focused on tools, Los Mochis small business atmosphere, warm industrial lighting, 16:9 aspect ratio, sharp detail, authentic Mexican workshop environment, trustworthy professional image
 ```
 
 **Generador:** Stable Diffusion XL / Leonardo.ai
@@ -109,7 +109,7 @@ Professional Mexican plumber in clean work shop, organizing tools on pegboard wa
 
 **Prompt:**
 ```
-Split screen before and after comparison, LEFT SIDE: damaged corroded leaking copper pipe under sink with water dripping, dark wet stains, rusty connections, poor condition; RIGHT SIDE: same location with new shiny copper pipe professionally installed, clean dry area, perfect soldering joints, organized plumbing work, Mexican home context, natural lighting, photorealistic photography, dramatic transformation, 16:9 aspect ratio, clear comparison, professional plumbing repair quality, sharp focus on both sides, authentic home environment Culiacán
+Split screen before and after comparison, LEFT SIDE: damaged corroded leaking copper pipe under sink with water dripping, dark wet stains, rusty connections, poor condition; RIGHT SIDE: same location with new shiny copper pipe professionally installed, clean dry area, perfect soldering joints, organized plumbing work, Mexican home context, natural lighting, photorealistic photography, dramatic transformation, 16:9 aspect ratio, clear comparison, professional plumbing repair quality, sharp focus on both sides, authentic home environment Los Mochis
 ```
 
 **Generador:** DALL·E 3 / Midjourney v6
@@ -135,7 +135,7 @@ Before and after split comparison image, LEFT: old cracked stained toilet in dat
 
 **Prompt:**
 ```
-Dramatic before after comparison split screen, LEFT SIDE: clogged bathroom sink with standing dirty water, slow drain, visible grime around drain opening, soap scum buildup; RIGHT SIDE: same sink with crystal clear flowing water draining perfectly, sparkling clean drain, professional cleaning visible, Mexican home bathroom context, natural lighting, photorealistic photography, clear water flow visible on after side, 16:9 aspect ratio, sharp detailed comparison, professional drain cleaning results, authentic home setting Culiacán
+Dramatic before after comparison split screen, LEFT SIDE: clogged bathroom sink with standing dirty water, slow drain, visible grime around drain opening, soap scum buildup; RIGHT SIDE: same sink with crystal clear flowing water draining perfectly, sparkling clean drain, professional cleaning visible, Mexican home bathroom context, natural lighting, photorealistic photography, clear water flow visible on after side, 16:9 aspect ratio, sharp detailed comparison, professional drain cleaning results, authentic home setting Los Mochis
 ```
 
 **Generador:** Midjourney v6 / Stable Diffusion XL
@@ -148,7 +148,7 @@ Dramatic before after comparison split screen, LEFT SIDE: clogged bathroom sink 
 
 **Prompt:**
 ```
-Before and after side by side comparison, LEFT: old rusty corroded water heater with visible damage, oxidation, poor condition, dated Mexican home utility room; RIGHT: brand new modern gas water heater professionally installed, clean silver finish, proper ventilation pipe, organized installation, same wall location, natural lighting from utility room window, photorealistic professional photography, dramatic upgrade transformation, 16:9 horizontal format, sharp focus on both units, professional installation quality, authentic Mexican home context Culiacán, trustworthy workmanship visible
+Before and after side by side comparison, LEFT: old rusty corroded water heater with visible damage, oxidation, poor condition, dated Mexican home utility room; RIGHT: brand new modern gas water heater professionally installed, clean silver finish, proper ventilation pipe, organized installation, same wall location, natural lighting from utility room window, photorealistic professional photography, dramatic upgrade transformation, 16:9 horizontal format, sharp focus on both units, professional installation quality, authentic Mexican home context Los Mochis, trustworthy workmanship visible
 ```
 
 **Generador:** DALL·E 3 / Leonardo.ai
@@ -186,7 +186,7 @@ cwebp -resize 800 800 -q 85 imagen-original.jpg -o nombre-archivo-800w.webp
   │   ├── google-review-leak-repair-1200w.webp
   │   └── google-review-installation-1200w.webp
   ├── team/
-  │   ├── team-plumbers-group-culiacan-1200w.webp
+  │   ├── team-plumbers-group-los-mochis-1200w.webp
   │   ├── senior-plumber-service-van-1200w.webp
   │   └── plumber-workshop-tools-1200w.webp
   └── before-after/
@@ -201,7 +201,7 @@ cwebp -resize 800 800 -q 85 imagen-original.jpg -o nombre-archivo-800w.webp
 <!-- Reemplazar placeholders en index.html -->
 <!-- Ejemplo: -->
 <img src="/assets/images/social-proof/reviews/google-review-emergency-service-1200w.webp"
-     alt="Reseña 5 estrellas Google - Servicio de Emergencia Culiacán"
+     alt="Reseña 5 estrellas Google - Servicio de Emergencia Los Mochis"
      loading="lazy"
      class="google-review-image">
 ```
@@ -221,7 +221,7 @@ Antes de publicar, verifica:
 - [ ] **Sin watermarks:** Imágenes limpias sin marcas de agua
 - [ ] **Texto legible:** En screenshots de Google Reviews
 - [ ] **Realismo:** Fotos profesionales pero auténticas
-- [ ] **Contexto local:** Ambiente mexicano/Culiacán visible
+- [ ] **Contexto local:** Ambiente mexicano/Los Mochis visible
 
 ---
 

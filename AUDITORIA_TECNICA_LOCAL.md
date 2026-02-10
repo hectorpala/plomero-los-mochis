@@ -1,5 +1,5 @@
 # 🔬 Auditoría Técnica Local - Análisis de Código Fuente
-**Complemento a:** AUDITORIA_SEO_PLOMERO_CULIACAN_2025.md
+**Complemento a:** AUDITORIA_SEO_PLOMERO_LOS MOCHIS_2025.md
 **Fecha:** 19 de Noviembre, 2025
 **Método:** Análisis directo de archivos locales
 
@@ -84,22 +84,22 @@ El sitio tiene **excelente implementación de web fonts**:
 8. ✅ `/servicios/plomero-cerca-de-mi/`
 9. ✅ `/servicios/plomero-a-domicilio/`
 10. ✅ `/servicios/plomero-precios/`
-11. ✅ `/servicios/plomero-colonias-culiacan/`
+11. ✅ `/servicios/plomero-colonias-los-mochis/`
 
 ### ⚠️ Hallazgo Crítico: Páginas de Colonias Faltantes
 
-**Problema:** El sitemap.xml lista **35 colonias**, pero NO existen archivos HTML físicos en `/servicios/colonias-culiacan/`
+**Problema:** El sitemap.xml lista **35 colonias**, pero NO existen archivos HTML físicos en `/servicios/colonias-los-mochis/`
 
 **Evidencia:**
 ```bash
-$ find servicios/colonias-culiacan -name "*.html"
+$ find servicios/colonias-los-mochis -name "*.html"
 # Resultado: 0 archivos encontrados
 ```
 
 **URLs en sitemap que NO existen físicamente:**
-- `/servicios/plomero-las-quintas/`
-- `/servicios/plomero-tres-rios/`
-- `/servicios/plomero-centro-culiacan/`
+- `/servicios/plomero-centenario/`
+- `/servicios/plomero-las-fuentes/`
+- `/servicios/plomero-centro-los-mochis/`
 - ... (32 más)
 
 **Impacto SEO:**
@@ -110,7 +110,7 @@ $ find servicios/colonias-culiacan -name "*.html"
 **Solución Urgente:**
 1. **Opción A (Recomendada):** Eliminar las 35 URLs de colonias del sitemap hasta crear el contenido
 2. **Opción B:** Crear rápidamente landing pages minimalistas para cada colonia
-3. **Opción C:** Implementar redirect 301 de todas las colonias a `/servicios/plomero-colonias-culiacan/`
+3. **Opción C:** Implementar redirect 301 de todas las colonias a `/servicios/plomero-colonias-los-mochis/`
 
 ---
 
@@ -152,9 +152,9 @@ assets/images/
 Basado en análisis previo con WebFetch y datos del sitemap:
 
 #### ✅ Artículos con Enfoque Híbrido Completo (4/13)
-1. `cuanto-cuesta-cambiar-taza-bano-culiacan/` - Hero + Benefits + Testimonios + Form
-2. `cuanto-cobra-plomero-visita-culiacan/` - Estructura completa
-3. `como-identificar-buen-plomero-culiacan/` - Optimización full
+1. `cuanto-cuesta-cambiar-taza-bano-los-mochis/` - Hero + Benefits + Testimonios + Form
+2. `cuanto-cobra-plomero-visita-los-mochis/` - Estructura completa
+3. `como-identificar-buen-plomero-los-mochis/` - Optimización full
 4. `drenaje-tapado-senales-prevencion/` - Última actualización 2025-11-18
 
 **Características:**
@@ -166,15 +166,15 @@ Basado en análisis previo con WebFetch y datos del sitemap:
 - Service + HomeAndConstructionBusiness schemas
 
 #### ⚠️ Artículos Estándar sin Optimización (9/13)
-5. `marcha-paz-culiacan-2025/` - ⚠️ Contenido no relacionado
+5. `marcha-paz-los-mochis-2025/` - ⚠️ Contenido no relacionado
 6. `baja-presion-agua-causas-soluciones/`
 7. `como-detectar-fugas-agua-casa/`
 8. `mantenimiento-boiler-noritz-checklist/`
 9. `cuando-llamar-plomero-profesional/`
 10. `desatascar-wc-metodos-profesionales/`
 11. `instalacion-tinaco-guia-compra/`
-12. `problemas-comunes-plomeria-culiacan/`
-13. `cuanto-cuesta-plomeria-bano-completo-culiacan/`
+12. `problemas-comunes-plomeria-los-mochis/`
+13. `cuanto-cuesta-plomeria-bano-completo-los-mochis/`
 
 **Faltante en estos 9:**
 - Hero sections con CTA principal
@@ -220,7 +220,7 @@ Basado en análisis previo con WebFetch y datos del sitemap:
 ```bash
 # Eliminar URLs de colonias del sitemap
 # O crear estructura de carpetas:
-mkdir -p servicios/colonias-culiacan/{las-quintas,tres-rios,centro}
+mkdir -p servicios/colonias-los-mochis/{centenario,las-fuentes,centro}
 ```
 
 **Template mínimo para colonia:**
@@ -228,9 +228,9 @@ mkdir -p servicios/colonias-culiacan/{las-quintas,tres-rios,centro}
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-    <title>Plomero en [Colonia] Culiacán 24/7 | Llegada 30-60 min</title>
-    <meta name="description" content="Plomero certificado en [Colonia], Culiacán. Servicio 24/7, garantía escrita. WhatsApp inmediato, factura disponible.">
-    <link rel="canonical" href="https://plomeroculiacanpro.mx/servicios/plomero-[colonia]/">
+    <title>Plomero en [Colonia] Los Mochis 24/7 | Llegada 30-60 min</title>
+    <meta name="description" content="Plomero certificado en [Colonia], Los Mochis. Servicio 24/7, garantía escrita. WhatsApp inmediato, factura disponible.">
+    <link rel="canonical" href="https://plomerolosmochispro.mx/servicios/plomero-[colonia]/">
 </head>
 <!-- Incluir header, schema LocalBusiness, mapa, testimonios locales, CTA -->
 ```
@@ -275,8 +275,8 @@ articulos.forEach(slug => {
 cd assets/images
 ls *.webp | while read img; do
   echo "<image:image>"
-  echo "  <image:loc>https://plomeroculiacanpro.mx/assets/images/$img</image:loc>"
-  echo "  <image:caption>Plomería profesional Culiacán</image:caption>"
+  echo "  <image:loc>https://plomerolosmochispro.mx/assets/images/$img</image:loc>"
+  echo "  <image:caption>Plomería profesional Los Mochis</image:caption>"
   echo "</image:image>"
 done > ../../sitemaps/images_sitemap.xml
 ```
@@ -369,8 +369,8 @@ npx cssnano styles.css styles.min.css
 ## 🔗 Archivos de Referencia
 
 **Para copiar estructura optimizada:**
-- `/blog/cuanto-cuesta-cambiar-taza-bano-culiacan/index.html` (líneas 189-826)
-- `/blog/como-identificar-buen-plomero-culiacan/index.html` (mismo patrón)
+- `/blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/index.html` (líneas 189-826)
+- `/blog/como-identificar-buen-plomero-los-mochis/index.html` (mismo patrón)
 
 **CSS compartido:**
 - `/styles.css` (variables globales líneas 42-74)

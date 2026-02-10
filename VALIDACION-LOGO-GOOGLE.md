@@ -1,8 +1,8 @@
 # 🎯 Guía de Validación: Logo en Google Search
 
 **Fecha de implementación:** 2025-11-25
-**Sitio:** https://plomeroculiacanpro.mx
-**Logo principal:** https://plomeroculiacanpro.mx/assets/images/logo-512.png
+**Sitio:** https://plomerolosmochispro.mx
+**Logo principal:** https://plomerolosmochispro.mx/assets/images/logo-512.png
 
 ---
 
@@ -50,7 +50,7 @@
 
 1. Abre https://validator.schema.org/
 2. Selecciona "Fetch URL"
-3. Pega: `https://plomeroculiacanpro.mx`
+3. Pega: `https://plomerolosmochispro.mx`
 4. Haz clic en "RUN TEST"
 
 **Resultado esperado:**
@@ -59,10 +59,10 @@
   "@type": "WebSite",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.png",
+    "url": "https://plomerolosmochispro.mx/assets/images/logo-512.png",
     "width": 512,
     "height": 195,
-    "contentUrl": "https://plomeroculiacanpro.mx/assets/images/logo-512.png"
+    "contentUrl": "https://plomerolosmochispro.mx/assets/images/logo-512.png"
   }
 }
 ```
@@ -77,7 +77,7 @@
 **URL:** https://search.google.com/test/rich-results
 
 1. Abre https://search.google.com/test/rich-results
-2. Pega URL: `https://plomeroculiacanpro.mx`
+2. Pega URL: `https://plomerolosmochispro.mx`
 3. Haz clic en "TEST URL"
 4. Espera 10-30 segundos
 5. Verifica que detecte:
@@ -98,14 +98,14 @@
 **Prueba manual:**
 
 1. Abre navegador en modo incógnito
-2. Ve a: https://plomeroculiacanpro.mx/assets/images/logo-512.png
+2. Ve a: https://plomerolosmochispro.mx/assets/images/logo-512.png
 3. El logo debe cargarse correctamente
 4. Verifica que sea PNG (no WebP)
 5. Dimensiones visibles: 512x195px
 
 **Prueba con curl:**
 ```bash
-curl -I https://plomeroculiacanpro.mx/assets/images/logo-512.png
+curl -I https://plomerolosmochispro.mx/assets/images/logo-512.png
 ```
 
 **Resultado esperado:**
@@ -137,12 +137,12 @@ content-length: ~39000
 ### Semana 2-4 (2025-12-09 a 2025-12-23)
 **Qué sucede:**
 - Logo comienza a aparecer en Knowledge Panel
-- Puede aparecer en búsquedas de marca ("plomero culiacán pro")
+- Puede aparecer en búsquedas de marca ("plomero Los Mochis pro")
 - Google valida el logo contra directrices
 
 **Qué verificar:**
-1. Buscar en Google: `plomero culiacán pro`
-2. Buscar en Google: `site:plomeroculiacanpro.mx`
+1. Buscar en Google: `plomero Los Mochis pro`
+2. Buscar en Google: `site:plomerolosmochispro.mx`
 3. Verificar si aparece logo en resultados
 
 ---
@@ -169,12 +169,12 @@ content-length: ~39000
 
 **Qué monitorear:**
 - **Coverage:** Verifica que index.html esté indexado
-- **URL Inspection:** Inspecciona https://plomeroculiacanpro.mx
+- **URL Inspection:** Inspecciona https://plomerolosmochispro.mx
 - **Fecha de último crawl:** Debe ser después del 2025-11-25
 
 **Cómo solicitar re-indexación:**
 1. Ve a URL Inspection
-2. Pega: `https://plomeroculiacanpro.mx`
+2. Pega: `https://plomerolosmochispro.mx`
 3. Haz clic en "REQUEST INDEXING"
 4. Espera 1-2 días
 
@@ -195,7 +195,7 @@ content-length: ~39000
 **URL:** https://pagespeed.web.dev
 
 **Verifica:**
-1. Pega: `https://plomeroculiacanpro.mx`
+1. Pega: `https://plomerolosmochispro.mx`
 2. Ejecuta análisis
 3. Verifica que logo-512.webp se cargue correctamente
 4. Tiempo de carga del logo debe ser < 100ms
@@ -207,7 +207,7 @@ content-length: ~39000
 ### Archivo Principal (Google Schema)
 ```
 Ruta: /assets/images/logo-512.png
-URL: https://plomeroculiacanpro.mx/assets/images/logo-512.png
+URL: https://plomerolosmochispro.mx/assets/images/logo-512.png
 Formato: PNG
 Dimensiones: 512 x 195 px
 Tamaño: 39 KB
@@ -218,7 +218,7 @@ Transparencia: Sí (canal alpha preservado)
 ### Archivo Web (Display)
 ```
 Ruta: /assets/images/logo-512.webp
-URL: https://plomeroculiacanpro.mx/assets/images/logo-512.webp
+URL: https://plomerolosmochispro.mx/assets/images/logo-512.webp
 Formato: WebP
 Dimensiones: 512 x 195 px
 Tamaño: 16 KB
@@ -236,10 +236,10 @@ Compresión: 59% vs PNG
   "@type": "WebSite",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://plomeroculiacanpro.mx/assets/images/logo-512.png",
+    "url": "https://plomerolosmochispro.mx/assets/images/logo-512.png",
     "width": 512,
     "height": 195,
-    "contentUrl": "https://plomeroculiacanpro.mx/assets/images/logo-512.png"
+    "contentUrl": "https://plomerolosmochispro.mx/assets/images/logo-512.png"
   }
 }
 ```
@@ -248,7 +248,7 @@ Compresión: 59% vs PNG
 ```html
 <a href="#inicio" class="logo">
   <img src="/assets/images/logo-512.webp"
-       alt="Plomero Culiacán Pro - Logo"
+       alt="Plomero Los Mochis Pro - Logo"
        width="512"
        height="195">
 </a>
@@ -366,11 +366,11 @@ Compresión: 59% vs PNG
 
 1. **Validar schema:** https://validator.schema.org/
 2. **Rich Results Test:** https://search.google.com/test/rich-results
-3. **Verificar logo público:** https://plomeroculiacanpro.mx/assets/images/logo-512.png
+3. **Verificar logo público:** https://plomerolosmochispro.mx/assets/images/logo-512.png
 4. **Solicitar indexación:** Google Search Console
 
 **Tiempo estimado:** 10-15 minutos
 
 ---
 
-**🎯 OBJETIVO:** Logo de Plomero Culiacán Pro visible en Google Search en 2-4 semanas
+**🎯 OBJETIVO:** Logo de Plomero Los Mochis Pro visible en Google Search en 2-4 semanas

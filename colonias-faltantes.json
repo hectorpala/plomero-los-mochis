@@ -26,8 +26,8 @@
       "tipo": "Colonia"
     },
     {
-      "nombre": "Los Sabinos Tres Ríos",
-      "slug": "los-sabinos-tres-rios",
+      "nombre": "Los Sabinos Las Fuentes",
+      "slug": "los-sabinos-las-fuentes",
       "cp": "80010",
       "tipo": "Colonia"
     },
@@ -560,8 +560,8 @@
       "tipo": "Colonia"
     },
     {
-      "nombre": "Lago Tres Ríos",
-      "slug": "lago-tres-rios",
+      "nombre": "Lago Las Fuentes",
+      "slug": "lago-las-fuentes",
       "cp": "80027",
       "tipo": "Fraccionamiento"
     },
@@ -662,14 +662,14 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Villas de Culiacán",
-      "slug": "villas-de-culiacan",
+      "nombre": "Villas de Los Mochis",
+      "slug": "villas-de-los-mochis",
       "cp": "80028",
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Campestre Tres Ríos",
-      "slug": "campestre-tres-rios",
+      "nombre": "Campestre Las Fuentes",
+      "slug": "campestre-las-fuentes",
       "cp": "80028",
       "tipo": "Fraccionamiento"
     },
@@ -860,8 +860,8 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Chapultepec Del Rio",
-      "slug": "chapultepec-del-rio",
+      "nombre": "Jiquilpan Del Rio",
+      "slug": "jiquilpan-del-rio",
       "cp": "80040",
       "tipo": "Fraccionamiento"
     },
@@ -890,8 +890,8 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Real de Chapultepec",
-      "slug": "real-de-chapultepec",
+      "nombre": "Real de Jiquilpan",
+      "slug": "real-de-jiquilpan",
       "cp": "80040",
       "tipo": "Fraccionamiento"
     },
@@ -920,8 +920,8 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Culiacán Tres Ríos",
-      "slug": "culiacan-tres-rios",
+      "nombre": "Los Mochis Las Fuentes",
+      "slug": "los-mochis-las-fuentes",
       "cp": "80050",
       "tipo": "Fraccionamiento"
     },
@@ -1323,7 +1323,7 @@
     },
     {
       "nombre": "Colinas de la Campiña",
-      "slug": "colinas-de-la-campina",
+      "slug": "colinas-de-scally",
       "cp": "80064",
       "tipo": "Fraccionamiento"
     },
@@ -1412,8 +1412,8 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Jardines Tres Ríos",
-      "slug": "jardines-tres-rios",
+      "nombre": "Jardines Las Fuentes",
+      "slug": "jardines-las-fuentes",
       "cp": "80100",
       "tipo": "Fraccionamiento"
     },
@@ -1520,8 +1520,8 @@
       "tipo": "Fraccionamiento"
     },
     {
-      "nombre": "Floresta Tres Ríos",
-      "slug": "floresta-tres-rios",
+      "nombre": "Floresta Las Fuentes",
+      "slug": "floresta-las-fuentes",
       "cp": "80104",
       "tipo": "Fraccionamiento"
     },
@@ -2426,8 +2426,8 @@
       "tipo": "Colonia"
     },
     {
-      "nombre": "Montebello Sección Dalí",
-      "slug": "montebello-seccion-dali",
+      "nombre": "Insurgentes Sección Dalí",
+      "slug": "insurgentes-seccion-dali",
       "cp": "80227",
       "tipo": "Fraccionamiento"
     },

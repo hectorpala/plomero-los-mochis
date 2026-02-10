@@ -12,29 +12,29 @@ import re
 import json
 from pathlib import Path
 
-# Coordenadas GPS reales de colonias principales en Culiacán, Sinaloa
+# Coordenadas GPS reales de colonias principales en Los Mochis, Sinaloa
 COLONIAS_GPS = {
-    "tres-rios": {"lat": 24.8039, "lng": -107.4394, "street": "Blvd. Tres Ríos"},
+    "las-fuentes": {"lat": 24.8039, "lng": -107.4394, "street": "Blvd. Las Fuentes"},
     "centro": {"lat": 24.8093, "lng": -107.3940, "street": "Av. Álvaro Obregón"},
-    "montebello": {"lat": 24.7890, "lng": -107.4100, "street": "Blvd. Enrique Sánchez Alonso"},
+    "insurgentes": {"lat": 24.7890, "lng": -107.4100, "street": "Blvd. Enrique Sánchez Alonso"},
     "guadalupe": {"lat": 24.7650, "lng": -107.4200, "street": "Av. Insurgentes"},
-    "chapultepec": {"lat": 24.7950, "lng": -107.3850, "street": "Blvd. Francisco I. Madero"},
+    "jiquilpan": {"lat": 24.7950, "lng": -107.3850, "street": "Blvd. Francisco I. Madero"},
     "isla-del-oeste": {"lat": 24.7750, "lng": -107.4450, "street": "Av. Isla del Oeste"},
-    "country-tres-rios": {"lat": 24.8100, "lng": -107.4500, "street": "Blvd. Country Club"},
+    "country-las-fuentes": {"lat": 24.8100, "lng": -107.4500, "street": "Blvd. Country Club"},
     "hacienda-los-huertos": {"lat": 24.7700, "lng": -107.3700, "street": "Blvd. Hacienda Los Huertos"},
     "real-del-valle": {"lat": 24.7600, "lng": -107.3600, "street": "Av. Real del Valle"},
     "zona-dorada": {"lat": 24.8150, "lng": -107.3750, "street": "Av. Gabriel Leyva"},
     "campestre": {"lat": 24.7800, "lng": -107.3950, "street": "Blvd. Campestre"},
     "santa-fe": {"lat": 24.7500, "lng": -107.4300, "street": "Av. Santa Fe"},
     "las-palmas": {"lat": 24.7450, "lng": -107.4150, "street": "Av. Las Palmas"},
-    "nuevo-culiacan": {"lat": 24.7900, "lng": -107.4250, "street": "Av. Nuevo Culiacán"},
+    "nuevo-los-mochis": {"lat": 24.7900, "lng": -107.4250, "street": "Av. Nuevo Los Mochis"},
     "infonavit-humaya": {"lat": 24.8300, "lng": -107.4100, "street": "Blvd. Emiliano Zapata"},
     "bachigualato": {"lat": 24.8450, "lng": -107.4300, "street": "Carretera a Bachigualato"},
     "lomas-del-boulevard": {"lat": 24.7850, "lng": -107.4350, "street": "Blvd. Las Torres"},
     "villa-universidad": {"lat": 24.8000, "lng": -107.4150, "street": "Blvd. Universitarios"},
     "colinas-de-san-miguel": {"lat": 24.7550, "lng": -107.3900, "street": "Av. Colinas de San Miguel"},
     "altamira": {"lat": 24.7400, "lng": -107.4000, "street": "Av. Altamira"},
-    "cumbres-tres-rios": {"lat": 24.8050, "lng": -107.4550, "street": "Blvd. Cumbres"},
+    "cumbres-las-fuentes": {"lat": 24.8050, "lng": -107.4550, "street": "Blvd. Cumbres"},
     "bosques-del-humaya": {"lat": 24.8200, "lng": -107.4600, "street": "Av. Bosques del Humaya"},
     "hacienda-del-valle": {"lat": 24.7650, "lng": -107.3550, "street": "Blvd. Hacienda del Valle"},
     "portales-del-rio": {"lat": 24.7750, "lng": -107.4350, "street": "Av. Portales del Río"},
@@ -52,7 +52,7 @@ def get_colonia_name_formatted(slug):
 def create_complete_schema_graph(colonia_slug, colonia_gps):
     """Crea el @graph completo con todos los schemas necesarios."""
     colonia_name = get_colonia_name_formatted(colonia_slug)
-    url = f"https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{colonia_slug}/"
+    url = f"https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{colonia_slug}/"
 
     graph = {
         "@context": "https://schema.org",
@@ -60,20 +60,20 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
             # 1. WebSite
             {
                 "@type": "WebSite",
-                "name": "Plomero Culiacán Pro",
-                "url": "https://plomeroculiacanpro.mx/",
-                "logo": "https://plomeroculiacanpro.mx/assets/icons/logo-blue.svg"
+                "name": "Plomero Los Mochis Pro",
+                "url": "https://plomerolosmochispro.mx/",
+                "logo": "https://plomerolosmochispro.mx/assets/icons/logo-blue.svg"
             },
             # 2. HomeAndConstructionBusiness
             {
                 "@type": "HomeAndConstructionBusiness",
-                "@id": f"https://plomeroculiacanpro.mx/#business-{colonia_slug}",
-                "name": f"Plomero Culiacán Pro - {colonia_name}",
+                "@id": f"https://plomerolosmochispro.mx/#business-{colonia_slug}",
+                "name": f"Plomero Los Mochis Pro - {colonia_name}",
                 "url": url,
                 "telephone": "+52 667 392 2273",
                 "address": {
                     "@type": "PostalAddress",
-                    "addressLocality": "Culiacán",
+                    "addressLocality": "Los Mochis",
                     "addressRegion": "Sinaloa",
                     "addressCountry": "MX"
                 },
@@ -88,7 +88,7 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                     "name": colonia_name,
                     "containedInPlace": {
                         "@type": "City",
-                        "name": "Culiacán",
+                        "name": "Los Mochis",
                         "containedInPlace": {
                             "@type": "State",
                             "name": "Sinaloa"
@@ -103,17 +103,17 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                     "bestRating": "5",
                     "worstRating": "1"
                 },
-                "logo": "https://plomeroculiacanpro.mx/assets/icons/logo-blue.svg"
+                "logo": "https://plomerolosmochispro.mx/assets/icons/logo-blue.svg"
             },
             # 3. Service
             {
                 "@type": "Service",
-                "@id": f"https://plomeroculiacanpro.mx/#service-plomeria-{colonia_slug}",
+                "@id": f"https://plomerolosmochispro.mx/#service-plomeria-{colonia_slug}",
                 "serviceType": f"Plomería Residencial en {colonia_name}",
-                "name": f"Plomero Certificado en {colonia_name} Culiacán",
-                "description": f"Servicio profesional de plomería en {colonia_name}, Culiacán. Reparación de fugas, destape de drenajes, instalación de sanitarios, mantenimiento de boiler. Atención 24/7 con llegada rápida.",
+                "name": f"Plomero Certificado en {colonia_name} Los Mochis",
+                "description": f"Servicio profesional de plomería en {colonia_name}, Los Mochis. Reparación de fugas, destape de drenajes, instalación de sanitarios, mantenimiento de boiler. Atención 24/7 con llegada rápida.",
                 "provider": {
-                    "@id": f"https://plomeroculiacanpro.mx/#business-{colonia_slug}"
+                    "@id": f"https://plomerolosmochispro.mx/#business-{colonia_slug}"
                 },
                 "areaServed": {
                     "@type": "Place",
@@ -121,7 +121,7 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                 },
                 "image": {
                     "@type": "ImageObject",
-                    "url": "https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp",
+                    "url": "https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp",
                     "width": 800,
                     "height": 800
                 }
@@ -129,12 +129,12 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
             # 4. LocalBusiness (con GPS)
             {
                 "@type": "LocalBusiness",
-                "@id": f"https://plomeroculiacanpro.mx/#localbusiness-{colonia_slug}",
-                "name": f"Plomero Culiacán Pro - {colonia_name}",
-                "description": f"Servicio profesional de plomería en {colonia_name}, Culiacán. Atención 24/7 con llegada rápida.",
+                "@id": f"https://plomerolosmochispro.mx/#localbusiness-{colonia_slug}",
+                "name": f"Plomero Los Mochis Pro - {colonia_name}",
+                "description": f"Servicio profesional de plomería en {colonia_name}, Los Mochis. Atención 24/7 con llegada rápida.",
                 "url": url,
                 "telephone": "+526673922273",
-                "email": "contacto@plomeroculiacanpro.mx",
+                "email": "contacto@plomerolosmochispro.mx",
                 "address": {
                     "@type": "PostalAddress",
                     "streetAddress": colonia_gps["street"],
@@ -163,7 +163,7 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                     "closes": "23:59"
                 },
                 "sameAs": [
-                    "https://www.facebook.com/plomeroCuliacanPro",
+                    "https://www.facebook.com/plomeroLos MochisPro",
                     "https://wa.me/526673922273"
                 ],
                 "areaServed": {
@@ -171,7 +171,7 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                     "name": colonia_name,
                     "containedInPlace": {
                         "@type": "City",
-                        "name": "Culiacán",
+                        "name": "Los Mochis",
                         "containedInPlace": {
                             "@type": "State",
                             "name": "Sinaloa"
@@ -188,19 +188,19 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Inicio",
-                        "item": "https://plomeroculiacanpro.mx/"
+                        "item": "https://plomerolosmochispro.mx/"
                     },
                     {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "Servicios",
-                        "item": "https://plomeroculiacanpro.mx/#servicios"
+                        "item": "https://plomerolosmochispro.mx/#servicios"
                     },
                     {
                         "@type": "ListItem",
                         "position": 3,
-                        "name": "Colonias Culiacán",
-                        "item": "https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/"
+                        "name": "Colonias Los Mochis",
+                        "item": "https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/"
                     },
                     {
                         "@type": "ListItem",
@@ -217,7 +217,7 @@ def create_complete_schema_graph(colonia_slug, colonia_gps):
 
 def add_schemas_to_page(colonia_slug, colonia_gps):
     """Agrega @graph completo con todos los schemas a una página de colonia."""
-    index_file = Path(f"servicios/plomero-colonias-culiacan/{colonia_slug}/index.html")
+    index_file = Path(f"servicios/plomero-colonias-los-mochis/{colonia_slug}/index.html")
 
     if not index_file.exists():
         print(f"✗ {colonia_slug} - Archivo no encontrado")
@@ -276,7 +276,7 @@ def main():
             added_count += 1
         elif result is False:
             # Verificar si ya existía
-            index_file = Path(f"servicios/plomero-colonias-culiacan/{colonia_slug}/index.html")
+            index_file = Path(f"servicios/plomero-colonias-los-mochis/{colonia_slug}/index.html")
             if index_file.exists():
                 with open(index_file, 'r', encoding='utf-8') as f:
                     if '<script type="application/ld+json">' in f.read():

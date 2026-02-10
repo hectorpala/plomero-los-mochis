@@ -1,8 +1,8 @@
-# 🔍 Auditoría SEO Integral - Plomero Culiacán Pro
-**Sitio:** https://plomeroculiacanpro.mx/
+# 🔍 Auditoría SEO Integral - Plomero Los Mochis Pro
+**Sitio:** https://plomerolosmochispro.mx/
 **Fecha de auditoría:** 19 de Noviembre, 2025
 **Consultor:** Análisis SEO Senior
-**Sector:** Servicios de Plomería - Culiacán, Sinaloa
+**Sector:** Servicios de Plomería - Los Mochis, Sinaloa
 
 ---
 
@@ -26,18 +26,18 @@
 ### 🔴 ALTA SEVERIDAD (Resolver en < 1 semana)
 
 #### 1. **Imágenes faltantes en artículos del blog**
-- **Evidencia:** Artículos como `/blog/cuanto-cuesta-cambiar-taza-bano-culiacan/` no contienen imágenes
+- **Evidencia:** Artículos como `/blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/` no contienen imágenes
 - **Impacto:** Reduce engagement, tiempo en página y compartibilidad en redes sociales
 - **URLs afectadas:**
-  - `/blog/cuanto-cuesta-cambiar-taza-bano-culiacan/`
-  - `/blog/cuanto-cobra-plomero-visita-culiacan/`
-  - `/blog/como-identificar-buen-plomero-culiacan/`
+  - `/blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/`
+  - `/blog/cuanto-cobra-plomero-visita-los-mochis/`
+  - `/blog/como-identificar-buen-plomero-los-mochis/`
   - `/blog/drenaje-tapado-senales-prevencion/`
 - **Recomendación:** Agregar 3-5 imágenes WebP optimizadas por artículo con:
   - Alt text descriptivo con keyword local
   - Tamaños responsive (420w, 800w, 1200w)
   - Lazy loading excepto primera imagen
-  - Nombres de archivo descriptivos: `cambio-taza-bano-culiacan-proceso.webp`
+  - Nombres de archivo descriptivos: `cambio-taza-bano-los-mochis-proceso.webp`
 - **Responsable:** Editor de contenido / Diseñador
 - **Herramientas:** TinyPNG, Squoosh, Canva
 - **Métrica GA4:** Incremento en tiempo promedio en página (objetivo: +30%)
@@ -45,10 +45,10 @@
 #### 2. **Meta description faltante en página /blog/**
 - **Evidencia:** Índice del blog carece de meta description explícita
 - **Impacto:** CTR reducido en SERPs, menos control sobre snippet mostrado
-- **URL:** `https://plomeroculiacanpro.mx/blog/`
+- **URL:** `https://plomerolosmochispro.mx/blog/`
 - **Recomendación:** Implementar meta description de 150-155 caracteres:
   ```html
-  <meta name="description" content="Blog de plomería en Culiacán: guías profesionales, costos actualizados 2025, consejos de mantenimiento y solución de problemas. Información verificada por expertos con +5 años de experiencia.">
+  <meta name="description" content="Blog de plomería en Los Mochis: guías profesionales, costos actualizados 2025, consejos de mantenimiento y solución de problemas. Información verificada por expertos con +5 años de experiencia.">
   ```
 - **Responsable:** Desarrollador web
 - **Herramienta:** Yoast SEO Snippet Preview
@@ -60,7 +60,7 @@
 - **URLs afectadas:** Todos los 13 artículos del blog
 - **Recomendación:** Añadir canonical en `<head>` de cada artículo:
   ```html
-  <link rel="canonical" href="https://plomeroculiacanpro.mx/blog/[slug-articulo]/">
+  <link rel="canonical" href="https://plomerolosmochispro.mx/blog/[slug-articulo]/">
   ```
 - **Responsable:** Desarrollador web
 - **Herramienta:** Screaming Frog SEO Spider
@@ -69,13 +69,13 @@
 #### 4. **H1 faltante en página /blog/**
 - **Evidencia:** Página índice del blog carece de H1 optimizado
 - **Impacto:** Señal débil para motores de búsqueda sobre tema principal
-- **URL:** `https://plomeroculiacanpro.mx/blog/`
+- **URL:** `https://plomerolosmochispro.mx/blog/`
 - **Recomendación:** Agregar H1 prominente:
   ```html
-  <h1>Blog de Plomería Culiacán | Guías Profesionales y Consejos de Expertos</h1>
+  <h1>Blog de Plomería Los Mochis | Guías Profesionales y Consejos de Expertos</h1>
   ```
 - **Responsable:** Editor de contenido
-- **Métrica:** Posicionamiento para "blog plomeria culiacan"
+- **Métrica:** Posicionamiento para "blog plomeria los-mochis"
 
 ---
 
@@ -122,14 +122,14 @@
 - **Recomendación:** Actualizar alt text siguiendo patrón:
   ```html
   <img src="reparacion-fugas.webp"
-       alt="Técnico profesional reparando fuga de agua en tubería de cobre con herramientas especializadas en Las Quintas, Culiacán">
+       alt="Técnico profesional reparando fuga de agua en tubería de cobre con herramientas especializadas en Centenario, Los Mochis">
   ```
 - **Responsable:** Editor de contenido
 - **Herramienta:** WAVE Accessibility Tool
 - **Métrica:** Tráfico desde Google Images
 
 #### 9. **Contenido no relacionado en sitemap**
-- **Evidencia:** `/blog/marcha-paz-culiacan-2025/` con prioridad 0.6
+- **Evidencia:** `/blog/marcha-paz-los-mochis-2025/` con prioridad 0.6
 - **Impacto:** Dilución de relevancia temática, confusión para crawlers
 - **Recomendación:**
   - Opción 1: Eliminar artículo no relacionado con plomería
@@ -168,7 +168,7 @@
 - **Métrica:** Video engagement rate, dwell time
 
 #### 12. **Expansión de cobertura de colonias**
-- **Evidencia:** 35 colonias en sitemap, vs ~100+ colonias en Culiacán
+- **Evidencia:** 35 colonias en sitemap, vs ~100+ colonias en Los Mochis
 - **Impacto:** Oportunidad perdida de long-tail local
 - **Recomendación:** Fase 2 de expansión geográfica:
   - Investigar colonias con alta densidad poblacional
@@ -213,7 +213,7 @@
 - **Recomendación:** Campaña de 3 meses:
   - Directorio local: Sección Amarilla, Cylex, Hotfrog (nofoll
 ow pero NAP)
-  - Guest posts en blogs locales: "Mantenimiento de casa en Culiacán"
+  - Guest posts en blogs locales: "Mantenimiento de casa en Los Mochis"
   - Patrocinios: Equipos deportivos locales, eventos comunitarios
   - Menciones en medios: Noroeste, Debate, RíoDoce
   - Objetivo: 10-15 backlinks de DA 30+
@@ -231,10 +231,10 @@ ow pero NAP)
 **Acción:**
 ```html
 <!-- /blog/ -->
-<meta name="description" content="Blog de plomería Culiacán: costos 2025, guías paso a paso, consejos profesionales. +13 artículos verificados por expertos con 5+ años de experiencia.">
+<meta name="description" content="Blog de plomería Los Mochis: costos 2025, guías paso a paso, consejos profesionales. +13 artículos verificados por expertos con 5+ años de experiencia.">
 
 <!-- Servicios sin meta -->
-<meta name="description" content="Reparación de fugas en Culiacán 24/7. Detección con termografía, garantía 12 meses. Llegada en 30-60 min a Las Quintas, Tres Ríos, Centro. WhatsApp inmediato.">
+<meta name="description" content="Reparación de fugas en Los Mochis 24/7. Detección con termografía, garantía 12 meses. Llegada en 30-60 min a Centenario, Las Fuentes, Centro. WhatsApp inmediato.">
 ```
 
 ### 2. **Implementar canonical tags**
@@ -254,16 +254,16 @@ document.head.insertAdjacentHTML('beforeend',
 **Impacto:** Medio
 **Acción:**
 ```html
-<h1 class="blog-title">Blog de Plomería en Culiacán | Guías y Consejos Profesionales 2025</h1>
+<h1 class="blog-title">Blog de Plomería en Los Mochis | Guías y Consejos Profesionales 2025</h1>
 ```
 
 ### 4. **Añadir FAQ adicionales en artículos top**
 **Tiempo estimado:** 3 horas (1h por artículo)
 **Impacto:** Alto
 **Acción:** Expandir FAQPage schema de 5 a 10 preguntas en:
-- `/blog/cuanto-cuesta-cambiar-taza-bano-culiacan/`
-- `/blog/cuanto-cobra-plomero-visita-culiacan/`
-- `/blog/como-identificar-buen-plomero-culiacan/`
+- `/blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/`
+- `/blog/cuanto-cobra-plomero-visita-los-mochis/`
+- `/blog/como-identificar-buen-plomero-los-mochis/`
 
 Preguntas adicionales sugeridas:
 - "¿Cuánto tiempo tarda cambiar una taza de baño?"
@@ -295,17 +295,17 @@ window.addEventListener('scroll', function() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://plomeroculiacanpro.mx/servicios/reparacion-de-fugas/</loc>
+    <loc>https://plomerolosmochispro.mx/servicios/reparacion-de-fugas/</loc>
     <image:image>
-      <image:loc>https://plomeroculiacanpro.mx/assets/images/reparacion-fugas-800w.webp</image:loc>
-      <image:caption>Técnico reparando fuga de agua en Culiacán</image:caption>
+      <image:loc>https://plomerolosmochispro.mx/assets/images/reparacion-fugas-800w.webp</image:loc>
+      <image:caption>Técnico reparando fuga de agua en Los Mochis</image:caption>
     </image:image>
   </url>
 </urlset>
 ```
 Actualizar `robots.txt`:
 ```
-Sitemap: https://plomeroculiacanpro.mx/sitemaps/image_sitemap.xml
+Sitemap: https://plomerolosmochispro.mx/sitemaps/image_sitemap.xml
 ```
 
 ---
@@ -320,9 +320,9 @@ Sitemap: https://plomeroculiacanpro.mx/sitemaps/image_sitemap.xml
   1. "Cómo detectar fuga de agua oculta en casa" (5 min)
   2. "Cambio de empaque de taza de baño paso a paso" (4 min)
   3. "Cuándo llamar plomero vs hacer reparación tú mismo" (3 min)
-  4. "Mantenimiento preventivo de boiler en Culiacán" (6 min)
+  4. "Mantenimiento preventivo de boiler en Los Mochis" (6 min)
   5. "Top 5 emergencias de plomería y qué hacer" (7 min)
-  6. "Tour: Cómo trabajamos en Plomero Culiacán Pro" (3 min)
+  6. "Tour: Cómo trabajamos en Plomero Los Mochis Pro" (3 min)
 - **Optimización:**
   - Título: Keyword + Modificador local + [2025]
   - Descripción: 200+ palabras con enlaces al sitio
@@ -334,10 +334,10 @@ Sitemap: https://plomeroculiacanpro.mx/sitemaps/image_sitemap.xml
 
 #### **Proyecto: Expansión de Blog (8 artículos nuevos)**
 Temas identificados con alto volumen de búsqueda:
-1. "Costo de instalación de tinaco en Culiacán 2025"
-2. "Cómo elegir boiler para casa en Culiacán (clima cálido)"
+1. "Costo de instalación de tinaco en Los Mochis 2025"
+2. "Cómo elegir boiler para casa en Los Mochis (clima cálido)"
 3. "Reparación vs reemplazo de tuberías: guía completa"
-4. "Problemas comunes de plomería en temporada de lluvias Culiacán"
+4. "Problemas comunes de plomería en temporada de lluvias Los Mochis"
 5. "Instalación de regadera: tipos, costos y recomendaciones"
 6. "Fuga en medidor de agua: responsabilidad y solución"
 7. "Plomería para remodelación de baño: checklist completo"
@@ -355,21 +355,21 @@ Temas identificados con alto volumen de búsqueda:
 
 ### Fase 2: Autoridad Local y Backlinks (Mes 2)
 
-#### **Proyecto: Campaña Link Building Culiacán**
+#### **Proyecto: Campaña Link Building Los Mochis**
 **Objetivo:** 15 backlinks de calidad DA 25+ en 8 semanas
 
 **Tácticas:**
 
 1. **Directorios locales verificados (5 links)**
-   - Sección Amarilla Culiacán (DA 60)
+   - Sección Amarilla Los Mochis (DA 60)
    - Cylex México (DA 52)
    - Hotfrog Sinaloa (DA 45)
-   - Infoisinfo Culiacán (DA 48)
+   - Infoisinfo Los Mochis (DA 48)
    - Tupalo México (DA 42)
    - **Acción:** Crear perfiles completos con NAP consistente, horarios, fotos, descripción 300+ palabras
 
 2. **Guest posting en blogs locales (3 links)**
-   - Contactar blogs: "Vida en Culiacán", "Hogar y Construcción Sinaloa"
+   - Contactar blogs: "Vida en Los Mochis", "Hogar y Construcción Sinaloa"
    - Pitch: "5 señales que necesitas renovar plomería en casa antigua"
    - Longitud: 1,500 palabras, 1 enlace dofollow contextual
    - Intercambio: Contenido gratuito por link permanente
@@ -377,7 +377,7 @@ Temas identificados con alto volumen de búsqueda:
 3. **Patrocinios y comunidad (4 links)**
    - Patrocinio equipo deportivo local: $3,000-5,000 MXN
    - Logo y link en sitio web del equipo
-   - Mención en evento comunitario (Cámara de Comercio Culiacán)
+   - Mención en evento comunitario (Cámara de Comercio Los Mochis)
    - Donación a causa social con comunicado de prensa
 
 4. **Menciones en medios locales (3 links)**
@@ -427,7 +427,7 @@ Temas identificados con alto volumen de búsqueda:
 1. Bienvenida: "¡Hola! ¿En qué te puedo ayudar con tu plomería?"
 2. Opciones: Fuga / Drenaje tapado / Instalación / Mantenimiento / Otro
 3. Preguntas de contexto:
-   - ¿Cuál es tu colonia en Culiacán?
+   - ¿Cuál es tu colonia en Los Mochis?
    - ¿Es urgente (hoy) o puedes esperar?
    - ¿Prefieres WhatsApp o llamada?
 4. Captura lead: Nombre + Teléfono
@@ -439,10 +439,10 @@ Temas identificados con alto volumen de búsqueda:
 #### **Proyecto: Landing Page de Temporada**
 **URL:** `/servicios/plomeria-temporada-lluvias/`
 
-**Contexto:** Culiacán tiene temporada intensa de lluvias (julio-septiembre)
+**Contexto:** Los Mochis tiene temporada intensa de lluvias (julio-septiembre)
 
 **Contenido:**
-- H1: "Plomería de Emergencia Temporada de Lluvias Culiacán"
+- H1: "Plomería de Emergencia Temporada de Lluvias Los Mochis"
 - Problemas específicos: inundaciones, drenajes colapsados, techos con filtraciones
 - Paquete especial: "Revisión preventiva pre-lluvias $500"
 - Video: "Cómo preparar tu casa antes de la temporada de lluvias"
@@ -451,7 +451,7 @@ Temas identificados con alto volumen de búsqueda:
 
 **Promoción:**
 - Google Ads: Campaña estacional (junio-julio)
-- Facebook Ads: Targeting Culiacán, homeowners
+- Facebook Ads: Targeting Los Mochis, homeowners
 - Email a base de datos: Recordatorio anual
 
 ---
@@ -467,7 +467,7 @@ dataLayer.push({
   'event': 'form_submit',
   'form_name': 'contact-blog',
   'form_origen': 'Blog - Cambio Taza Baño',
-  'page_location': '/blog/cuanto-cuesta-cambiar-taza-bano-culiacan/'
+  'page_location': '/blog/cuanto-cuesta-cambiar-taza-bano-los-mochis/'
 });
 
 // Event: phone_click
@@ -589,7 +589,7 @@ if (window.location.pathname.includes('404') ||
 1. **Tráfico Orgánico Local**
    - Dimensión: Ciudad
    - Métrica: Usuarios orgánicos
-   - Filtro: Ciudad contiene "Culiacán"
+   - Filtro: Ciudad contiene "Los Mochis"
    - Segmento: Orgánico Google
 
 2. **Rendimiento por Tipo de Página**
@@ -613,7 +613,7 @@ if (window.location.pathname.includes('404') ||
 5. **Queries de Búsqueda (GSC Integration)**
    - Dimensión: Query de búsqueda
    - Métrica: Clics, Impresiones, CTR, Posición promedio
-   - Filtro: Query contiene "culiacan"
+   - Filtro: Query contiene "los-mochis"
 
 ### Alertas Inteligentes
 
@@ -708,7 +708,7 @@ if (window.location.pathname.includes('404') ||
 
 ## 🏁 Conclusión
 
-Plomero Culiacán Pro tiene una **base SEO sólida (8.3/10)** con excelente structured data, optimización local avanzada y estrategia de contenido bien ejecutada. Las principales oportunidades de crecimiento se encuentran en:
+Plomero Los Mochis Pro tiene una **base SEO sólida (8.3/10)** con excelente structured data, optimización local avanzada y estrategia de contenido bien ejecutada. Las principales oportunidades de crecimiento se encuentran en:
 
 1. **Contenido visual:** Imágenes y videos para incrementar engagement
 2. **Autoridad de dominio:** Link building local sistemático

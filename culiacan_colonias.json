@@ -172,7 +172,7 @@
       "name": "Centro Sinaloa"
     },
     {
-      "name": "Chapultepec"
+      "name": "Jiquilpan"
     },
     {
       "name": "CNOP"
@@ -457,7 +457,7 @@
       "name": "Los Pinos"
     },
     {
-      "name": "Los Sabinos Tres Ríos"
+      "name": "Los Sabinos Las Fuentes"
     },
     {
       "name": "Luis Donaldo Colosio"
@@ -502,7 +502,7 @@
       "name": "Nuevo Bachigualato"
     },
     {
-      "name": "Nuevo Culiacán"
+      "name": "Nuevo Los Mochis"
     },
     {
       "name": "Nuevo México"
@@ -714,7 +714,7 @@
       "name": "Altos Bacurimi"
     },
     {
-      "name": "Alturas del Sur"
+      "name": "Bicentenario"
     },
     {
       "name": "Amapas"
@@ -843,7 +843,7 @@
       "name": "Campestre"
     },
     {
-      "name": "Campestre Tres Ríos"
+      "name": "Campestre Las Fuentes"
     },
     {
       "name": "Campo Bello"
@@ -873,10 +873,10 @@
       "name": "Centenario"
     },
     {
-      "name": "Chapultepec Del Rio"
+      "name": "Jiquilpan Del Rio"
     },
     {
-      "name": "Chulavista"
+      "name": "Nuevo Los Mochis"
     },
     {
       "name": "Cibeles"
@@ -942,19 +942,19 @@
       "name": "Country del Río"
     },
     {
-      "name": "Country Tres Ríos"
+      "name": "Country Las Fuentes"
     },
     {
       "name": "Cuauhtémoc"
     },
     {
-      "name": "Culiacán Tres Ríos"
+      "name": "Los Mochis Las Fuentes"
     },
     {
       "name": "Cumbre Real"
     },
     {
-      "name": "Cumbres Tres Ríos"
+      "name": "Cumbres Las Fuentes"
     },
     {
       "name": "Danubio"
@@ -1008,7 +1008,7 @@
       "name": "Floresta"
     },
     {
-      "name": "Floresta Tres Ríos"
+      "name": "Floresta Las Fuentes"
     },
     {
       "name": "Florida"
@@ -1131,13 +1131,13 @@
       "name": "Jardines Del Valle"
     },
     {
-      "name": "Jardines Tres Ríos"
+      "name": "Jardines Las Fuentes"
     },
     {
       "name": "Joyas del Valle"
     },
     {
-      "name": "La Campiña"
+      "name": "Scally"
     },
     {
       "name": "La Candelaria"
@@ -1179,7 +1179,7 @@
       "name": "La Ventana"
     },
     {
-      "name": "Lago Tres Ríos"
+      "name": "Lago Las Fuentes"
     },
     {
       "name": "Las Alondras"
@@ -1215,7 +1215,7 @@
       "name": "Las Palomas"
     },
     {
-      "name": "Las Quintas"
+      "name": "Centenario"
     },
     {
       "name": "Las Terrazas"
@@ -1365,10 +1365,10 @@
       "name": "Mont Blanc"
     },
     {
-      "name": "Montebello"
+      "name": "Insurgentes"
     },
     {
-      "name": "Montebello Sección Dalí"
+      "name": "Insurgentes Sección Dalí"
     },
     {
       "name": "Montecarlo Residencial"
@@ -1542,7 +1542,7 @@
       "name": "Rancho Contento"
     },
     {
-      "name": "Real de Chapultepec"
+      "name": "Real de Jiquilpan"
     },
     {
       "name": "Real de Minas"
@@ -1707,7 +1707,7 @@
       "name": "Stanza Solare"
     },
     {
-      "name": "Stanza Toscana"
+      "name": "Cascadas"
     },
     {
       "name": "STASE"
@@ -1722,7 +1722,7 @@
       "name": "Tabachines"
     },
     {
-      "name": "Terranova"
+      "name": "Valle del Ejido"
     },
     {
       "name": "Torralba"
@@ -1734,7 +1734,7 @@
       "name": "Torres Aeropuerto"
     },
     {
-      "name": "Tres Ríos"
+      "name": "Las Fuentes"
     },
     {
       "name": "Tulipanes"
@@ -1848,7 +1848,7 @@
       "name": "Villas de Cortés"
     },
     {
-      "name": "Villas de Culiacán"
+      "name": "Villas de Los Mochis"
     },
     {
       "name": "Villas del Humaya"

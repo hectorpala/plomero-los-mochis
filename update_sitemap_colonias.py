@@ -6,14 +6,14 @@ Actualiza lastmod de las 29 colonias que recibieron LocalBusiness schema.
 import re
 from datetime import datetime
 
-# Colonias modificadas (todas excepto las-quintas que ya tenía LocalBusiness)
+# Colonias modificadas (todas excepto centenario que ya tenía LocalBusiness)
 colonias_modificadas = [
-    "tres-rios", "centro", "montebello", "guadalupe", "chapultepec",
-    "isla-del-oeste", "country-tres-rios", "hacienda-los-huertos",
+    "las-fuentes", "centro", "insurgentes", "guadalupe", "jiquilpan",
+    "isla-del-oeste", "country-las-fuentes", "hacienda-los-huertos",
     "real-del-valle", "zona-dorada", "campestre", "santa-fe",
-    "las-palmas", "nuevo-culiacan", "infonavit-humaya", "bachigualato",
+    "las-palmas", "nuevo-los-mochis", "infonavit-humaya", "bachigualato",
     "lomas-del-boulevard", "villa-universidad", "colinas-de-san-miguel",
-    "altamira", "cumbres-tres-rios", "bosques-del-humaya",
+    "altamira", "cumbres-las-fuentes", "bosques-del-humaya",
     "hacienda-del-valle", "portales-del-rio", "colinas-de-la-rivera",
     "jardines-del-valle", "lomas-de-san-isidro", "real-san-angel",
     "villa-bonita"
@@ -30,7 +30,7 @@ with open(sitemap_file, 'r', encoding='utf-8') as f:
 
 # Actualizar lastmod para cada colonia
 for colonia_slug in colonias_modificadas:
-    url = f"https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{colonia_slug}/"
+    url = f"https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{colonia_slug}/"
     
     # Patrón para encontrar el bloque <url> completo de esta colonia
     pattern = f'(<loc>{re.escape(url)}</loc>\\s*<lastmod>)([^<]+)(</lastmod>)'

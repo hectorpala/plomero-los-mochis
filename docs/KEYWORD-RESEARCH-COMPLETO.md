@@ -1,26 +1,26 @@
-# INVESTIGACION DE KEYWORDS - Plomero Culiacan Pro
+# INVESTIGACION DE KEYWORDS - Plomero Los Mochis Pro
 **Fecha:** 30 Noviembre 2025
 **Objetivo:** Identificar oportunidades SEO para posicionamiento local
 
 ---
 
-## 1. COMPETENCIA DIRECTA EN CULIACAN
+## 1. COMPETENCIA DIRECTA EN LOS MOCHIS
 
 ### Competidores identificados:
 
 | Empresa | URL | Servicios destacados |
 |---------|-----|---------------------|
-| Plomeros24horas.com.mx | plomeros24horas.com.mx/plomeros-en-culiacan/ | Directorio nacional |
-| Habitissimo | habitissimo.com.mx/.../culiacan | Cotizaciones online |
-| Willy Plomero | plomeroselectricistasculiacan.com.mx | 20+ anos, fugas piscinas |
+| Plomeros24horas.com.mx | plomeros24horas.com.mx/plomeros-en-los-mochis/ | Directorio nacional |
+| Habitissimo | habitissimo.com.mx/.../los-mochis | Cotizaciones online |
+| Willy Plomero | plomeroselectricistaslos-mochis.com.mx | 20+ anos, fugas piscinas |
 | Multiservicios Ruiz | plomeriayelectricidadruiz.com | 35+ anos, 24/7 |
 | DrenaTap Express | (Construex) | Desazolve especializado |
-| Cronoshare | cronoshare.com.mx/.../culiacan-rosales | Cotizaciones |
-| Plomeando | plomeando.com/plomeros-culiacan/ | Servicio 24h |
+| Cronoshare | cronoshare.com.mx/.../los-mochis-rosales | Cotizaciones |
+| Plomeando | plomeando.com/plomeros-los-mochis/ | Servicio 24h |
 
-### Precio promedio en Culiacan: $507 MXN por servicio basico
+### Precio promedio en Los Mochis: $507 MXN por servicio basico
 
-**Oportunidad:** La mayoria son directorios, no sitios propios. Plomero Culiacan Pro tiene ventaja con sitio propio optimizado.
+**Oportunidad:** La mayoria son directorios, no sitios propios. Plomero Los Mochis Pro tiene ventaja con sitio propio optimizado.
 
 ---
 
@@ -63,35 +63,35 @@
 
 | Keyword | Volumen est. | Dificultad | Estado | Pagina |
 |---------|-------------|------------|--------|--------|
-| plomero culiacan | Alto | Media | Ya tienes | Homepage |
-| plomero 24 horas culiacan | Medio | Media | Ya tienes | /servicios/plomero-24-horas/ |
-| plomero urgente culiacan | Medio | Media | Ya tienes | /servicios/plomero-urgente/ |
-| plomero emergencia culiacan | Medio | Baja | Ya tienes | /servicios/plomero-de-emergencia/ |
-| plomero cerca de mi culiacan | Alto | Baja | Ya tienes | /servicios/plomero-cerca-de-mi/ |
-| plomero a domicilio culiacan | Medio | Baja | Ya tienes | /servicios/plomero-a-domicilio/ |
-| plomero economico culiacan | Medio | Baja | Ya tienes | /servicios/plomero-economico/ |
+| plomero los-mochis | Alto | Media | Ya tienes | Homepage |
+| plomero 24 horas los-mochis | Medio | Media | Ya tienes | /servicios/plomero-24-horas/ |
+| plomero urgente los-mochis | Medio | Media | Ya tienes | /servicios/plomero-urgente/ |
+| plomero emergencia los-mochis | Medio | Baja | Ya tienes | /servicios/plomero-de-emergencia/ |
+| plomero cerca de mi los-mochis | Alto | Baja | Ya tienes | /servicios/plomero-cerca-de-mi/ |
+| plomero a domicilio los-mochis | Medio | Baja | Ya tienes | /servicios/plomero-a-domicilio/ |
+| plomero economico los-mochis | Medio | Baja | Ya tienes | /servicios/plomero-economico/ |
 
 ### Tier 2 - Keywords de servicio (CREAR)
 
 | Keyword | Volumen est. | Dificultad | Crear pagina |
 |---------|-------------|------------|--------------|
-| destape drenaje culiacan | Medio | Baja | /servicios/destape-de-drenajes/ |
-| desazolve drenaje culiacan | Medio | Baja | (mismo que arriba) |
-| instalacion tinaco culiacan | Bajo-Medio | Baja | /servicios/instalacion-de-tinaco/ (existe) |
-| instalacion boiler culiacan | Bajo-Medio | Baja | CREAR: /servicios/instalacion-boiler/ |
-| reparacion fuga agua culiacan | Medio | Baja | /servicios/reparacion-de-fugas/ (existe) |
-| instalacion calentador culiacan | Bajo | Baja | CREAR: /servicios/instalacion-calentador/ |
-| cambio wc culiacan | Bajo | Baja | CREAR: /servicios/cambio-inodoro/ |
-| plomero gas culiacan | Bajo | Baja | CREAR: /servicios/instalacion-gas/ |
+| destape drenaje los-mochis | Medio | Baja | /servicios/destape-de-drenajes/ |
+| desazolve drenaje los-mochis | Medio | Baja | (mismo que arriba) |
+| instalacion tinaco los-mochis | Bajo-Medio | Baja | /servicios/instalacion-de-tinaco/ (existe) |
+| instalacion boiler los-mochis | Bajo-Medio | Baja | CREAR: /servicios/instalacion-boiler/ |
+| reparacion fuga agua los-mochis | Medio | Baja | /servicios/reparacion-de-fugas/ (existe) |
+| instalacion calentador los-mochis | Bajo | Baja | CREAR: /servicios/instalacion-calentador/ |
+| cambio wc los-mochis | Bajo | Baja | CREAR: /servicios/cambio-inodoro/ |
+| plomero gas los-mochis | Bajo | Baja | CREAR: /servicios/instalacion-gas/ |
 
 ### Tier 3 - Keywords por colonia (SEO Local)
 
 Ya tienes 25+ colonias. Priorizar las mas buscadas:
-- plomero tres rios culiacan
-- plomero las quintas culiacan
-- plomero centro culiacan
-- plomero chapultepec culiacan
-- plomero zona dorada culiacan
+- plomero tres rios los-mochis
+- plomero las quintas los-mochis
+- plomero centro los-mochis
+- plomero jiquilpan los-mochis
+- plomero zona dorada los-mochis
 
 ---
 
@@ -101,7 +101,7 @@ Ya tienes 25+ colonias. Priorizar las mas buscadas:
 
 | Pregunta/Keyword | Tipo contenido | Prioridad |
 |------------------|----------------|-----------|
-| cuanto cobra un plomero en culiacan | Blog + FAQ | ALTA |
+| cuanto cobra un plomero en los-mochis | Blog + FAQ | ALTA |
 | cuanto cobra plomero por visita | Blog + FAQ | ALTA |
 | cuanto cuesta destapar drenaje | Blog + FAQ | ALTA |
 | cuanto cuesta reparar fuga agua | Blog + FAQ | ALTA |
@@ -149,9 +149,9 @@ Segun investigacion, los servicios con mayor demanda son:
 
 | Keyword | Vol. Est. | URL | Estado |
 |---------|-----------|-----|--------|
-| plomero 24 horas culiacan | ALTO | /servicios/plomero-24-horas/ | ✅ |
-| plomero urgente culiacan | ALTO | /servicios/plomero-urgente/ | ✅ |
-| plomero emergencia culiacan | ALTO | /servicios/plomero-de-emergencia/ | ✅ |
+| plomero 24 horas los-mochis | ALTO | /servicios/plomero-24-horas/ | ✅ |
+| plomero urgente los-mochis | ALTO | /servicios/plomero-urgente/ | ✅ |
+| plomero emergencia los-mochis | ALTO | /servicios/plomero-de-emergencia/ | ✅ |
 | plomero cerca de mi | ALTO | /servicios/plomero-cerca-de-mi/ | ✅ |
 | plomero a domicilio | MEDIO | /servicios/plomero-a-domicilio/ | ✅ |
 | plomero economico | MEDIO | /servicios/plomero-economico/ | ✅ |
@@ -161,7 +161,7 @@ Segun investigacion, los servicios con mayor demanda son:
 
 | Keyword | Vol. Est. | URL | Estado |
 |---------|-----------|-----|--------|
-| destape drenaje culiacan | ALTO | /servicios/destape-de-drenajes/ | ✅ |
+| destape drenaje los-mochis | ALTO | /servicios/destape-de-drenajes/ | ✅ |
 | desazolve drenaje | ALTO | /servicios/desazolve-de-drenajes/ | ✅ |
 | reparacion fuga agua | ALTO | /servicios/reparacion-de-fugas/ | ✅ |
 | deteccion fugas | MEDIO | /servicios/deteccion-de-fugas/ | ✅ |
@@ -173,7 +173,7 @@ Segun investigacion, los servicios con mayor demanda son:
 | precios plomero | MEDIO | /servicios/plomero-precios/ | ✅ |
 
 ### COLONIAS (25/25 = 100% COMPLETO)
-- Las Quintas, Tres Rios, Centro, Chapultepec, Zona Dorada
+- Centenario, Las Fuentes, Centro, Jiquilpan, Zona Dorada
 - + 20 colonias mas
 
 ### OPORTUNIDADES NUEVAS (Baja prioridad - ya tienes lo importante)
@@ -205,11 +205,11 @@ Las oportunidades restantes son de bajo volumen - no son prioridad.
 
 | # | Titulo propuesto | Keyword target |
 |---|------------------|----------------|
-| 1 | Cuanto cobra un plomero en Culiacan en 2025 | cuanto cobra plomero culiacan |
-| 2 | Cuanto cuesta destapar un drenaje en Culiacan | precio destape drenaje |
+| 1 | Cuanto cobra un plomero en Los Mochis en 2025 | cuanto cobra plomero los-mochis |
+| 2 | Cuanto cuesta destapar un drenaje en Los Mochis | precio destape drenaje |
 | 3 | 7 senales de que necesitas un plomero urgente | cuando llamar plomero |
 | 4 | Guia: Como detectar fugas de agua en tu casa | como detectar fuga agua |
-| 5 | Cuanto cuesta instalar un tinaco en Culiacan | precio instalacion tinaco |
+| 5 | Cuanto cuesta instalar un tinaco en Los Mochis | precio instalacion tinaco |
 | 6 | Emergencia de plomeria: que hacer mientras llega el plomero | fuga agua emergencia |
 
 ---
@@ -219,7 +219,7 @@ Las oportunidades restantes son de bajo volumen - no son prioridad.
 Agregar estas preguntas a las landing pages:
 
 ### Para pagina de precios:
-1. Cuanto cobra un plomero por hora en Culiacan? → $300-$500/hora
+1. Cuanto cobra un plomero por hora en Los Mochis? → $300-$500/hora
 2. Cuanto cuesta la visita de un plomero? → Desde $350 MXN
 3. Cobran extra por emergencias nocturnas? → Si, +50% en horario nocturno
 4. Incluyen los materiales en el precio? → Cotizacion separada
@@ -275,7 +275,7 @@ Agregar estas preguntas a las landing pages:
 ## 10. FUENTES DE ESTA INVESTIGACION
 
 - [Cronoshare - Precios plomeria Mexico](https://www.cronoshare.com.mx/cuanto-cuesta/servicio-plomeria)
-- [Habitissimo - Plomeros Culiacan](https://www.habitissimo.com.mx/presupuesto/plomeros/sinaloa/culiacan)
+- [Habitissimo - Plomeros Los Mochis](https://www.habitissimo.com.mx/presupuesto/plomeros/sinaloa/los-mochis)
 - [HomePro - Costos plomeria CDMX](https://homepro.com.mx/blog/costos-proyectos-plomeria-cdmx)
 - [Mas Mantenimiento - Tarifas](https://masmantenimiento.mx/cuanto-cobra-un-plomero-servicio-domicilio/)
 - [Rotoplas - Tinacos](https://rotoplas.com.mx/products/almacenamiento/tinacos/)
@@ -287,4 +287,4 @@ Agregar estas preguntas a las landing pages:
 ---
 
 *Documento generado automaticamente con investigacion web*
-*Plomero Culiacan Pro - SEO Strategy 2025*
+*Plomero Los Mochis Pro - SEO Strategy 2025*

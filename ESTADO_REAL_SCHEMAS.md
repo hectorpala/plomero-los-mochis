@@ -46,7 +46,7 @@
    - Service schema: ❌ FALTA
    - FAQPage schema: ❌ FALTA
 
-10. **plomero-colonias-culiacan/**
+10. **plomero-colonias-los-mochis/**
     - Service schema: ❌ FALTA
     - FAQPage schema: ❌ FALTA
 
@@ -80,7 +80,7 @@ Agregar Service a:
 ### Prioridad ALTA (completar de cero)
 Agregar Service + FAQPage a:
 1. plomero-a-domicilio
-2. plomero-colonias-culiacan
+2. plomero-colonias-los-mochis
 3. plomero-precios
 
 ## Impacto SEO

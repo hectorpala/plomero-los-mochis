@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script para agregar LocalBusiness schema con coordenadas GPS específicas
-a todas las páginas de colonias en Culiacán.
+a todas las páginas de colonias en Los Mochis.
 
 Mejora SEO local para búsquedas "plomero cerca de mí" y Google Maps.
 """
@@ -11,30 +11,30 @@ import re
 import json
 from pathlib import Path
 
-# Coordenadas GPS reales de colonias principales en Culiacán, Sinaloa
+# Coordenadas GPS reales de colonias principales en Los Mochis, Sinaloa
 COLONIAS_GPS = {
-    "las-quintas": {"lat": 24.8207, "lng": -107.4209, "street": "Blvd. Las Quintas"},
-    "tres-rios": {"lat": 24.8039, "lng": -107.4394, "street": "Blvd. Tres Ríos"},
+    "centenario": {"lat": 24.8207, "lng": -107.4209, "street": "Blvd. Centenario"},
+    "las-fuentes": {"lat": 24.8039, "lng": -107.4394, "street": "Blvd. Las Fuentes"},
     "centro": {"lat": 24.8093, "lng": -107.3940, "street": "Av. Álvaro Obregón"},
-    "montebello": {"lat": 24.7890, "lng": -107.4100, "street": "Blvd. Enrique Sánchez Alonso"},
+    "insurgentes": {"lat": 24.7890, "lng": -107.4100, "street": "Blvd. Enrique Sánchez Alonso"},
     "guadalupe": {"lat": 24.7650, "lng": -107.4200, "street": "Av. Insurgentes"},
-    "chapultepec": {"lat": 24.7950, "lng": -107.3850, "street": "Blvd. Francisco I. Madero"},
+    "jiquilpan": {"lat": 24.7950, "lng": -107.3850, "street": "Blvd. Francisco I. Madero"},
     "isla-del-oeste": {"lat": 24.7750, "lng": -107.4450, "street": "Av. Isla del Oeste"},
-    "country-tres-rios": {"lat": 24.8100, "lng": -107.4500, "street": "Blvd. Country Club"},
+    "country-las-fuentes": {"lat": 24.8100, "lng": -107.4500, "street": "Blvd. Country Club"},
     "hacienda-los-huertos": {"lat": 24.7700, "lng": -107.3700, "street": "Blvd. Hacienda Los Huertos"},
     "real-del-valle": {"lat": 24.7600, "lng": -107.3600, "street": "Av. Real del Valle"},
     "zona-dorada": {"lat": 24.8150, "lng": -107.3750, "street": "Av. Gabriel Leyva"},
     "campestre": {"lat": 24.7800, "lng": -107.3950, "street": "Blvd. Campestre"},
     "santa-fe": {"lat": 24.7500, "lng": -107.4300, "street": "Av. Santa Fe"},
     "las-palmas": {"lat": 24.7450, "lng": -107.4150, "street": "Av. Las Palmas"},
-    "nuevo-culiacan": {"lat": 24.7900, "lng": -107.4250, "street": "Av. Nuevo Culiacán"},
+    "nuevo-los-mochis": {"lat": 24.7900, "lng": -107.4250, "street": "Av. Nuevo Los Mochis"},
     "infonavit-humaya": {"lat": 24.8300, "lng": -107.4100, "street": "Blvd. Emiliano Zapata"},
     "bachigualato": {"lat": 24.8450, "lng": -107.4300, "street": "Carretera a Bachigualato"},
     "lomas-del-boulevard": {"lat": 24.7850, "lng": -107.4350, "street": "Blvd. Las Torres"},
     "villa-universidad": {"lat": 24.8000, "lng": -107.4150, "street": "Blvd. Universitarios"},
     "colinas-de-san-miguel": {"lat": 24.7550, "lng": -107.3900, "street": "Av. Colinas de San Miguel"},
     "altamira": {"lat": 24.7400, "lng": -107.4000, "street": "Av. Altamira"},
-    "cumbres-tres-rios": {"lat": 24.8050, "lng": -107.4550, "street": "Blvd. Cumbres"},
+    "cumbres-las-fuentes": {"lat": 24.8050, "lng": -107.4550, "street": "Blvd. Cumbres"},
     "bosques-del-humaya": {"lat": 24.8200, "lng": -107.4600, "street": "Av. Bosques del Humaya"},
     "hacienda-del-valle": {"lat": 24.7650, "lng": -107.3550, "street": "Blvd. Hacienda del Valle"},
     "portales-del-rio": {"lat": 24.7750, "lng": -107.4350, "street": "Av. Portales del Río"},
@@ -55,12 +55,12 @@ def create_local_business_schema(colonia_slug, colonia_gps):
 
     return {
         "@type": "LocalBusiness",
-        "@id": f"https://plomeroculiacanpro.mx/#localbusiness-{colonia_slug}",
-        "name": f"Plomero Culiacán Pro - {colonia_name}",
-        "description": f"Servicio profesional de plomería en {colonia_name}, Culiacán. Atención 24/7 con llegada rápida.",
-        "url": f"https://plomeroculiacanpro.mx/servicios/plomero-colonias-culiacan/{colonia_slug}/",
+        "@id": f"https://plomerolosmochispro.mx/#localbusiness-{colonia_slug}",
+        "name": f"Plomero Los Mochis Pro - {colonia_name}",
+        "description": f"Servicio profesional de plomería en {colonia_name}, Los Mochis. Atención 24/7 con llegada rápida.",
+        "url": f"https://plomerolosmochispro.mx/servicios/plomero-colonias-los-mochis/{colonia_slug}/",
         "telephone": "+526673922273",
-        "email": "contacto@plomeroculiacanpro.mx",
+        "email": "contacto@plomerolosmochispro.mx",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": colonia_gps["street"],
@@ -89,7 +89,7 @@ def create_local_business_schema(colonia_slug, colonia_gps):
             "closes": "23:59"
         },
         "sameAs": [
-            "https://www.facebook.com/plomeroCuliacanPro",
+            "https://www.facebook.com/plomeroLos MochisPro",
             "https://wa.me/526673922273"
         ],
         "areaServed": {
@@ -97,7 +97,7 @@ def create_local_business_schema(colonia_slug, colonia_gps):
             "name": colonia_name,
             "containedInPlace": {
                 "@type": "City",
-                "name": "Culiacán",
+                "name": "Los Mochis",
                 "containedInPlace": {
                     "@type": "State",
                     "name": "Sinaloa"
@@ -108,7 +108,7 @@ def create_local_business_schema(colonia_slug, colonia_gps):
 
 def add_local_business_to_page(colonia_slug, colonia_gps):
     """Agrega LocalBusiness schema a una página de colonia."""
-    index_file = Path(f"servicios/plomero-colonias-culiacan/{colonia_slug}/index.html")
+    index_file = Path(f"servicios/plomero-colonias-los-mochis/{colonia_slug}/index.html")
 
     if not index_file.exists():
         print(f"✗ {colonia_slug} - Archivo no encontrado")
@@ -186,7 +186,7 @@ def main():
         result = add_local_business_to_page(colonia_slug, colonia_gps)
         if result:
             added_count += 1
-        elif result is False and '"@type": "LocalBusiness"' in open(f"servicios/plomero-colonias-culiacan/{colonia_slug}/index.html").read():
+        elif result is False and '"@type": "LocalBusiness"' in open(f"servicios/plomero-colonias-los-mochis/{colonia_slug}/index.html").read():
             skipped_count += 1
         else:
             error_count += 1

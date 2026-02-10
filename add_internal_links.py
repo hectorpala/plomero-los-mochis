@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sistema de Internal Linking Automático para plomeroculiacanpro.mx
+Sistema de Internal Linking Automático para plomerolosmochispro.mx
 
 Acelera indexación +30%, distribuye PageRank interno y mejora UX.
 Crea enlaces contextuales inteligentes entre contenidos relacionados.
@@ -24,15 +24,15 @@ BLOG_TO_SERVICES = {
         ("correccion-baja-presion", "servicio de corrección de baja presión"),
         ("plomero-a-domicilio", "plomero a domicilio")
     ],
-    "cuanto-cuesta-cambiar-taza-bano-culiacan": [
+    "cuanto-cuesta-cambiar-taza-bano-los-mochis": [
         ("instalacion-de-sanitarios", "instalación profesional de sanitarios"),
         ("plomero-precios", "precios de servicios de plomería")
     ],
-    "cuanto-cobra-plomero-visita-culiacan": [
-        ("plomero-precios", "precios de servicios de plomería en Culiacán"),
+    "cuanto-cobra-plomero-visita-los-mochis": [
+        ("plomero-precios", "precios de servicios de plomería en Los Mochis"),
         ("plomero-cerca-de-mi", "plomero cerca de ti")
     ],
-    "como-identificar-buen-plomero-culiacan": [
+    "como-identificar-buen-plomero-los-mochis": [
         ("plomero-cerca-de-mi", "plomero profesional cerca de ti"),
         ("emergencia-24-7", "servicio confiable 24/7")
     ],
@@ -40,7 +40,7 @@ BLOG_TO_SERVICES = {
         ("plomero-a-domicilio", "instalación profesional de tinaco"),
         ("plomero-precios", "cotización de instalación")
     ],
-    "problemas-comunes-plomeria-culiacan": [
+    "problemas-comunes-plomeria-los-mochis": [
         ("reparacion-de-fugas", "reparación de fugas"),
         ("destape-de-drenajes", "destape de drenajes"),
         ("plomero-a-domicilio", "plomero profesional a domicilio")
@@ -49,7 +49,7 @@ BLOG_TO_SERVICES = {
         ("emergencia-24-7", "plomero de emergencia 24/7"),
         ("plomero-cerca-de-mi", "plomero cerca de ti")
     ],
-    "cuanto-cuesta-plomeria-bano-completo-culiacan": [
+    "cuanto-cuesta-plomeria-bano-completo-los-mochis": [
         ("instalacion-de-sanitarios", "instalación de sanitarios"),
         ("plomero-precios", "precios de plomería")
     ],
@@ -67,52 +67,52 @@ BLOG_TO_SERVICES = {
 RELATED_ARTICLES = {
     "drenaje-tapado-senales-prevencion": [
         ("desatascar-wc-metodos-profesionales", "Métodos profesionales para desatascar WC"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería en Culiacán")
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería en Los Mochis")
     ],
     "como-detectar-fugas-agua-casa": [
         ("baja-presion-agua-causas-soluciones", "Causas de baja presión de agua"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería")
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería")
     ],
     "baja-presion-agua-causas-soluciones": [
         ("como-detectar-fugas-agua-casa", "Cómo detectar fugas de agua"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería")
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería")
     ],
-    "cuanto-cuesta-cambiar-taza-bano-culiacan": [
-        ("cuanto-cuesta-plomeria-bano-completo-culiacan", "Costo de plomería de baño completo"),
-        ("cuanto-cobra-plomero-visita-culiacan", "Cuánto cobra un plomero por visita")
+    "cuanto-cuesta-cambiar-taza-bano-los-mochis": [
+        ("cuanto-cuesta-plomeria-bano-completo-los-mochis", "Costo de plomería de baño completo"),
+        ("cuanto-cobra-plomero-visita-los-mochis", "Cuánto cobra un plomero por visita")
     ],
-    "cuanto-cobra-plomero-visita-culiacan": [
-        ("cuanto-cuesta-cambiar-taza-bano-culiacan", "Costo de cambiar taza de baño"),
-        ("como-identificar-buen-plomero-culiacan", "Cómo identificar un buen plomero")
+    "cuanto-cobra-plomero-visita-los-mochis": [
+        ("cuanto-cuesta-cambiar-taza-bano-los-mochis", "Costo de cambiar taza de baño"),
+        ("como-identificar-buen-plomero-los-mochis", "Cómo identificar un buen plomero")
     ],
-    "como-identificar-buen-plomero-culiacan": [
-        ("cuanto-cobra-plomero-visita-culiacan", "Cuánto cobra un plomero"),
+    "como-identificar-buen-plomero-los-mochis": [
+        ("cuanto-cobra-plomero-visita-los-mochis", "Cuánto cobra un plomero"),
         ("cuando-llamar-plomero-profesional", "Cuándo llamar a un plomero profesional")
     ],
-    "problemas-comunes-plomeria-culiacan": [
+    "problemas-comunes-plomeria-los-mochis": [
         ("drenaje-tapado-senales-prevencion", "Drenaje tapado: señales y prevención"),
         ("como-detectar-fugas-agua-casa", "Cómo detectar fugas de agua"),
         ("baja-presion-agua-causas-soluciones", "Baja presión de agua: causas")
     ],
     "cuando-llamar-plomero-profesional": [
-        ("como-identificar-buen-plomero-culiacan", "Cómo identificar un buen plomero"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería")
+        ("como-identificar-buen-plomero-los-mochis", "Cómo identificar un buen plomero"),
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería")
     ],
-    "cuanto-cuesta-plomeria-bano-completo-culiacan": [
-        ("cuanto-cuesta-cambiar-taza-bano-culiacan", "Costo de cambiar taza de baño"),
+    "cuanto-cuesta-plomeria-bano-completo-los-mochis": [
+        ("cuanto-cuesta-cambiar-taza-bano-los-mochis", "Costo de cambiar taza de baño"),
         ("instalacion-tinaco-guia-compra", "Instalación de tinaco")
     ],
     "desatascar-wc-metodos-profesionales": [
         ("drenaje-tapado-senales-prevencion", "Drenaje tapado: señales y prevención"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería")
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería")
     ],
     "instalacion-tinaco-guia-compra": [
-        ("cuanto-cuesta-plomeria-bano-completo-culiacan", "Costo de plomería completa"),
+        ("cuanto-cuesta-plomeria-bano-completo-los-mochis", "Costo de plomería completa"),
         ("cuando-llamar-plomero-profesional", "Cuándo llamar a un profesional")
     ],
     "mantenimiento-boiler-noritz-checklist": [
         ("cuando-llamar-plomero-profesional", "Cuándo llamar a un plomero"),
-        ("problemas-comunes-plomeria-culiacan", "Problemas comunes de plomería")
+        ("problemas-comunes-plomeria-los-mochis", "Problemas comunes de plomería")
     ]
 }
 
@@ -143,7 +143,7 @@ def add_contextual_link(content, keyword, url, anchor_text, context_before="", c
         if '/blog/' in content[:1000]:
             # Estamos en blog
             link_url = f'../servicios/{url}/' if url != 'blog' else f'../{url}/'
-        elif '/servicios/plomero-colonias-culiacan/' in content[:1000]:
+        elif '/servicios/plomero-colonias-los-mochis/' in content[:1000]:
             # Estamos en colonia
             link_url = f'../../{url}/'
         else:
@@ -217,7 +217,7 @@ def add_service_callout(content, service_slug, anchor_text):
     callout_html = f"""
     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 24px; border-radius: 8px; margin: 24px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         <p style="margin: 0; font-size: 16px; line-height: 1.6;">
-            💡 <strong>¿Necesitas ayuda profesional?</strong> Contamos con <a href="../servicios/{service_slug}/" style="color: #ffd700; text-decoration: underline;">{anchor_text}</a> con llegada rápida en Culiacán.
+            💡 <strong>¿Necesitas ayuda profesional?</strong> Contamos con <a href="../servicios/{service_slug}/" style="color: #ffd700; text-decoration: underline;">{anchor_text}</a> con llegada rápida en Los Mochis.
         </p>
     </div>
 """
@@ -324,19 +324,19 @@ def main():
     # 2. Procesar páginas de colonias
     print("📍 Procesando páginas de colonias...")
     colonias = [
-        "tres-rios", "centro", "montebello", "guadalupe", "chapultepec",
-        "isla-del-oeste", "country-tres-rios", "hacienda-los-huertos",
+        "las-fuentes", "centro", "insurgentes", "guadalupe", "jiquilpan",
+        "isla-del-oeste", "country-las-fuentes", "hacienda-los-huertos",
         "real-del-valle", "zona-dorada", "campestre", "santa-fe",
-        "las-palmas", "nuevo-culiacan", "infonavit-humaya", "bachigualato",
+        "las-palmas", "nuevo-los-mochis", "infonavit-humaya", "bachigualato",
         "lomas-del-boulevard", "villa-universidad", "colinas-de-san-miguel",
-        "altamira", "cumbres-tres-rios", "bosques-del-humaya",
+        "altamira", "cumbres-las-fuentes", "bosques-del-humaya",
         "hacienda-del-valle", "portales-del-rio", "colinas-de-la-rivera",
         "jardines-del-valle", "lomas-de-san-isidro", "real-san-angel",
-        "villa-bonita", "las-quintas"
+        "villa-bonita", "centenario"
     ]
 
     for colonia_slug in colonias:
-        file_path = Path(f"servicios/plomero-colonias-culiacan/{colonia_slug}/index.html")
+        file_path = Path(f"servicios/plomero-colonias-los-mochis/{colonia_slug}/index.html")
         if file_path.exists():
             updated, changes = process_colonia_page(file_path, colonia_slug)
             if updated:

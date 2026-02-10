@@ -1,4 +1,4 @@
-# Herramientas para Keyword Research Local - Plomero Culiacán Pro
+# Herramientas para Keyword Research Local - Plomero Los Mochis Pro
 
 ## HERRAMIENTAS GRATUITAS (Empezar aquí)
 
@@ -8,14 +8,14 @@
 **Cómo usarlo:**
 1. Crear cuenta Google Ads (no necesitas gastar dinero)
 2. Ir a Herramientas → Planificador de Palabras Clave
-3. Filtrar por ubicación: "Culiacán, Sinaloa" o "México"
-4. Buscar: "plomero culiacan", "destape drenaje", etc.
+3. Filtrar por ubicación: "Los Mochis, Sinaloa" o "México"
+4. Buscar: "plomero los-mochis", "destape drenaje", etc.
 
 **Keywords a investigar:**
-- plomero culiacan
+- plomero los-mochis
 - plomero cerca de mi
 - plomero 24 horas
-- destape de drenaje culiacan
+- destape de drenaje los-mochis
 - fuga de agua reparacion
 - instalacion tinaco precio
 - plomero urgente
@@ -29,7 +29,7 @@
 **Límite gratuito:** 3 búsquedas/día
 
 **Pasos:**
-1. Ingresar keyword principal: "plomero culiacan"
+1. Ingresar keyword principal: "plomero los-mochis"
 2. Seleccionar país: México
 3. Ver "Keyword Ideas" → exportar a CSV
 4. Revisar "Content Ideas" para ver qué contenido rankea
@@ -80,13 +80,13 @@
 
 ### 6. "People Also Ask" de Google (GRATIS)
 **Cómo:** Buscar en Google y ver la sección "Otras preguntas"
-**Ejemplo:** Buscar "plomero culiacan" y anotar todas las preguntas
+**Ejemplo:** Buscar "plomero los-mochis" y anotar todas las preguntas
 
 ---
 
 ### 7. Autocompletado de Google (GRATIS)
 **Cómo:** Escribir en Google y ver sugerencias
-- "plomero culiacan..." → ver qué sugiere
+- "plomero los-mochis..." → ver qué sugiere
 - "destape de..." → ver qué sugiere
 - "fuga de agua..." → ver qué sugiere
 
@@ -126,20 +126,20 @@
 
 ### Paso 1: Recopilar keywords semilla
 ```
-plomero culiacan
+plomero los-mochis
 plomero cerca de mi
-plomero 24 horas culiacan
-plomero urgente culiacan
-plomero emergencia culiacan
-plomero a domicilio culiacan
-plomero economico culiacan
-destape drenaje culiacan
-desazolve drenaje culiacan
-fuga de agua culiacan
+plomero 24 horas los-mochis
+plomero urgente los-mochis
+plomero emergencia los-mochis
+plomero a domicilio los-mochis
+plomero economico los-mochis
+destape drenaje los-mochis
+desazolve drenaje los-mochis
+fuga de agua los-mochis
 reparacion fuga agua
-instalacion tinaco culiacan
-instalacion boiler culiacan
-plomero [colonia] culiacan
+instalacion tinaco los-mochis
+instalacion boiler los-mochis
+plomero [colonia] los-mochis
 ```
 
 ### Paso 2: Expandir con herramientas gratuitas
@@ -148,7 +148,7 @@ plomero [colonia] culiacan
 3. Revisar AnswerThePublic para preguntas
 
 ### Paso 3: Analizar competencia GRATIS
-1. Buscar "plomero culiacan" en Google
+1. Buscar "plomero los-mochis" en Google
 2. Ver los primeros 5 resultados
 3. Anotar:
    - Qué páginas tienen
@@ -158,7 +158,7 @@ plomero [colonia] culiacan
 ### Paso 4: Crear hoja de cálculo
 | Keyword | Volumen | Dificultad | Intención | Página a crear | Prioridad |
 |---------|---------|------------|-----------|----------------|-----------|
-| plomero 24 horas culiacan | 500 | Media | Transaccional | ✅ Ya existe | - |
+| plomero 24 horas los-mochis | 500 | Media | Transaccional | ✅ Ya existe | - |
 | destape drenaje precio | 200 | Baja | Informacional | Blog post | Alta |
 
 ---
@@ -172,9 +172,9 @@ plomero [colonia] culiacan
 - [ ] /servicios/cambio-tuberia/
 
 ### Landing Pages por Zona (SEO Local)
-- [ ] /servicios/plomero-tres-rios/
-- [ ] /servicios/plomero-las-quintas/
-- [ ] /servicios/plomero-centro-culiacan/
+- [ ] /servicios/plomero-las-fuentes/
+- [ ] /servicios/plomero-centenario/
+- [ ] /servicios/plomero-centro-los-mochis/
 
 ### Blog Posts (Long-tail + Autoridad)
 - [ ] /blog/cuanto-cobra-plomero-destape-drenaje/
@@ -186,8 +186,8 @@ plomero [colonia] culiacan
 
 ## ANÁLISIS DE COMPETENCIA RÁPIDO
 
-### Competidores directos en Culiacán:
-1. Buscar "plomero culiacan" en Google
+### Competidores directos en Los Mochis:
+1. Buscar "plomero los-mochis" en Google
 2. Anotar los dominios que aparecen
 3. Ver sus páginas en el footer/menú
 4. Identificar qué páginas NO tienes tú
@@ -221,4 +221,4 @@ plomero [colonia] culiacan
 ---
 
 *Documento creado: 2025-11-30*
-*Para: Plomero Culiacán Pro*
+*Para: Plomero Los Mochis Pro*

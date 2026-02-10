@@ -21,7 +21,7 @@ SERVICIOS = [
     "servicios/mantenimiento-de-boiler",
     "servicios/plomero-a-domicilio",
     "servicios/plomero-cerca-de-mi",
-    "servicios/plomero-colonias-culiacan",
+    "servicios/plomero-colonias-los-mochis",
     "servicios/plomero-precios",
     "servicios/reparacion-de-fugas",
 ]
