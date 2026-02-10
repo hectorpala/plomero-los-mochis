@@ -1,9 +1,9 @@
 # PROGRESO: Plomero Los Mochis Pro
-## Ultima actualizacion: 9 Feb 2026
+## Ultima actualizacion: 10 Feb 2026
 
 ---
 
-## ESTADO GENERAL: 8 de 10 fases completadas. Pendiente: Clarity ID, dominio.
+## ESTADO GENERAL: 9 de 10 fases completadas. SITIO EN VIVO. Pendiente: Clarity ID.
 
 ---
 
@@ -71,9 +71,19 @@
 - [x] CHECKLIST-POST-LAUNCH.md creado (Search Console, GBP, redes, Clarity)
 - [x] 0 referencias a plomeroculiacanpro en HTML
 
+### Fase 9: Deploy (COMPLETADA)
+- [x] Dominio corregido: plomerolosmochispro.mx (292 archivos actualizados)
+- [x] Dominio registrado en GoDaddy
+- [x] DNS configurado: 4 A records + CNAME www -> GitHub Pages
+- [x] Repo hectorpala/plomero-los-mochis pusheado (849 archivos)
+- [x] GitHub Pages activado desde branch main
+- [x] HTTPS activado (certificado SSL)
+- [x] Sitio verificado: HTTP 200 en https://plomerolosmochispro.mx
+- [x] Google Search Console conectado + sitemap enviado
+
 ---
 
-## PENDIENTE - Necesita datos de Hector
+## PENDIENTE - Solo falta Clarity ID
 
 ### Fase 7: Tracking
 - [ ] Crear proyecto en https://clarity.microsoft.com
@@ -81,13 +91,6 @@
 - [ ] Reemplazar ukonwm7t1p en todos los archivos
 - [ ] Email: definir (contacto@plomerolosmochispro.mx o similar)
 - [ ] Telefono: confirmar 667 392 2273 o cambiar a LADA 668
-
-### Fase 9: Deploy
-- [ ] Registrar dominio plomerolosmochispro.mx
-- [ ] Configurar DNS -> GitHub Pages
-- [ ] Activar HTTPS
-- [ ] Push inicial a hectorpala/plomero-los-mochis
-- [ ] Verificar sitio en produccion
 
 ---
 
